@@ -1,0 +1,9 @@
+{
+  "level": 1,
+  "sessionMinutes": 15,
+  "maxItemsPerSession": 10,
+  "newPerSession": 4,
+  "reviewPerSession": 6,
+  "enableWords": true,
+  "enableSentences": true
+}

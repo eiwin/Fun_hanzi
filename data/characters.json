@@ -1,0 +1,110 @@
+[
+  {
+    "char": "你",
+    "pinyin": "ni3",
+    "meaning": "you",
+    "words": ["你好", "你们"],
+    "sentence": "你好！",
+    "level": 1,
+    "tags": ["greeting"]
+  },
+  {
+    "char": "我",
+    "pinyin": "wo3",
+    "meaning": "I; me",
+    "words": ["我们", "我叫"],
+    "sentence": "我是学生。",
+    "level": 1,
+    "tags": ["people"]
+  },
+  {
+    "char": "他",
+    "pinyin": "ta1",
+    "meaning": "he; him",
+    "words": ["他们", "他是"],
+    "sentence": "他很好。",
+    "level": 1,
+    "tags": ["people"]
+  },
+  {
+    "char": "好",
+    "pinyin": "hao3",
+    "meaning": "good",
+    "words": ["很好", "你好"],
+    "sentence": "今天天气很好。",
+    "level": 1,
+    "tags": ["quality"]
+  },
+  {
+    "char": "是",
+    "pinyin": "shi4",
+    "meaning": "to be",
+    "words": ["我是", "他是"],
+    "sentence": "我是老师。",
+    "level": 1,
+    "tags": ["grammar"]
+  },
+  {
+    "char": "不",
+    "pinyin": "bu4",
+    "meaning": "not",
+    "words": ["不好", "不是"],
+    "sentence": "我不是老师。",
+    "level": 1,
+    "tags": ["grammar"]
+  },
+  {
+    "char": "也",
+    "pinyin": "ye3",
+    "meaning": "also",
+    "words": ["他也", "我也"],
+    "sentence": "我也喜欢。",
+    "level": 1,
+    "tags": ["grammar"]
+  },
+  {
+    "char": "在",
+    "pinyin": "zai4",
+    "meaning": "at; in",
+    "words": ["在这", "在家"],
+    "sentence": "我在家。",
+    "level": 1,
+    "tags": ["place"]
+  },
+  {
+    "char": "有",
+    "pinyin": "you3",
+    "meaning": "have",
+    "words": ["有吗", "没有"],
+    "sentence": "我有一本书。",
+    "level": 1,
+    "tags": ["grammar"]
+  },
+  {
+    "char": "学",
+    "pinyin": "xue2",
+    "meaning": "learn; study",
+    "words": ["学习", "学生"],
+    "sentence": "我学习中文。",
+    "level": 1,
+    "tags": ["school"]
+  },
+  {
+    "char": "生",
+    "pinyin": "sheng1",
+    "meaning": "born; student",
+    "words": ["学生", "生日"],
+    "sentence": "我是学生。",
+    "level": 1,
+    "tags": ["school"]
+  },
+  {
+    "char": "吗",
+    "pinyin": "ma0",
+    "meaning": "question particle",
+    "words": ["好吗", "是吗"],
+    "sentence": "你好吗？",
+    "level": 1,
+    "tags": ["grammar"]
+  }
+]

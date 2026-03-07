@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fun Hanzi Admin</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="hero hero-admin">
+        <div class="hero-badge">Fun Hanzi Admin</div>
+        <h1>内容准备页</h1>
+        <p>这里给大人用：生成本周内容、检查状态、导入图片。</p>
+      </header>
+
+      <section class="hero-grid">
+        <article class="panel panel-story">
+          <div class="panel-head">
+            <div>
+              <div class="kicker">本周内容</div>
+              <h2 id="weekTitle">正在加载本周故事包...</h2>
+            </div>
+            <div id="weekBadge" class="week-badge">Week</div>
+          </div>
+          <p id="weekSummary" class="summary"></p>
+          <div class="split-row">
+            <div>
+              <div class="mini-label">新字</div>
+              <div id="newCharList" class="chip-row"></div>
+            </div>
+            <div>
+              <div class="mini-label">复习字</div>
+              <div id="reviewCharList" class="chip-row"></div>
+            </div>
+          </div>
+          <div class="split-row split-row-tight">
+            <div>
+              <div class="mini-label">词</div>
+              <div id="wordList" class="token-list"></div>
+            </div>
+            <div>
+              <div class="mini-label">句</div>
+              <div id="sentenceList" class="sentence-list"></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="panel panel-admin">
+          <div class="panel-head">
+            <div>
+              <div class="kicker">工作流控制台</div>
+              <h2>生成和维护</h2>
+            </div>
+          </div>
+          <div class="admin-actions">
+            <button id="btnGenerateWeek" class="btn btn-primary">立即生成本周内容</button>
+            <button id="btnRegeneratePrompts" class="btn btn-secondary">重建图像/视频 Prompt</button>
+          </div>
+          <div id="adminStatus" class="status-card">正在读取状态...</div>
+          <div class="helper-text">学习页地址：<a href="/learn">/learn</a></div>
+        </article>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <div class="kicker">故事场景</div>
+            <h2>图片导入和提示词</h2>
+          </div>
+        </div>
+        <div id="sceneGrid" class="scene-grid"></div>
+        <div id="emptyWeekState" class="empty-state hidden">还没有本周故事包。先点击“立即生成本周内容”。</div>
+      </section>
+    </main>
+
+    <script src="/admin.js"></script>
+  </body>
+</html>

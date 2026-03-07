@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "sessionHistory": [],
+  "weeklyPacks": [
+    {
+      "weekId": "2026-W10",
+      "generatedAt": "2026-03-07T23:38:58.228428+00:00",
+      "title": "学他你冒险周",
+      "newChars": [],
+      "reviewChars": [
+        "学",
+        "他",
+        "你"
+      ]
+    }
+  ],
+  "items": {
+    "你": {
+      "box": 2,
+      "lastSeen": "2026-01-09",
+      "correctStreak": 1,
+      "wrongCount": 1
+    },
+    "我": {
+      "box": 2,
+      "lastSeen": "2026-01-09",
+      "correctStreak": 2,
+      "wrongCount": 0
+    },
+    "他": {
+      "box": 2,
+      "lastSeen": "2026-01-09",
+      "correctStreak": 1,
+      "wrongCount": 1
+    },
+    "好": {
+      "box": 2,
+      "lastSeen": "2026-01-09",
+      "correctStreak": 2,
+      "wrongCount": 0
+    },
+    "是": {
+      "box": 2,
+      "lastSeen": "2026-01-09",
+      "correctStreak": 2,
+      "wrongCount": 0
+    },
+    "不": {
+      "box": 2,
+      "lastSeen": "2026-01-09",
+      "correctStreak": 2,
+      "wrongCount": 0
+    },
+    "也": {
+      "box": 2,
+      "lastSeen": "2026-01-09",
+      "correctStreak": 2,
+      "wrongCount": 0
+    },
+    "在": {
+      "box": 2,
+      "lastSeen": "2026-01-09",
+      "correctStreak": 2,
+      "wrongCount": 0
+    },
+    "有": {
+      "box": 1,
+      "lastSeen": "2026-03-07",
+      "correctStreak": 0,
+      "wrongCount": 1
+    },
+    "学": {
+      "box": 1,
+      "lastSeen": "2026-01-09",
+      "correctStreak": 1,
+      "wrongCount": 0
+    },
+    "生": {
+      "box": 1,
+      "lastSeen": "2026-01-09",
+      "correctStreak": 1,
+      "wrongCount": 0
+    },
+    "吗": {
+      "box": 1,
+      "lastSeen": "2026-01-09",
+      "correctStreak": 1,
+      "wrongCount": 0
+    }
+  }
+}

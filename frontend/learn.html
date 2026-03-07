@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fun Hanzi Learn</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main class="app-shell app-shell-learn">
+      <header class="hero hero-learn">
+        <div class="hero-badge">Fun Hanzi</div>
+        <h1>今天来学汉字</h1>
+        <p>看看故事、认识新字、轻轻松松学一轮。</p>
+      </header>
+
+      <section class="panel panel-story">
+        <div class="panel-head">
+          <div>
+            <div class="kicker">本周故事</div>
+            <h2 id="weekTitle">正在加载本周故事包...</h2>
+          </div>
+          <div id="weekBadge" class="week-badge">Week</div>
+        </div>
+        <p id="weekSummary" class="summary"></p>
+        <div class="split-row split-row-tight">
+          <div>
+            <div class="mini-label">新字</div>
+            <div id="newCharList" class="chip-row"></div>
+          </div>
+          <div>
+            <div class="mini-label">复习字</div>
+            <div id="reviewCharList" class="chip-row"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <div class="kicker">故事场景</div>
+            <h2>边看边记更轻松</h2>
+          </div>
+        </div>
+        <div id="sceneGrid" class="scene-grid"></div>
+        <div id="emptyWeekState" class="empty-state hidden">还没有准备好本周内容，请让大人先去管理页生成内容。</div>
+      </section>
+
+      <section class="panel panel-study">
+        <div class="panel-head">
+          <div>
+            <div class="kicker">今日学习</div>
+            <h2>从本周故事里开始</h2>
+          </div>
+        </div>
+        <div id="studyMeta" class="study-meta">准备开始</div>
+        <div id="studyCard" class="study-card hidden">
+          <div class="char-char" id="studyChar">你</div>
+          <div class="char-pinyin" id="studyPinyin">ni3</div>
+          <div class="char-meaning" id="studyMeaning">you</div>
+          <div class="char-extra" id="studyWords"></div>
+          <div class="char-extra" id="studySentence"></div>
+        </div>
+        <div id="studyDone" class="empty-state hidden">今天这一轮已经完成，明天再来吧。</div>
+        <div class="study-actions">
+          <button id="btnUnknown" class="btn btn-secondary">不认识</button>
+          <button id="btnKnown" class="btn btn-primary">认识</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="/learn.js"></script>
+  </body>
+</html>

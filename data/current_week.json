@@ -1,0 +1,170 @@
+{
+  "week_id": "2026-W10",
+  "learner_id": "default",
+  "generated_at": "2026-03-07T23:39:00.195678+00:00",
+  "title": "学他你冒险周",
+  "summary": "本周重点复习 学、他、你。故事会围绕 学习、学生、他们 展开。",
+  "new_chars": [],
+  "review_chars": [
+    "学",
+    "他",
+    "你"
+  ],
+  "char_cards": [
+    {
+      "char": "学",
+      "pinyin": "xue2",
+      "meaning": "learn; study",
+      "words": [
+        "学习",
+        "学生"
+      ],
+      "sentence": "我学习中文。",
+      "tags": [
+        "school"
+      ]
+    },
+    {
+      "char": "他",
+      "pinyin": "ta1",
+      "meaning": "he; him",
+      "words": [
+        "他们",
+        "他是"
+      ],
+      "sentence": "他很好。",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "char": "你",
+      "pinyin": "ni3",
+      "meaning": "you",
+      "words": [
+        "你好",
+        "你们"
+      ],
+      "sentence": "你好！",
+      "tags": [
+        "greeting"
+      ]
+    }
+  ],
+  "words": [
+    "学习",
+    "学生",
+    "他们",
+    "他是",
+    "你好",
+    "你们"
+  ],
+  "sentences": [
+    "我学习中文。",
+    "他很好。",
+    "你好！"
+  ],
+  "story": [
+    {
+      "id": "scene-1",
+      "title": "早晨出发",
+      "text": "我学习中文。",
+      "focus_chars": [
+        "学",
+        "他",
+        "你"
+      ],
+      "focus_words": [
+        "学习",
+        "学生"
+      ],
+      "image_prompt": "Create a storybook illustration, soft shapes, warm light, expressive characters scene for children. Scene: 我学习中文。. Include focus characters 学, 他, 你 and words 学习, 学生.",
+      "image_status": "pending",
+      "image_asset_id": null,
+      "image_path": "",
+      "video_prompt": "Create a 8-second short clip, gentle camera move, kid-safe, colorful classroom adventure clip. Scene: 我学习中文。. Keep the motion simple, cheerful, and easy for children to follow.",
+      "video_script": "早晨出发：先展示 我学习中文。，再慢慢突出汉字 学、他、你，最后用一句温柔的鼓励收尾。"
+    },
+    {
+      "id": "scene-2",
+      "title": "课堂发现",
+      "text": "他很好。",
+      "focus_chars": [
+        "他",
+        "你"
+      ],
+      "focus_words": [
+        "学生",
+        "他们"
+      ],
+      "image_prompt": "Create a storybook illustration, soft shapes, warm light, expressive characters scene for children. Scene: 他很好。. Include focus characters 他, 你 and words 学生, 他们.",
+      "image_status": "pending",
+      "image_asset_id": null,
+      "image_path": "",
+      "video_prompt": "Create a 8-second short clip, gentle camera move, kid-safe, colorful classroom adventure clip. Scene: 他很好。. Keep the motion simple, cheerful, and easy for children to follow.",
+      "video_script": "课堂发现：先展示 他很好。，再慢慢突出汉字 他、你，最后用一句温柔的鼓励收尾。"
+    },
+    {
+      "id": "scene-3",
+      "title": "开心收尾",
+      "text": "你好！",
+      "focus_chars": [
+        "你"
+      ],
+      "focus_words": [
+        "他们",
+        "他是"
+      ],
+      "image_prompt": "Create a storybook illustration, soft shapes, warm light, expressive characters scene for children. Scene: 你好！. Include focus characters 你 and words 他们, 他是.",
+      "image_status": "pending",
+      "image_asset_id": null,
+      "image_path": "",
+      "video_prompt": "Create a 8-second short clip, gentle camera move, kid-safe, colorful classroom adventure clip. Scene: 你好！. Keep the motion simple, cheerful, and easy for children to follow.",
+      "video_script": "开心收尾：先展示 你好！，再慢慢突出汉字 你，最后用一句温柔的鼓励收尾。"
+    }
+  ],
+  "image_tasks": [
+    {
+      "scene_id": "scene-1",
+      "prompt": "Create a storybook illustration, soft shapes, warm light, expressive characters scene for children. Scene: 我学习中文。. Include focus characters 学, 他, 你 and words 学习, 学生.",
+      "status": "pending",
+      "asset_id": null,
+      "file_path": ""
+    },
+    {
+      "scene_id": "scene-2",
+      "prompt": "Create a storybook illustration, soft shapes, warm light, expressive characters scene for children. Scene: 他很好。. Include focus characters 他, 你 and words 学生, 他们.",
+      "status": "pending",
+      "asset_id": null,
+      "file_path": ""
+    },
+    {
+      "scene_id": "scene-3",
+      "prompt": "Create a storybook illustration, soft shapes, warm light, expressive characters scene for children. Scene: 你好！. Include focus characters 你 and words 他们, 他是.",
+      "status": "pending",
+      "asset_id": null,
+      "file_path": ""
+    }
+  ],
+  "video_storyboard": [
+    {
+      "scene_id": "scene-1",
+      "title": "早晨出发",
+      "prompt": "Create a 8-second short clip, gentle camera move, kid-safe, colorful classroom adventure clip. Scene: 我学习中文。. Keep the motion simple, cheerful, and easy for children to follow.",
+      "script": "早晨出发：先展示 我学习中文。，再慢慢突出汉字 学、他、你，最后用一句温柔的鼓励收尾。"
+    },
+    {
+      "scene_id": "scene-2",
+      "title": "课堂发现",
+      "prompt": "Create a 8-second short clip, gentle camera move, kid-safe, colorful classroom adventure clip. Scene: 他很好。. Keep the motion simple, cheerful, and easy for children to follow.",
+      "script": "课堂发现：先展示 他很好。，再慢慢突出汉字 他、你，最后用一句温柔的鼓励收尾。"
+    },
+    {
+      "scene_id": "scene-3",
+      "title": "开心收尾",
+      "prompt": "Create a 8-second short clip, gentle camera move, kid-safe, colorful classroom adventure clip. Scene: 你好！. Keep the motion simple, cheerful, and easy for children to follow.",
+      "script": "开心收尾：先展示 你好！，再慢慢突出汉字 你，最后用一句温柔的鼓励收尾。"
+    }
+  ],
+  "status": "ready"
+}
