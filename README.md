@@ -35,4 +35,6 @@ http://127.0.0.1:8000/learn
 
 - The learner page and the parent/admin page are separated.
 - Weekly pack generation, progress recording, prompt regeneration, and manual image import are implemented.
+- Teaching-style pinyin display is implemented, for example `你，第三声，nǐ`.
+- Browser-based audio preview is available for chars, words, sentences, and story scenes.
 - Before running `python3` on this machine, you may need to accept the macOS Xcode license with `sudo xcodebuild -license`.

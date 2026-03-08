@@ -37,14 +37,58 @@ function renderChips(target, items) {
 
 function renderTokens(target, items) {
   target.innerHTML = items.length
-    ? items.map((item) => `<span class="token">${item}</span>`).join("")
-    : '<span class="token">暂无</span>';
+    ? items
+        .map(
+          (item) => `
+            <div class="audio-item">
+              <span>${item.text}</span>
+              <button class="btn btn-audio btn-inline-audio" type="button" data-audio-text="${(item.audio_text || item.text)
+                .replaceAll("&", "&amp;")
+                .replaceAll('"', "&quot;")
+                .replaceAll("<", "&lt;")}">听</button>
+            </div>
+          `
+        )
+        .join("")
+    : '<div class="audio-item"><span>暂无</span></div>';
 }
 
 function renderSentences(items) {
   sentenceList.innerHTML = items.length
-    ? items.map((item) => `<div class="sentence-item">${item}</div>`).join("")
-    : '<div class="sentence-item">暂无</div>';
+    ? items
+        .map(
+          (item) => `
+            <div class="audio-item">
+              <span>${item.text}</span>
+              <button class="btn btn-audio btn-inline-audio" type="button" data-audio-text="${(item.audio_text || item.text)
+                .replaceAll("&", "&amp;")
+                .replaceAll('"', "&quot;")
+                .replaceAll("<", "&lt;")}">听</button>
+            </div>
+          `
+        )
+        .join("")
+    : '<div class="audio-item"><span>暂无</span></div>';
+}
+
+function speakText(text) {
+  if (!window.speechSynthesis || !text) {
+    return;
+  }
+  window.speechSynthesis.cancel();
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.lang = "zh-CN";
+  utterance.rate = 0.82;
+  utterance.pitch = 1.02;
+  window.speechSynthesis.speak(utterance);
+}
+
+function attachAudioButtons(scope = document) {
+  scope.querySelectorAll("[data-audio-text]").forEach((button) => {
+    button.addEventListener("click", () => {
+      speakText(button.dataset.audioText);
+    });
+  });
 }
 
 function renderAdminStatus(log) {
@@ -89,6 +133,12 @@ function renderScenes(story = []) {
             <div class="meta-label">视频脚本</div>
             <div class="meta-box">${scene.video_script || "暂无"}</div>
             <div class="scene-status">图片状态：${scene.image_status || "pending"}</div>
+            <div class="scene-audio-row">
+              <button class="btn btn-audio btn-inline-audio" type="button" data-audio-text="${(scene.audio_text || scene.text)
+                .replaceAll("&", "&amp;")
+                .replaceAll('"', "&quot;")
+                .replaceAll("<", "&lt;")}">听故事</button>
+            </div>
             <form class="upload-form">
               <div class="upload-row">
                 <input type="file" name="file" accept="image/png,image/jpeg,image/webp" required />
@@ -135,6 +185,7 @@ function renderScenes(story = []) {
       }
     });
   });
+  attachAudioButtons(sceneGrid);
 }
 
 function renderWeek(pack) {
@@ -158,6 +209,7 @@ function renderWeek(pack) {
   renderTokens(wordList, pack.words || []);
   renderSentences(pack.sentences || []);
   renderScenes(pack.story || []);
+  attachAudioButtons(document);
 }
 
 async function loadAll() {

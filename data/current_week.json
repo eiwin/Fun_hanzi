@@ -1,146 +1,181 @@
 {
   "week_id": "2026-W10",
   "learner_id": "default",
-  "generated_at": "2026-03-07T23:39:00.195678+00:00",
-  "title": "学他你冒险周",
-  "summary": "本周重点复习 学、他、你。故事会围绕 学习、学生、他们 展开。",
+  "generated_at": "2026-03-07T00:00:00+00:00",
+  "title": "吗有他冒险周",
+  "summary": "本周重点复习 吗、有、他。故事会围绕 好吗、是吗、有吗 展开。",
   "new_chars": [],
-  "review_chars": [
-    "学",
-    "他",
-    "你"
-  ],
+  "review_chars": ["吗", "有", "他"],
   "char_cards": [
     {
-      "char": "学",
-      "pinyin": "xue2",
-      "meaning": "learn; study",
-      "words": [
-        "学习",
-        "学生"
-      ],
-      "sentence": "我学习中文。",
-      "tags": [
-        "school"
-      ]
+      "char": "吗",
+      "pinyin": "ma",
+      "pinyin_numeric": "ma0",
+      "pronunciation_guide": "吗，轻声，ma",
+      "meaning": "question particle",
+      "words": ["好吗", "是吗"],
+      "sentence": "你好吗？",
+      "tags": ["grammar"],
+      "audio_text": "吗，轻声，ma",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "有",
+      "pinyin": "yǒu",
+      "pinyin_numeric": "you3",
+      "pronunciation_guide": "有，第三声，yǒu",
+      "meaning": "have",
+      "words": ["有吗", "没有"],
+      "sentence": "我有一本书。",
+      "tags": ["grammar"],
+      "audio_text": "有，第三声，yǒu",
+      "audio_status": "pending",
+      "audio_path": ""
     },
     {
       "char": "他",
-      "pinyin": "ta1",
+      "pinyin": "tā",
+      "pinyin_numeric": "ta1",
+      "pronunciation_guide": "他，第一声，tā",
       "meaning": "he; him",
-      "words": [
-        "他们",
-        "他是"
-      ],
+      "words": ["他们", "他是"],
       "sentence": "他很好。",
-      "tags": [
-        "people"
-      ]
-    },
-    {
-      "char": "你",
-      "pinyin": "ni3",
-      "meaning": "you",
-      "words": [
-        "你好",
-        "你们"
-      ],
-      "sentence": "你好！",
-      "tags": [
-        "greeting"
-      ]
+      "tags": ["people"],
+      "audio_text": "他，第一声，tā",
+      "audio_status": "pending",
+      "audio_path": ""
     }
   ],
   "words": [
-    "学习",
-    "学生",
-    "他们",
-    "他是",
-    "你好",
-    "你们"
+    {
+      "text": "好吗",
+      "audio_text": "好吗",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "text": "是吗",
+      "audio_text": "是吗",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "text": "有吗",
+      "audio_text": "有吗",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "text": "没有",
+      "audio_text": "没有",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "text": "他们",
+      "audio_text": "他们",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "text": "他是",
+      "audio_text": "他是",
+      "audio_status": "pending",
+      "audio_path": ""
+    }
   ],
   "sentences": [
-    "我学习中文。",
-    "他很好。",
-    "你好！"
+    {
+      "id": "sentence-1",
+      "text": "你好吗？",
+      "audio_text": "你好吗？",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "id": "sentence-2",
+      "text": "我有一本书。",
+      "audio_text": "我有一本书。",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "id": "sentence-3",
+      "text": "他很好。",
+      "audio_text": "他很好。",
+      "audio_status": "pending",
+      "audio_path": ""
+    }
   ],
   "story": [
     {
       "id": "scene-1",
       "title": "早晨出发",
-      "text": "我学习中文。",
-      "focus_chars": [
-        "学",
-        "他",
-        "你"
-      ],
-      "focus_words": [
-        "学习",
-        "学生"
-      ],
-      "image_prompt": "Create a storybook illustration, soft shapes, warm light, expressive characters scene for children. Scene: 我学习中文。. Include focus characters 学, 他, 你 and words 学习, 学生.",
+      "text": "你好吗？",
+      "focus_chars": ["吗", "有", "他"],
+      "focus_words": ["好吗", "是吗"],
+      "image_prompt": "Create a storybook illustration, soft shapes, warm light, expressive characters scene for children. Scene: 你好吗？. Include focus characters 吗, 有, 他 and words 好吗, 是吗.",
       "image_status": "pending",
       "image_asset_id": null,
       "image_path": "",
-      "video_prompt": "Create a 8-second short clip, gentle camera move, kid-safe, colorful classroom adventure clip. Scene: 我学习中文。. Keep the motion simple, cheerful, and easy for children to follow.",
-      "video_script": "早晨出发：先展示 我学习中文。，再慢慢突出汉字 学、他、你，最后用一句温柔的鼓励收尾。"
+      "video_prompt": "Create a 8-second short clip, gentle camera move, kid-safe, colorful classroom adventure clip. Scene: 你好吗？. Keep the motion simple, cheerful, and easy for children to follow.",
+      "video_script": "早晨出发：先展示 你好吗？，再慢慢突出汉字 吗、有、他，最后用一句温柔的鼓励收尾。",
+      "audio_text": "你好吗？",
+      "audio_status": "pending",
+      "audio_path": ""
     },
     {
       "id": "scene-2",
       "title": "课堂发现",
-      "text": "他很好。",
-      "focus_chars": [
-        "他",
-        "你"
-      ],
-      "focus_words": [
-        "学生",
-        "他们"
-      ],
-      "image_prompt": "Create a storybook illustration, soft shapes, warm light, expressive characters scene for children. Scene: 他很好。. Include focus characters 他, 你 and words 学生, 他们.",
+      "text": "我有一本书。",
+      "focus_chars": ["有", "他"],
+      "focus_words": ["是吗", "有吗"],
+      "image_prompt": "Create a storybook illustration, soft shapes, warm light, expressive characters scene for children. Scene: 我有一本书。. Include focus characters 有, 他 and words 是吗, 有吗.",
       "image_status": "pending",
       "image_asset_id": null,
       "image_path": "",
-      "video_prompt": "Create a 8-second short clip, gentle camera move, kid-safe, colorful classroom adventure clip. Scene: 他很好。. Keep the motion simple, cheerful, and easy for children to follow.",
-      "video_script": "课堂发现：先展示 他很好。，再慢慢突出汉字 他、你，最后用一句温柔的鼓励收尾。"
+      "video_prompt": "Create a 8-second short clip, gentle camera move, kid-safe, colorful classroom adventure clip. Scene: 我有一本书。. Keep the motion simple, cheerful, and easy for children to follow.",
+      "video_script": "课堂发现：先展示 我有一本书。，再慢慢突出汉字 有、他，最后用一句温柔的鼓励收尾。",
+      "audio_text": "我有一本书。",
+      "audio_status": "pending",
+      "audio_path": ""
     },
     {
       "id": "scene-3",
       "title": "开心收尾",
-      "text": "你好！",
-      "focus_chars": [
-        "你"
-      ],
-      "focus_words": [
-        "他们",
-        "他是"
-      ],
-      "image_prompt": "Create a storybook illustration, soft shapes, warm light, expressive characters scene for children. Scene: 你好！. Include focus characters 你 and words 他们, 他是.",
+      "text": "他很好。",
+      "focus_chars": ["他"],
+      "focus_words": ["有吗", "没有"],
+      "image_prompt": "Create a storybook illustration, soft shapes, warm light, expressive characters scene for children. Scene: 他很好。. Include focus characters 他 and words 有吗, 没有.",
       "image_status": "pending",
       "image_asset_id": null,
       "image_path": "",
-      "video_prompt": "Create a 8-second short clip, gentle camera move, kid-safe, colorful classroom adventure clip. Scene: 你好！. Keep the motion simple, cheerful, and easy for children to follow.",
-      "video_script": "开心收尾：先展示 你好！，再慢慢突出汉字 你，最后用一句温柔的鼓励收尾。"
+      "video_prompt": "Create a 8-second short clip, gentle camera move, kid-safe, colorful classroom adventure clip. Scene: 他很好。. Keep the motion simple, cheerful, and easy for children to follow.",
+      "video_script": "开心收尾：先展示 他很好。，再慢慢突出汉字 他，最后用一句温柔的鼓励收尾。",
+      "audio_text": "他很好。",
+      "audio_status": "pending",
+      "audio_path": ""
     }
   ],
   "image_tasks": [
     {
       "scene_id": "scene-1",
-      "prompt": "Create a storybook illustration, soft shapes, warm light, expressive characters scene for children. Scene: 我学习中文。. Include focus characters 学, 他, 你 and words 学习, 学生.",
+      "prompt": "Create a storybook illustration, soft shapes, warm light, expressive characters scene for children. Scene: 你好吗？. Include focus characters 吗, 有, 他 and words 好吗, 是吗.",
       "status": "pending",
       "asset_id": null,
       "file_path": ""
     },
     {
       "scene_id": "scene-2",
-      "prompt": "Create a storybook illustration, soft shapes, warm light, expressive characters scene for children. Scene: 他很好。. Include focus characters 他, 你 and words 学生, 他们.",
+      "prompt": "Create a storybook illustration, soft shapes, warm light, expressive characters scene for children. Scene: 我有一本书。. Include focus characters 有, 他 and words 是吗, 有吗.",
       "status": "pending",
       "asset_id": null,
       "file_path": ""
     },
     {
       "scene_id": "scene-3",
-      "prompt": "Create a storybook illustration, soft shapes, warm light, expressive characters scene for children. Scene: 你好！. Include focus characters 你 and words 他们, 他是.",
+      "prompt": "Create a storybook illustration, soft shapes, warm light, expressive characters scene for children. Scene: 他很好。. Include focus characters 他 and words 有吗, 没有.",
       "status": "pending",
       "asset_id": null,
       "file_path": ""
@@ -150,20 +185,127 @@
     {
       "scene_id": "scene-1",
       "title": "早晨出发",
-      "prompt": "Create a 8-second short clip, gentle camera move, kid-safe, colorful classroom adventure clip. Scene: 我学习中文。. Keep the motion simple, cheerful, and easy for children to follow.",
-      "script": "早晨出发：先展示 我学习中文。，再慢慢突出汉字 学、他、你，最后用一句温柔的鼓励收尾。"
+      "prompt": "Create a 8-second short clip, gentle camera move, kid-safe, colorful classroom adventure clip. Scene: 你好吗？. Keep the motion simple, cheerful, and easy for children to follow.",
+      "script": "早晨出发：先展示 你好吗？，再慢慢突出汉字 吗、有、他，最后用一句温柔的鼓励收尾。"
     },
     {
       "scene_id": "scene-2",
       "title": "课堂发现",
-      "prompt": "Create a 8-second short clip, gentle camera move, kid-safe, colorful classroom adventure clip. Scene: 他很好。. Keep the motion simple, cheerful, and easy for children to follow.",
-      "script": "课堂发现：先展示 他很好。，再慢慢突出汉字 他、你，最后用一句温柔的鼓励收尾。"
+      "prompt": "Create a 8-second short clip, gentle camera move, kid-safe, colorful classroom adventure clip. Scene: 我有一本书。. Keep the motion simple, cheerful, and easy for children to follow.",
+      "script": "课堂发现：先展示 我有一本书。，再慢慢突出汉字 有、他，最后用一句温柔的鼓励收尾。"
     },
     {
       "scene_id": "scene-3",
       "title": "开心收尾",
-      "prompt": "Create a 8-second short clip, gentle camera move, kid-safe, colorful classroom adventure clip. Scene: 你好！. Keep the motion simple, cheerful, and easy for children to follow.",
-      "script": "开心收尾：先展示 你好！，再慢慢突出汉字 你，最后用一句温柔的鼓励收尾。"
+      "prompt": "Create a 8-second short clip, gentle camera move, kid-safe, colorful classroom adventure clip. Scene: 他很好。. Keep the motion simple, cheerful, and easy for children to follow.",
+      "script": "开心收尾：先展示 他很好。，再慢慢突出汉字 他，最后用一句温柔的鼓励收尾。"
+    }
+  ],
+  "audio_tasks": [
+    {
+      "scope": "char",
+      "id": "吗",
+      "text": "吗，轻声，ma",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "有",
+      "text": "有，第三声，yǒu",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "他",
+      "text": "他，第一声，tā",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-1",
+      "text": "好吗",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-2",
+      "text": "是吗",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-3",
+      "text": "有吗",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-4",
+      "text": "没有",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-5",
+      "text": "他们",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-6",
+      "text": "他是",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "sentence",
+      "id": "sentence-1",
+      "text": "你好吗？",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "sentence",
+      "id": "sentence-2",
+      "text": "我有一本书。",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "sentence",
+      "id": "sentence-3",
+      "text": "他很好。",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "story",
+      "id": "scene-1",
+      "text": "你好吗？",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "story",
+      "id": "scene-2",
+      "text": "我有一本书。",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "story",
+      "id": "scene-3",
+      "text": "他很好。",
+      "status": "pending",
+      "file_path": ""
     }
   ],
   "status": "ready"

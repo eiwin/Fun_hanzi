@@ -181,7 +181,23 @@ body {
   gap: 10px;
 }
 
+.audio-list {
+  display: grid;
+  gap: 10px;
+}
+
 .sentence-item {
+  padding: 10px 12px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.75);
+  border: 2px solid #ffe0bc;
+}
+
+.audio-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
   padding: 10px 12px;
   border-radius: 16px;
   background: rgba(255, 255, 255, 0.75);
@@ -267,6 +283,10 @@ body {
   color: var(--muted);
 }
 
+.scene-audio-row {
+  margin-top: 12px;
+}
+
 .upload-row {
   display: flex;
   gap: 10px;
@@ -300,6 +320,12 @@ body {
 .char-pinyin {
   font-size: 26px;
   color: var(--accent-strong);
+}
+
+.char-guide {
+  margin-top: 6px;
+  color: #8c6232;
+  font-weight: 700;
 }
 
 .char-meaning {
@@ -356,6 +382,18 @@ body {
 .btn-secondary {
   background: #fff0d8;
   color: #a45b1b;
+}
+
+.btn-audio {
+  background: #e7f4ff;
+  color: #1b5d8c;
+  margin-top: 14px;
+}
+
+.btn-inline-audio {
+  margin-top: 0;
+  padding: 8px 12px;
+  font-size: 14px;
 }
 
 .status-card,

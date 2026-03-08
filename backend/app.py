@@ -53,7 +53,17 @@ scheduler = None
 
 
 def _pack_is_valid(pack: dict[str, Any]) -> bool:
-    required = {"week_id", "title", "summary", "story", "image_tasks", "video_storyboard", "char_cards", "status"}
+    required = {
+        "week_id",
+        "title",
+        "summary",
+        "story",
+        "image_tasks",
+        "video_storyboard",
+        "audio_tasks",
+        "char_cards",
+        "status",
+    }
     return required.issubset(pack.keys()) and bool(pack.get("week_id"))
 
 

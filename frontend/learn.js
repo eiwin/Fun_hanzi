@@ -11,6 +11,8 @@ const weekBadge = document.getElementById("weekBadge");
 const weekSummary = document.getElementById("weekSummary");
 const newCharList = document.getElementById("newCharList");
 const reviewCharList = document.getElementById("reviewCharList");
+const wordList = document.getElementById("wordList");
+const sentenceList = document.getElementById("sentenceList");
 const sceneGrid = document.getElementById("sceneGrid");
 const emptyWeekState = document.getElementById("emptyWeekState");
 
@@ -19,9 +21,11 @@ const studyCard = document.getElementById("studyCard");
 const studyDone = document.getElementById("studyDone");
 const studyChar = document.getElementById("studyChar");
 const studyPinyin = document.getElementById("studyPinyin");
+const studyGuide = document.getElementById("studyGuide");
 const studyMeaning = document.getElementById("studyMeaning");
 const studyWords = document.getElementById("studyWords");
 const studySentence = document.getElementById("studySentence");
+const btnPlayChar = document.getElementById("btnPlayChar");
 const btnKnown = document.getElementById("btnKnown");
 const btnUnknown = document.getElementById("btnUnknown");
 
@@ -38,6 +42,61 @@ function renderChips(target, items) {
   target.innerHTML = items.length
     ? items.map((item) => `<span class="chip">${item}</span>`).join("")
     : '<span class="chip">暂无</span>';
+}
+
+function speakText(text) {
+  if (!window.speechSynthesis || !text) {
+    return;
+  }
+  window.speechSynthesis.cancel();
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.lang = "zh-CN";
+  utterance.rate = 0.82;
+  utterance.pitch = 1.02;
+  window.speechSynthesis.speak(utterance);
+}
+
+function playButton(text, label = "播放") {
+  const escaped = text.replaceAll("&", "&amp;").replaceAll('"', "&quot;").replaceAll("<", "&lt;");
+  return `<button class="btn btn-audio btn-inline-audio" type="button" data-audio-text="${escaped}">${label}</button>`;
+}
+
+function attachAudioButtons(scope = document) {
+  scope.querySelectorAll("[data-audio-text]").forEach((button) => {
+    button.addEventListener("click", () => {
+      speakText(button.dataset.audioText);
+    });
+  });
+}
+
+function renderWords(items = []) {
+  wordList.innerHTML = items.length
+    ? items
+        .map(
+          (item) => `
+            <div class="audio-item">
+              <span>${item.text}</span>
+              ${playButton(item.audio_text || item.text, "听")}
+            </div>
+          `
+        )
+        .join("")
+    : '<div class="audio-item"><span>暂无</span></div>';
+}
+
+function renderSentences(items = []) {
+  sentenceList.innerHTML = items.length
+    ? items
+        .map(
+          (item) => `
+            <div class="audio-item">
+              <span>${item.text}</span>
+              ${playButton(item.audio_text || item.text, "听")}
+            </div>
+          `
+        )
+        .join("")
+    : '<div class="audio-item"><span>暂无</span></div>';
 }
 
 function renderScenes(story = []) {
@@ -61,11 +120,13 @@ function renderScenes(story = []) {
             <h3>${scene.title}</h3>
             <p class="scene-text">${scene.text}</p>
             <div class="token-list">${(scene.focus_chars || []).map((char) => `<span class="token">${char}</span>`).join("")}</div>
+            <div class="scene-audio-row">${playButton(scene.audio_text || scene.text, "听故事")}</div>
           </div>
         </article>
       `;
     })
     .join("");
+  attachAudioButtons(sceneGrid);
 }
 
 function buildStudyList() {
@@ -98,9 +159,11 @@ function renderStudyCard() {
   studyMeta.textContent = `今日学习 ${state.studyIndex + 1}/${state.studyList.length}`;
   studyChar.textContent = item.char;
   studyPinyin.textContent = item.pinyin || "";
+  studyGuide.textContent = item.pronunciation_guide || "";
   studyMeaning.textContent = item.meaning || "";
   studyWords.textContent = item.words?.length ? `词语：${item.words.join(" / ")}` : "";
   studySentence.textContent = item.sentence ? `句子：${item.sentence}` : "";
+  btnPlayChar.dataset.audioText = item.audio_text || item.pronunciation_guide || item.char;
 }
 
 async function finishStudySession() {
@@ -147,6 +210,8 @@ function renderWeek(pack) {
     weekSummary.textContent = "请让大人先去内容准备页生成内容。";
     renderChips(newCharList, []);
     renderChips(reviewCharList, []);
+    renderWords([]);
+    renderSentences([]);
     renderScenes([]);
     buildStudyList();
     renderStudyCard();
@@ -158,9 +223,12 @@ function renderWeek(pack) {
   weekSummary.textContent = pack.summary;
   renderChips(newCharList, pack.new_chars || []);
   renderChips(reviewCharList, pack.review_chars || []);
+  renderWords(pack.words || []);
+  renderSentences(pack.sentences || []);
   renderScenes(pack.story || []);
   buildStudyList();
   renderStudyCard();
+  attachAudioButtons(document);
 }
 
 async function loadAll() {
@@ -171,6 +239,11 @@ async function loadAll() {
 
 btnKnown.addEventListener("click", () => handleAnswer(true));
 btnUnknown.addEventListener("click", () => handleAnswer(false));
+btnPlayChar.addEventListener("click", () => {
+  if (btnPlayChar.dataset.audioText) {
+    speakText(btnPlayChar.dataset.audioText);
+  }
+});
 
 loadAll().catch((error) => {
   studyMeta.textContent = error.message;

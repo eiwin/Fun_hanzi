@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from datetime import UTC, datetime
 
+from .pinyin import build_pronunciation_guide, numeric_to_tone_marked
 from .selector import current_week_id
 
 
@@ -19,17 +20,25 @@ def _unique(items: list[str]) -> list[str]:
 
 
 def _char_card(item: dict) -> dict:
+    marked = numeric_to_tone_marked(item.get("pinyin", ""))
     return {
         "char": item.get("char", ""),
-        "pinyin": item.get("pinyin", ""),
+        "pinyin": marked,
+        "pinyin_numeric": item.get("pinyin", ""),
+        "pronunciation_guide": build_pronunciation_guide(item.get("char", ""), item.get("pinyin", "")),
         "meaning": item.get("meaning", ""),
         "words": item.get("words", []),
         "sentence": item.get("sentence", ""),
         "tags": item.get("tags", []),
+        "audio_text": build_pronunciation_guide(item.get("char", ""), item.get("pinyin", "")),
+        "audio_status": "pending",
+        "audio_path": "",
     }
 
 
-def build_prompts_for_story(story: list[dict], workflow_rules: dict) -> tuple[list[dict], list[dict]]:
+def build_prompts_for_story(
+    story: list[dict], workflow_rules: dict
+) -> tuple[list[dict], list[dict], list[dict]]:
     image_style = workflow_rules.get(
         "imageStyle",
         "storybook illustration, soft shapes, warm light, expressive characters",
@@ -41,6 +50,7 @@ def build_prompts_for_story(story: list[dict], workflow_rules: dict) -> tuple[li
 
     image_tasks: list[dict] = []
     video_storyboard: list[dict] = []
+    audio_tasks: list[dict] = []
 
     for scene in story:
         scene_text = scene["text"]
@@ -67,6 +77,9 @@ def build_prompts_for_story(story: list[dict], workflow_rules: dict) -> tuple[li
         scene["image_path"] = scene.get("image_path", "")
         scene["video_prompt"] = video_prompt
         scene["video_script"] = video_script
+        scene["audio_text"] = scene_text
+        scene["audio_status"] = scene.get("audio_status", "pending")
+        scene["audio_path"] = scene.get("audio_path", "")
 
         image_tasks.append(
             {
@@ -85,8 +98,17 @@ def build_prompts_for_story(story: list[dict], workflow_rules: dict) -> tuple[li
                 "script": video_script,
             }
         )
+        audio_tasks.append(
+            {
+                "scope": "story",
+                "id": scene["id"],
+                "text": scene_text,
+                "status": scene["audio_status"],
+                "file_path": scene["audio_path"],
+            }
+        )
 
-    return image_tasks, video_storyboard
+    return image_tasks, video_storyboard, audio_tasks
 
 
 def build_weekly_pack(selection: dict, workflow_rules: dict, now: datetime | None = None) -> dict:
@@ -129,7 +151,61 @@ def build_weekly_pack(selection: dict, workflow_rules: dict, now: datetime | Non
             }
         )
 
-    image_tasks, video_storyboard = build_prompts_for_story(story, workflow_rules)
+    image_tasks, video_storyboard, story_audio_tasks = build_prompts_for_story(story, workflow_rules)
+
+    word_items = [
+        {
+            "text": word,
+            "audio_text": word,
+            "audio_status": "pending",
+            "audio_path": "",
+        }
+        for word in words[: int(workflow_rules.get("wordTarget", 6))]
+    ]
+    sentence_items = [
+        {
+            "id": f"sentence-{index + 1}",
+            "text": sentence,
+            "audio_text": sentence,
+            "audio_status": "pending",
+            "audio_path": "",
+        }
+        for index, sentence in enumerate(sentences[: int(workflow_rules.get("sentenceTarget", 4))])
+    ]
+
+    audio_tasks = [
+        *[
+            {
+                "scope": "char",
+                "id": item["char"],
+                "text": item["audio_text"],
+                "status": item["audio_status"],
+                "file_path": item["audio_path"],
+            }
+            for item in char_cards
+        ],
+        *[
+            {
+                "scope": "word",
+                "id": f"word-{index + 1}",
+                "text": item["audio_text"],
+                "status": item["audio_status"],
+                "file_path": item["audio_path"],
+            }
+            for index, item in enumerate(word_items)
+        ],
+        *[
+            {
+                "scope": "sentence",
+                "id": item["id"],
+                "text": item["audio_text"],
+                "status": item["audio_status"],
+                "file_path": item["audio_path"],
+            }
+            for item in sentence_items
+        ],
+        *story_audio_tasks,
+    ]
 
     return {
         "week_id": current_week_id(current_time),
@@ -140,21 +216,55 @@ def build_weekly_pack(selection: dict, workflow_rules: dict, now: datetime | Non
         "new_chars": new_chars,
         "review_chars": review_chars,
         "char_cards": char_cards,
-        "words": words[: int(workflow_rules.get("wordTarget", 6))],
-        "sentences": sentences[: int(workflow_rules.get("sentenceTarget", 4))],
+        "words": word_items,
+        "sentences": sentence_items,
         "story": story,
         "image_tasks": image_tasks,
         "video_storyboard": video_storyboard,
+        "audio_tasks": audio_tasks,
         "status": "ready",
     }
 
 
 def regenerate_pack_prompts(current_week: dict, workflow_rules: dict) -> dict:
     story = list(current_week.get("story", []))
-    image_tasks, video_storyboard = build_prompts_for_story(story, workflow_rules)
+    image_tasks, video_storyboard, story_audio_tasks = build_prompts_for_story(story, workflow_rules)
     current_week["story"] = story
     current_week["image_tasks"] = image_tasks
     current_week["video_storyboard"] = video_storyboard
+    current_week["audio_tasks"] = [
+        *[
+            {
+                "scope": "char",
+                "id": item["char"],
+                "text": item.get("audio_text", item.get("pronunciation_guide", item["char"])),
+                "status": item.get("audio_status", "pending"),
+                "file_path": item.get("audio_path", ""),
+            }
+            for item in current_week.get("char_cards", [])
+        ],
+        *[
+            {
+                "scope": "word",
+                "id": f"word-{index + 1}",
+                "text": item.get("audio_text", item.get("text", "")),
+                "status": item.get("audio_status", "pending"),
+                "file_path": item.get("audio_path", ""),
+            }
+            for index, item in enumerate(current_week.get("words", []))
+        ],
+        *[
+            {
+                "scope": "sentence",
+                "id": item.get("id", f"sentence-{index + 1}"),
+                "text": item.get("audio_text", item.get("text", "")),
+                "status": item.get("audio_status", "pending"),
+                "file_path": item.get("audio_path", ""),
+            }
+            for index, item in enumerate(current_week.get("sentences", []))
+        ],
+        *story_audio_tasks,
+    ]
     current_week["generated_at"] = datetime.now(UTC).isoformat()
     current_week["status"] = "ready"
     return current_week

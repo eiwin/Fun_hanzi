@@ -33,6 +33,16 @@
             <div id="reviewCharList" class="chip-row"></div>
           </div>
         </div>
+        <div class="split-row split-row-tight">
+          <div>
+            <div class="mini-label">词语跟读</div>
+            <div id="wordList" class="audio-list"></div>
+          </div>
+          <div>
+            <div class="mini-label">句子跟读</div>
+            <div id="sentenceList" class="sentence-list"></div>
+          </div>
+        </div>
       </section>
 
       <section class="panel">
@@ -57,9 +67,11 @@
         <div id="studyCard" class="study-card hidden">
           <div class="char-char" id="studyChar">你</div>
           <div class="char-pinyin" id="studyPinyin">ni3</div>
+          <div class="char-guide" id="studyGuide"></div>
           <div class="char-meaning" id="studyMeaning">you</div>
           <div class="char-extra" id="studyWords"></div>
           <div class="char-extra" id="studySentence"></div>
+          <button id="btnPlayChar" class="btn btn-audio" type="button">播放读音</button>
         </div>
         <div id="studyDone" class="empty-state hidden">今天这一轮已经完成，明天再来吧。</div>
         <div class="study-actions">
