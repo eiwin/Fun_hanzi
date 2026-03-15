@@ -15,6 +15,7 @@ const wordList = document.getElementById("wordList");
 const sentenceList = document.getElementById("sentenceList");
 const sceneGrid = document.getElementById("sceneGrid");
 const emptyWeekState = document.getElementById("emptyWeekState");
+const progressCards = document.getElementById("progressCards");
 const adminStatus = document.getElementById("adminStatus");
 const worksheetCard = document.getElementById("worksheetCard");
 const nextWeekCount = document.getElementById("nextWeekCount");
@@ -248,6 +249,8 @@ function attachVideoCards(scope = document) {
 function renderAdminStatus(log) {
   const last = log?.last_run;
   const libraryInfo = log?.library_info;
+  const progress = log?.learning_progress;
+  renderProgressCards(progress);
   if (!last) {
     adminStatus.innerHTML = `
       <div>还没有生成记录。</div>
@@ -274,6 +277,44 @@ function renderAdminStatus(log) {
     <div><strong>内容：</strong>${last.title || "暂无标题"}</div>
     ${last.published_at ? `<div><strong>发布时间：</strong>${last.published_at}</div>` : ""}
     ${last.error ? `<div><strong>错误：</strong>${last.error}</div>` : ""}
+  `;
+}
+
+function renderProgressCards(progress) {
+  if (!progressCards) {
+    return;
+  }
+
+  const positionText =
+    progress?.level_position_start && progress?.level_position_end
+      ? `第 ${progress.level_position_start}${progress.level_position_end > progress.level_position_start ? `-${progress.level_position_end}` : ""}`
+      : "-";
+
+  const positionNote = progress?.level_total_chars
+    ? `本级共 ${progress.level_total_chars} 个字`
+    : "等待生成统计";
+
+  progressCards.innerHTML = `
+    <article class="progress-card">
+      <div class="progress-label">当前程度</div>
+      <div class="progress-value">${progress?.current_level_label || "HSK -"}</div>
+      <div class="progress-note">当前周所属 level</div>
+    </article>
+    <article class="progress-card">
+      <div class="progress-label">本周位置</div>
+      <div class="progress-value">${positionText}</div>
+      <div class="progress-note">${positionNote}</div>
+    </article>
+    <article class="progress-card">
+      <div class="progress-label">累计学过</div>
+      <div class="progress-value">${progress?.studied_char_count || 0}</div>
+      <div class="progress-note">${progress?.tracked_item_count || 0} 个字已有跟踪记录</div>
+    </article>
+    <article class="progress-card">
+      <div class="progress-label">累计掌握</div>
+      <div class="progress-value">${progress?.mastered_char_count || 0}</div>
+      <div class="progress-note">${progress?.session_count || 0} 次学习 · ${progress?.answer_count || 0} 次作答</div>
+    </article>
   `;
 }
 
@@ -494,10 +535,9 @@ function renderWeek(pack) {
 }
 
 async function loadAll() {
-  const [weeksPayload, status, fallbackWeek, aiPayload] = await Promise.all([
+  const fallbackWeek = await requestJson("/api/current-week");
+  const [weeksPayload, aiPayload] = await Promise.all([
     requestJsonOrNull("/api/weeks"),
-    requestJson("/api/admin/status"),
-    requestJson("/api/current-week"),
     requestJson("/api/admin/ai-settings"),
   ]);
 
@@ -521,6 +561,7 @@ async function loadAll() {
   }
   const query = state.selectedWeekId ? `?week_id=${encodeURIComponent(state.selectedWeekId)}` : "";
   const currentWeek = query ? (await requestJsonOrNull(`/api/current-week${query}`)) || fallbackWeek : fallbackWeek;
+  const status = await requestJson(`/api/admin/status${query}`);
 
   state.currentWeek = currentWeek;
   state.selectedWeekId = currentWeek.week_id || state.selectedWeekId;

@@ -226,6 +226,44 @@ body {
   gap: 10px;
 }
 
+.progress-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 14px 0 16px;
+}
+
+.progress-card {
+  padding: 14px 16px;
+  border-radius: 20px;
+  background: linear-gradient(180deg, #fffdf8, #fff4df);
+  border: 2px solid #ffd7a6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+
+.progress-label {
+  font-size: 13px;
+  color: var(--muted);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.progress-value {
+  margin-top: 6px;
+  font-size: 28px;
+  line-height: 1.1;
+  font-weight: 800;
+  color: #8e4d18;
+}
+
+.progress-note {
+  margin-top: 6px;
+  font-size: 13px;
+  line-height: 1.45;
+  color: #6d6152;
+}
+
 .sentence-item {
   padding: 10px 12px;
   border-radius: 16px;
@@ -657,6 +695,10 @@ body {
 @media (max-width: 900px) {
   .hero-grid,
   .split-row {
+    grid-template-columns: 1fr;
+  }
+
+  .progress-card-grid {
     grid-template-columns: 1fr;
   }
 

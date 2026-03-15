@@ -2,26 +2,47 @@
   "version": 1,
   "last_run": {
     "type": "generate_week",
-    "week_id": "2026-W16",
-    "ran_at": "2026-03-15T02:28:40.080191+00:00",
+    "week_id": "2026-W11",
+    "ran_at": "2026-03-15T12:33:06.985545+00:00",
     "status": "ready",
-    "title": "开心收尾",
+    "title": "我的爱好",
     "new_chars": [
-      "起",
-      "多",
-      "少",
-      "儿",
-      "二"
+      "饭",
+      "店",
+      "飞",
+      "机",
+      "分"
     ],
     "review_chars": [
       "杯",
-      "客",
-      "京"
+      "爱",
+      "本"
     ],
-    "error": "OpenRouter request failed: [Errno 8] nodename nor servname provided, or not known",
-    "generation_mode": "template"
+    "error": "",
+    "generation_mode": "ai"
   },
   "history": [
+    {
+      "type": "generate_week",
+      "week_id": "2026-W11",
+      "ran_at": "2026-03-15T12:33:06.985545+00:00",
+      "status": "ready",
+      "title": "我的爱好",
+      "new_chars": [
+        "饭",
+        "店",
+        "飞",
+        "机",
+        "分"
+      ],
+      "review_chars": [
+        "杯",
+        "爱",
+        "本"
+      ],
+      "error": "",
+      "generation_mode": "ai"
+    },
     {
       "type": "generate_week",
       "week_id": "2026-W16",
@@ -396,26 +417,6 @@
       "type": "regenerate_prompts",
       "week_id": "2026-W11",
       "ran_at": "2026-03-08T13:32:34.008403+00:00",
-      "status": "ready",
-      "title": "们师家看冒险周",
-      "new_chars": [
-        "们",
-        "师",
-        "家",
-        "看",
-        "书"
-      ],
-      "review_chars": [
-        "气",
-        "老",
-        "欢"
-      ],
-      "error": ""
-    },
-    {
-      "type": "regenerate_prompts",
-      "week_id": "2026-W11",
-      "ran_at": "2026-03-08T13:31:13.456977+00:00",
       "status": "ready",
       "title": "们师家看冒险周",
       "new_chars": [

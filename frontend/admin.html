@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Fun Hanzi Admin</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/style.css?v=20260315-progress-cards" />
   </head>
   <body>
     <main class="app-shell">
@@ -83,6 +83,28 @@
             “重建 Prompt”才会调用 API 或模板去生成新的 prompt；
             “开始下一周内容”会保存当前周包，并按顺序创建新的周任务。
           </div>
+          <div id="progressCards" class="progress-card-grid">
+            <article class="progress-card">
+              <div class="progress-label">当前程度</div>
+              <div class="progress-value">HSK -</div>
+              <div class="progress-note">正在读取</div>
+            </article>
+            <article class="progress-card">
+              <div class="progress-label">本周位置</div>
+              <div class="progress-value">-</div>
+              <div class="progress-note">正在读取</div>
+            </article>
+            <article class="progress-card">
+              <div class="progress-label">累计学过</div>
+              <div class="progress-value">-</div>
+              <div class="progress-note">正在读取</div>
+            </article>
+            <article class="progress-card">
+              <div class="progress-label">累计掌握</div>
+              <div class="progress-value">-</div>
+              <div class="progress-note">正在读取</div>
+            </article>
+          </div>
           <div id="adminStatus" class="status-card">正在读取状态...</div>
           <div id="worksheetCard" class="status-card">写字练习 PDF 还没有准备好。</div>
           <div class="helper-text">学习页地址：<a href="/learn">/learn</a></div>
@@ -153,6 +175,6 @@
       </section>
     </main>
 
-    <script src="/admin.js"></script>
+    <script src="/admin.js?v=20260315-progress-cards"></script>
   </body>
 </html>

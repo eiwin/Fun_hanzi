@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import threading
 from datetime import UTC, datetime, timedelta
 from pathlib import Path
 from typing import Any
@@ -283,13 +284,32 @@ def _ensure_current_week() -> None:
         save_week_pack(current, set_current=False)
 
 
+def _ensure_current_week_background() -> None:
+    try:
+        _ensure_current_week()
+    except Exception as exc:  # noqa: BLE001
+        append_generation_log(
+            {
+                "type": "startup_refresh",
+                "week_id": current_week_id(datetime.now(UTC)),
+                "ran_at": datetime.now(UTC).isoformat(),
+                "status": "failed",
+                "title": "",
+                "new_chars": [],
+                "review_chars": [],
+                "error": str(exc),
+                "generation_mode": "template",
+            }
+        )
+
+
 @app.on_event("startup")
 def on_startup() -> None:
     global scheduler
     ensure_data_files()
-    _ensure_current_week()
     scheduler = build_scheduler(lambda: generate_weekly_pack(force=True))
     scheduler.start()
+    threading.Thread(target=_ensure_current_week_background, daemon=True).start()
 
 
 @app.on_event("shutdown")
@@ -514,11 +534,100 @@ def admin_generate_worksheet(week_id: str | None = Query(default=None)) -> dict:
     return target_pack["worksheet"]
 
 
+def _level_sequence(workflow_rules: dict) -> list[int]:
+    sequence = workflow_rules.get("levelSequence")
+    if isinstance(sequence, list) and sequence:
+        return [int(level) for level in sequence if isinstance(level, int) or str(level).isdigit()]
+    level = workflow_rules.get("level", 1)
+    return [int(level)]
+
+
+def _character_sort_key(item: dict, fallback_rank: int, level_index: dict[int, int], strategy: str) -> tuple[int, int]:
+    level = int(item.get("level", 99) or 99)
+    level_rank = level_index.get(level, len(level_index))
+    if strategy == "hsk_level_order":
+        return (level_rank, int(item.get("hskOrder", fallback_rank) or fallback_rank))
+    return (level_rank, int(item.get("frequencyRank", fallback_rank) or fallback_rank))
+
+
+def _build_learning_progress(target_pack: dict, characters: list[dict], progress: dict, workflow_rules: dict) -> dict:
+    if not target_pack:
+        return {}
+
+    strategy = workflow_rules.get("newCharStrategy", "frequency_order")
+    level_sequence = _level_sequence(workflow_rules)
+    level_index = {level: index for index, level in enumerate(level_sequence)}
+    ordered_characters = sorted(
+        characters,
+        key=lambda item: _character_sort_key(item, characters.index(item) + 1, level_index, strategy),
+    )
+    char_lookup = {item.get("char", ""): item for item in ordered_characters if item.get("char")}
+
+    new_chars = target_pack.get("new_chars", []) or []
+    review_chars = target_pack.get("review_chars", []) or []
+    pack_chars = new_chars or review_chars
+    if not pack_chars:
+        return {}
+
+    primary_char = next((char for char in pack_chars if char_lookup.get(char)), "")
+    primary_level = int(char_lookup.get(primary_char, {}).get("level", level_sequence[0] if level_sequence else 1) or 1)
+    level_chars = [item for item in ordered_characters if int(item.get("level", 0) or 0) == primary_level]
+    level_positions = {item.get("char", ""): index + 1 for index, item in enumerate(level_chars) if item.get("char")}
+    new_positions = [level_positions[char] for char in new_chars if char in level_positions]
+
+    weekly_packs = progress.get("weeklyPacks", []) or []
+    studied_from_weeks: set[str] = set()
+    for weekly in weekly_packs:
+        for char in weekly.get("newChars", []) or []:
+            if char:
+                studied_from_weeks.add(char)
+
+    studied_from_sessions: set[str] = set()
+    total_answers = 0
+    for session in progress.get("sessionHistory", []) or []:
+        answers = session.get("answers", []) or []
+        total_answers += len(answers)
+        for answer in answers:
+            char = answer.get("char")
+            if char:
+                studied_from_sessions.add(char)
+
+    studied_chars = studied_from_weeks | studied_from_sessions
+    items = progress.get("items", {}) or {}
+    mastered_chars = [
+        char
+        for char, item in items.items()
+        if isinstance(item, dict) and (int(item.get("box", 0) or 0) >= 2 or int(item.get("correctStreak", 0) or 0) >= 2)
+    ]
+
+    return {
+        "current_level": primary_level,
+        "current_level_label": f"HSK {primary_level}",
+        "level_total_chars": len(level_chars),
+        "level_position_start": min(new_positions) if new_positions else None,
+        "level_position_end": max(new_positions) if new_positions else None,
+        "level_new_char_count": len(new_positions),
+        "studied_char_count": len(studied_chars),
+        "mastered_char_count": len(set(mastered_chars)),
+        "tracked_item_count": len(items),
+        "session_count": len(progress.get("sessionHistory", []) or []),
+        "answer_count": total_answers,
+    }
+
+
 @app.get("/api/admin/status")
-def admin_status() -> dict:
+def admin_status(week_id: str | None = Query(default=None)) -> dict:
     payload = read_json("generation_log.json")
     workflow_rules = read_json("workflow_rules.json", {})
     characters = read_json("characters.json", [])
+    progress = read_json("progress.json", {"version": 1, "items": {}, "sessionHistory": [], "weeklyPacks": []})
+    current_week = read_json("current_week.json", {})
+    target_pack = current_week
+    if week_id and current_week.get("week_id") != week_id:
+        try:
+            target_pack = read_week_pack(week_id)
+        except FileNotFoundError:
+            target_pack = current_week
     word_bank = read_json("hsk_word_bank.json", {"count": 0, "levels": []})
     payload["library_info"] = {
         "base": "HSK 1-4",
@@ -527,6 +636,7 @@ def admin_status() -> dict:
         "word_count": int(word_bank.get("count", 0) or 0),
         "strategy": workflow_rules.get("newCharStrategy", "frequency_order"),
     }
+    payload["learning_progress"] = _build_learning_progress(target_pack, characters, progress, workflow_rules)
     return payload
 
 
