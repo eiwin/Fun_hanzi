@@ -66,8 +66,10 @@ hskhsk.com-main/      本地 HSK 源数据
 
 ## 3. 页面入口
 
-- 学习页：`http://127.0.0.1:8000/learn`
-- 后台页：`http://127.0.0.1:8000/admin`
+- 本机学习页：`http://127.0.0.1:8000/learn`
+- 本机后台页：`http://127.0.0.1:8000/admin`
+- 局域网学习页：`http://你的局域网IP:8000/learn`
+- 局域网后台页：`http://你的局域网IP:8000/admin`
 
 学习页用于：
 - 看本周故事包
@@ -83,6 +85,43 @@ hskhsk.com-main/      本地 HSK 源数据
 - 导入图片 / 视频
 - 下载写字练习 PDF
 - 配置 OpenRouter 模型和 API key
+
+### 3.1 局域网访问
+
+现在默认会绑定到 `0.0.0.0`，所以同一局域网内的设备可以直接访问。
+
+启动：
+
+```bash
+python3 -m backend
+```
+
+查看本机局域网 IP：
+
+```bash
+ipconfig getifaddr en0
+```
+
+如果你用的是有线网口，也可能需要：
+
+```bash
+ipconfig getifaddr en1
+```
+
+拿到 IP 后，例如是 `192.168.1.23`，则其他设备可以访问：
+
+```text
+http://192.168.1.23:8000/learn
+http://192.168.1.23:8000/admin
+```
+
+如果 macOS 弹出防火墙提示，需要允许 Python 接受传入连接。
+
+如果你只想恢复成“仅本机访问”，可以这样启动：
+
+```bash
+FUN_HANZI_HOST=127.0.0.1 python3 -m backend
+```
 
 ## 4. 数据文件
 
