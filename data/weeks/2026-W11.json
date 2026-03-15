@@ -1,0 +1,905 @@
+{
+  "week_id": "2026-W11",
+  "learner_id": "default",
+  "generated_at": "2026-03-15T02:23:25.077118+00:00",
+  "title": "校园阅读与方向周",
+  "summary": "本周会认识新字 东、西、都、读、对，再复习 杯、爱、本。我们会在校园导览、图书角和借书交流中学习方向表达、礼貌回应和阅读话题。",
+  "new_chars": [
+    "东",
+    "西",
+    "都",
+    "读",
+    "对"
+  ],
+  "review_chars": [
+    "杯",
+    "爱",
+    "本"
+  ],
+  "char_cards": [
+    {
+      "char": "东",
+      "pinyin": "dōng",
+      "pinyin_numeric": "dong1",
+      "pronunciation_guide": "东，第一声，dōng",
+      "meaning": "east; host (i.e. sitting on east side of guest); landlord; surname Dong",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "东西",
+        "东",
+        "房东"
+      ],
+      "word_pronunciation_hints": [
+        "东西: dōng xī",
+        "东: dōng",
+        "房东: fáng dōng"
+      ],
+      "sentence": "我们学习“东西”。",
+      "sentence_pinyin": "wǒ men xué xí “ dōng xī ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "东(dōng)",
+        "西(xī)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "东，第一声，dōng",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "西",
+      "pinyin": "xī",
+      "pinyin_numeric": "xi1",
+      "pronunciation_guide": "西，第一声，xī",
+      "meaning": "west",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "东西",
+        "西瓜",
+        "西",
+        "西红柿"
+      ],
+      "word_pronunciation_hints": [
+        "东西: dōng xī",
+        "西瓜: xī guā",
+        "西: xī",
+        "西红柿: xī hóng shì"
+      ],
+      "sentence": "我们学习“东西”。",
+      "sentence_pinyin": "wǒ men xué xí “ dōng xī ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "东(dōng)",
+        "西(xī)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "西，第一声，xī",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "都",
+      "pinyin": "dōu",
+      "pinyin_numeric": "dou1",
+      "pronunciation_guide": "都，第一声，dōu",
+      "meaning": "all, both; entirely (due to) each; even; already",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "都",
+        "首都"
+      ],
+      "word_pronunciation_hints": [
+        "都: dōu",
+        "首都: shǒu dōu"
+      ],
+      "sentence": "我们学习“都”。",
+      "sentence_pinyin": "wǒ men xué xí “ dōu ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "都(dōu)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "都，第一声，dōu",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "读",
+      "pinyin": "dú",
+      "pinyin_numeric": "du2",
+      "pronunciation_guide": "读，第二声，dú",
+      "meaning": "to read; to study; reading of word (i.e. pronunciation), similar to 拼音[pin1 yin1]",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "读",
+        "阅读"
+      ],
+      "word_pronunciation_hints": [
+        "读: dú",
+        "阅读: yuè dú"
+      ],
+      "sentence": "我们学习“读”。",
+      "sentence_pinyin": "wǒ men xué xí “ dú ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "读(dú)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "读，第二声，dú",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "对",
+      "pinyin": "duì",
+      "pinyin_numeric": "dui4",
+      "pronunciation_guide": "对，第四声，duì",
+      "meaning": "for; to",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "对不起",
+        "对",
+        "对话",
+        "对面",
+        "对于",
+        "反对"
+      ],
+      "word_pronunciation_hints": [
+        "对不起: duì bù qǐ",
+        "对: duì",
+        "对话: duì huà",
+        "对面: duì miàn",
+        "对于: duì yú",
+        "反对: fǎn duì"
+      ],
+      "sentence": "我们学习“对不起”。",
+      "sentence_pinyin": "wǒ men xué xí “ duì bù qǐ ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "对(duì)",
+        "不(bù)",
+        "起(qǐ)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "对，第四声，duì",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "杯",
+      "pinyin": "bēi",
+      "pinyin_numeric": "bei1",
+      "pronunciation_guide": "杯，第一声，bēi",
+      "meaning": "cup",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "杯子",
+        "干杯"
+      ],
+      "word_pronunciation_hints": [
+        "杯子: bēi zǐ",
+        "干杯: gàn bēi"
+      ],
+      "sentence": "我们学习“杯子”。",
+      "sentence_pinyin": "wǒ men xué xí “ bēi zǐ ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "杯(bēi)",
+        "子(zǐ)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "杯，第一声，bēi",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "爱",
+      "pinyin": "ài",
+      "pinyin_numeric": "ai4",
+      "pronunciation_guide": "爱，第四声，ài",
+      "meaning": "to love; affection; to be fond of; to like",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "爱",
+        "爱好",
+        "可爱",
+        "爱情"
+      ],
+      "word_pronunciation_hints": [
+        "爱: ài",
+        "爱好: ài hǎo",
+        "可爱: kě ài",
+        "爱情: ài qíng"
+      ],
+      "sentence": "我们学习“爱”。",
+      "sentence_pinyin": "wǒ men xué xí “ ài ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "爱(ài)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "爱，第四声，ài",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "本",
+      "pinyin": "běn",
+      "pinyin_numeric": "ben3",
+      "pronunciation_guide": "本，第三声，běn",
+      "meaning": "roots or stems of plants; origin; source; this; the current; root; foundation; basis; classifier for books, periodicals, files etc; originally",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "本",
+        "笔记本",
+        "本来"
+      ],
+      "word_pronunciation_hints": [
+        "本: běn",
+        "笔记本: bǐ jì běn",
+        "本来: běn lái"
+      ],
+      "sentence": "我们学习“本”。",
+      "sentence_pinyin": "wǒ men xué xí “ běn ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "本(běn)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "本，第三声，běn",
+      "audio_status": "pending",
+      "audio_path": ""
+    }
+  ],
+  "words": [
+    {
+      "text": "东边",
+      "pinyin_text": "dōng biān",
+      "pronunciation_labels": [
+        "东(dōng)",
+        "边(biān)"
+      ],
+      "audio_text": "东边",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "text": "西边",
+      "pinyin_text": "xī biān",
+      "pronunciation_labels": [
+        "西(xī)",
+        "边(biān)"
+      ],
+      "audio_text": "西边",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "text": "读书",
+      "pinyin_text": "dú shū",
+      "pronunciation_labels": [
+        "读(dú)",
+        "书(shū)"
+      ],
+      "audio_text": "读书",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "text": "对不起",
+      "pinyin_text": "duì bù qǐ",
+      "pronunciation_labels": [
+        "对(duì)",
+        "不(bù)",
+        "起(qǐ)"
+      ],
+      "audio_text": "对不起",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "text": "本子",
+      "pinyin_text": "běn zǐ",
+      "pronunciation_labels": [
+        "本(běn)",
+        "子(zǐ)"
+      ],
+      "audio_text": "本子",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "text": "杯子",
+      "pinyin_text": "bēi zǐ",
+      "pronunciation_labels": [
+        "杯(bēi)",
+        "子(zǐ)"
+      ],
+      "audio_text": "杯子",
+      "audio_status": "pending",
+      "audio_path": ""
+    }
+  ],
+  "sentences": [
+    {
+      "id": "sentence-1",
+      "text": "请先往东走，再向西看。",
+      "pinyin_text": "qǐng xiān wǎng dōng zǒu， zài xiàng xī kàn。",
+      "pronunciation_labels": [
+        "请(qǐng)",
+        "先(xiān)",
+        "往(wǎng)",
+        "东(dōng)",
+        "走(zǒu)",
+        "再(zài)",
+        "向(xiàng)",
+        "西(xī)",
+        "看(kàn)"
+      ],
+      "audio_text": "请先往东走，再向西看。",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "id": "sentence-2",
+      "text": "我们都爱读书。",
+      "pinyin_text": "wǒ men dōu ài dú shū。",
+      "pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "都(dōu)",
+        "爱(ài)",
+        "读(dú)",
+        "书(shū)"
+      ],
+      "audio_text": "我们都爱读书。",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "id": "sentence-3",
+      "text": "对不起，我拿错本子了。",
+      "pinyin_text": "duì bù qǐ， wǒ ná cuò běn zǐ le。",
+      "pronunciation_labels": [
+        "对(duì)",
+        "不(bù)",
+        "起(qǐ)",
+        "我(wǒ)",
+        "拿(ná)",
+        "错(cuò)",
+        "本(běn)",
+        "子(zǐ)",
+        "了(le)"
+      ],
+      "audio_text": "对不起，我拿错本子了。",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "id": "sentence-4",
+      "text": "读书是我的爱好。",
+      "pinyin_text": "dú shū shì wǒ de ài hǎo。",
+      "pronunciation_labels": [
+        "读(dú)",
+        "书(shū)",
+        "是(shì)",
+        "我(wǒ)",
+        "的(de)",
+        "爱(ài)",
+        "好(hǎo)"
+      ],
+      "audio_text": "读书是我的爱好。",
+      "audio_status": "pending",
+      "audio_path": ""
+    }
+  ],
+  "story": [
+    {
+      "id": "scene-1",
+      "title": "校园导览",
+      "text": "老师带大家看校园地图，先找东边，再看西边的图书角。",
+      "pinyin_text": "lǎo shī dài dà jiā kàn jiào yuán de tú， xiān zhǎo dōng biān， zài kàn xī biān de tú shū jiǎo。",
+      "pronunciation_labels": [
+        "老(lǎo)",
+        "师(shī)",
+        "带(dài)",
+        "大(dà)",
+        "家(jiā)",
+        "看(kàn)",
+        "校(jiào)",
+        "园(yuán)",
+        "地(de)",
+        "图(tú)",
+        "先(xiān)",
+        "找(zhǎo)",
+        "东(dōng)",
+        "边(biān)",
+        "再(zài)",
+        "西(xī)",
+        "的(de)",
+        "书(shū)",
+        "角(jiǎo)"
+      ],
+      "dialogue_line": "先找东边，再看西边。",
+      "dialogue_pinyin": "xiān zhǎo dōng biān， zài kàn xī biān。",
+      "focus_chars": [
+        "东",
+        "西",
+        "对"
+      ],
+      "focus_words": [
+        "东边",
+        "西边"
+      ],
+      "image_prompt": "Create a storybook-style learning illustration for school-age Chinese learners.\nStyle baseline: storybook illustration, soft shapes, warm light, expressive characters.\nScene goal: 老师带大家看校园地图，先找东边，再看西边的图书角。\nScene type: 课堂互动\nLocation: 小学高年级或初中预备阶段的中文课堂或校园环境\nFocus characters: 东、西、对\nFocus words: 东边、西边\nVisual direction:\n- Use soft shapes, warm light, expressive characters, and an age-appropriate atmosphere for learners around ages 9-13.\n- Build a grounded educational scene connected to real Chinese learning moments such as classroom discussion, home routines, reading, greeting, helping, planning, travel, or going out.\n- Include meaningful props related to Chinese learning, such as books, chalkboard, toys, flowers, bags, tables, cups, or other scene-appropriate objects.\n- Keep the layout clean and stable, suitable for a modern learning page or printable study material.\nComposition:\n- One clear main action, readable background, strong focal point, and enough empty space for later educational text layout.\n- Make the illustration feel polished, warm, and visually consistent with the Fun Hanzi style, without looking like preschool material.\nIMPORTANT:\n- Do NOT generate any Chinese characters, pinyin, letters, or text in the image.\n- Leave empty space where educational text can be added later.\n- Hanzi and pinyin planning notes belong in the separate text layout, not inside the image.\n- If any visible text is produced by mistake, it must be treated as an error and regenerated.",
+      "video_prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 校园导览\nLearning goal: 老师带大家看校园地图，先找东边，再看西边的图书角。\nReal-life setting: 课堂互动 / 小学高年级或初中预备阶段的中文课堂或校园环境\nCharacter relationship: 老师和学生围绕一个具体任务进行交流、观察或回答\nFocus characters: 东、西、对\nFocus words: 东边、西边\nFixed spoken line: 先找东边，再看西边。\nReference pinyin for production only: xiān zhǎo dōng biān， zài kàn xī biān。\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 课堂互动 in 小学高年级或初中预备阶段的中文课堂或校园环境. Show 老师和学生围绕一个具体任务进行交流、观察或回答. Let 东边、西边 and the focus characters 东、西、对 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “先找东边，再看西边。”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 东 -> dōng; 西 -> xī; 对 -> duì. Keep these exact Hanzi+pinyin pairs in your notes: 东 dōng | 西 xī | 对 duì.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: xiān zhǎo dōng biān， zài kàn xī biān。. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "video_script": "场景：校园导览\n视频类型：课堂互动\n真实场合：小学高年级或初中预备阶段的中文课堂或校园环境\n人物关系：老师和学生围绕一个具体任务进行交流、观察或回答\n固定台词：先找东边，再看西边。\n参考拼音：xiān zhǎo dōng biān， zài kàn xī biān。\n目标字：东、西、对\n剧情结构：先交代一个真实小场景，再出现一个小问题或小任务，接着通过人物互动自然说出台词，最后温暖收尾。\n镜头1：建立真实场景，让学生一眼看懂人物在做什么，并为“先找东边，再看西边。”做铺垫。\n镜头2：出现一个具体动作或小问题，把目标字 东、西、对 藏在物件、地点、任务或人物反应里，不要像生硬教学演示。\n镜头3：角色在情境里自然说出固定台词“先找东边，再看西边。”，嘴型清楚，情绪真实，动作和台词有关联。\n镜头4：给出回应或结果，例如同学反馈、老师确认、家人回应、任务完成，让学习者感觉这个句子在真实生活里有用。\n镜头5：收尾停留 1-2 秒，保持画面温暖、真实、易懂，但不要过于幼态。\n字幕策略：视频里不强制加入拼音字幕，拼音会由学习页面单独展示；如需字幕，只保留汉字即可。",
+      "focus_pronunciations": [
+        {
+          "char": "东",
+          "pinyin": "dōng"
+        },
+        {
+          "char": "西",
+          "pinyin": "xī"
+        },
+        {
+          "char": "对",
+          "pinyin": "duì"
+        }
+      ],
+      "image_text_layout": "【标题】\n先找东边，再看西边。\nxiān zhǎo dōng biān， zài kàn xī biān。\n\n【重点字】\n东\ndōng\n西\nxī\n对\nduì\n\n【词语】\n东边\n西边\n\n【教学标签】\n东 dōng | 西 xī | 对 duì",
+      "image_status": "pending",
+      "image_asset_id": null,
+      "image_path": "",
+      "video_status": "pending",
+      "video_asset_id": null,
+      "video_path": "",
+      "audio_text": "先找东边，再看西边。",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "id": "scene-2",
+      "title": "图书角",
+      "text": "午休时，几个同学坐在图书角交流最近读过的书。",
+      "pinyin_text": "wǔ xiū shí， jǐ gè tóng xué zuò zài tú shū jiǎo jiāo liú zuì jìn dú guò de shū。",
+      "pronunciation_labels": [
+        "午(wǔ)",
+        "休(xiū)",
+        "时(shí)",
+        "几(jǐ)",
+        "个(gè)",
+        "同(tóng)",
+        "学(xué)",
+        "坐(zuò)",
+        "在(zài)",
+        "图(tú)",
+        "书(shū)",
+        "角(jiǎo)",
+        "交(jiāo)",
+        "流(liú)",
+        "最(zuì)",
+        "近(jìn)",
+        "读(dú)",
+        "过(guò)",
+        "的(de)"
+      ],
+      "dialogue_line": "我们都爱读书。",
+      "dialogue_pinyin": "wǒ men dōu ài dú shū。",
+      "focus_chars": [
+        "都",
+        "读",
+        "爱"
+      ],
+      "focus_words": [
+        "读书",
+        "爱好"
+      ],
+      "image_prompt": "Create a storybook-style learning illustration for school-age Chinese learners.\nStyle baseline: storybook illustration, soft shapes, warm light, expressive characters.\nScene goal: 午休时，几个同学坐在图书角交流最近读过的书。\nScene type: 课堂互动\nLocation: 小学高年级或初中预备阶段的中文课堂或校园环境\nFocus characters: 都、读、爱\nFocus words: 读书、爱好\nVisual direction:\n- Use soft shapes, warm light, expressive characters, and an age-appropriate atmosphere for learners around ages 9-13.\n- Build a grounded educational scene connected to real Chinese learning moments such as classroom discussion, home routines, reading, greeting, helping, planning, travel, or going out.\n- Include meaningful props related to Chinese learning, such as books, chalkboard, toys, flowers, bags, tables, cups, or other scene-appropriate objects.\n- Keep the layout clean and stable, suitable for a modern learning page or printable study material.\nComposition:\n- One clear main action, readable background, strong focal point, and enough empty space for later educational text layout.\n- Make the illustration feel polished, warm, and visually consistent with the Fun Hanzi style, without looking like preschool material.\nIMPORTANT:\n- Do NOT generate any Chinese characters, pinyin, letters, or text in the image.\n- Leave empty space where educational text can be added later.\n- Hanzi and pinyin planning notes belong in the separate text layout, not inside the image.\n- If any visible text is produced by mistake, it must be treated as an error and regenerated.",
+      "video_prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 图书角\nLearning goal: 午休时，几个同学坐在图书角交流最近读过的书。\nReal-life setting: 课堂互动 / 小学高年级或初中预备阶段的中文课堂或校园环境\nCharacter relationship: 老师和学生围绕一个具体任务进行交流、观察或回答\nFocus characters: 都、读、爱\nFocus words: 读书、爱好\nFixed spoken line: 我们都爱读书。\nReference pinyin for production only: wǒ men dōu ài dú shū。\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 课堂互动 in 小学高年级或初中预备阶段的中文课堂或校园环境. Show 老师和学生围绕一个具体任务进行交流、观察或回答. Let 读书、爱好 and the focus characters 都、读、爱 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “我们都爱读书。”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 都 -> dōu; 读 -> dú; 爱 -> ài. Keep these exact Hanzi+pinyin pairs in your notes: 都 dōu | 读 dú | 爱 ài.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: wǒ men dōu ài dú shū。. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "video_script": "场景：图书角\n视频类型：课堂互动\n真实场合：小学高年级或初中预备阶段的中文课堂或校园环境\n人物关系：老师和学生围绕一个具体任务进行交流、观察或回答\n固定台词：我们都爱读书。\n参考拼音：wǒ men dōu ài dú shū。\n目标字：都、读、爱\n剧情结构：先交代一个真实小场景，再出现一个小问题或小任务，接着通过人物互动自然说出台词，最后温暖收尾。\n镜头1：建立真实场景，让学生一眼看懂人物在做什么，并为“我们都爱读书。”做铺垫。\n镜头2：出现一个具体动作或小问题，把目标字 都、读、爱 藏在物件、地点、任务或人物反应里，不要像生硬教学演示。\n镜头3：角色在情境里自然说出固定台词“我们都爱读书。”，嘴型清楚，情绪真实，动作和台词有关联。\n镜头4：给出回应或结果，例如同学反馈、老师确认、家人回应、任务完成，让学习者感觉这个句子在真实生活里有用。\n镜头5：收尾停留 1-2 秒，保持画面温暖、真实、易懂，但不要过于幼态。\n字幕策略：视频里不强制加入拼音字幕，拼音会由学习页面单独展示；如需字幕，只保留汉字即可。",
+      "focus_pronunciations": [
+        {
+          "char": "都",
+          "pinyin": "dōu"
+        },
+        {
+          "char": "读",
+          "pinyin": "dú"
+        },
+        {
+          "char": "爱",
+          "pinyin": "ài"
+        }
+      ],
+      "image_text_layout": "【标题】\n我们都爱读书。\nwǒ men dōu ài dú shū。\n\n【重点字】\n都\ndōu\n读\ndú\n爱\nài\n\n【词语】\n读书\n爱好\n\n【教学标签】\n都 dōu | 读 dú | 爱 ài",
+      "image_status": "pending",
+      "image_asset_id": null,
+      "image_path": "",
+      "video_status": "pending",
+      "video_asset_id": null,
+      "video_path": "",
+      "audio_text": "我们都爱读书。",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "id": "scene-3",
+      "title": "借书交流",
+      "text": "自习结束后，一位同学把水杯放在桌上，收拾时拿错了别人的本子。",
+      "pinyin_text": "zì xí jiē shù hòu， yī wèi tóng xué bǎ shuǐ bēi fàng zài zhuō shàng， shōu shí shí ná cuò le bié rén de běn zǐ。",
+      "pronunciation_labels": [
+        "自(zì)",
+        "习(xí)",
+        "结(jiē)",
+        "束(shù)",
+        "后(hòu)",
+        "一(yī)",
+        "位(wèi)",
+        "同(tóng)",
+        "学(xué)",
+        "把(bǎ)",
+        "水(shuǐ)",
+        "杯(bēi)",
+        "放(fàng)",
+        "在(zài)",
+        "桌(zhuō)",
+        "上(shàng)",
+        "收(shōu)",
+        "拾(shí)",
+        "时(shí)",
+        "拿(ná)",
+        "错(cuò)",
+        "了(le)",
+        "别(bié)",
+        "人(rén)",
+        "的(de)",
+        "本(běn)",
+        "子(zǐ)"
+      ],
+      "dialogue_line": "对不起，我拿错本子了。",
+      "dialogue_pinyin": "duì bù qǐ， wǒ ná cuò běn zǐ le。",
+      "focus_chars": [
+        "对",
+        "本",
+        "杯"
+      ],
+      "focus_words": [
+        "对不起",
+        "本子"
+      ],
+      "image_prompt": "Create a storybook-style learning illustration for school-age Chinese learners.\nStyle baseline: storybook illustration, soft shapes, warm light, expressive characters.\nScene goal: 自习结束后，一位同学把水杯放在桌上，收拾时拿错了别人的本子。\nScene type: 课堂互动\nLocation: 小学高年级或初中预备阶段的中文课堂或校园环境\nFocus characters: 对、本、杯\nFocus words: 对不起、本子\nVisual direction:\n- Use soft shapes, warm light, expressive characters, and an age-appropriate atmosphere for learners around ages 9-13.\n- Build a grounded educational scene connected to real Chinese learning moments such as classroom discussion, home routines, reading, greeting, helping, planning, travel, or going out.\n- Include meaningful props related to Chinese learning, such as books, chalkboard, toys, flowers, bags, tables, cups, or other scene-appropriate objects.\n- Keep the layout clean and stable, suitable for a modern learning page or printable study material.\nComposition:\n- One clear main action, readable background, strong focal point, and enough empty space for later educational text layout.\n- Make the illustration feel polished, warm, and visually consistent with the Fun Hanzi style, without looking like preschool material.\nIMPORTANT:\n- Do NOT generate any Chinese characters, pinyin, letters, or text in the image.\n- Leave empty space where educational text can be added later.\n- Hanzi and pinyin planning notes belong in the separate text layout, not inside the image.\n- If any visible text is produced by mistake, it must be treated as an error and regenerated.",
+      "video_prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 借书交流\nLearning goal: 自习结束后，一位同学把水杯放在桌上，收拾时拿错了别人的本子。\nReal-life setting: 课堂互动 / 小学高年级或初中预备阶段的中文课堂或校园环境\nCharacter relationship: 老师和学生围绕一个具体任务进行交流、观察或回答\nFocus characters: 对、本、杯\nFocus words: 对不起、本子\nFixed spoken line: 对不起，我拿错本子了。\nReference pinyin for production only: duì bù qǐ， wǒ ná cuò běn zǐ le。\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 课堂互动 in 小学高年级或初中预备阶段的中文课堂或校园环境. Show 老师和学生围绕一个具体任务进行交流、观察或回答. Let 对不起、本子 and the focus characters 对、本、杯 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “对不起，我拿错本子了。”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 对 -> duì; 本 -> běn; 杯 -> bēi. Keep these exact Hanzi+pinyin pairs in your notes: 对 duì | 本 běn | 杯 bēi.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: duì bù qǐ， wǒ ná cuò běn zǐ le。. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "video_script": "场景：借书交流\n视频类型：课堂互动\n真实场合：小学高年级或初中预备阶段的中文课堂或校园环境\n人物关系：老师和学生围绕一个具体任务进行交流、观察或回答\n固定台词：对不起，我拿错本子了。\n参考拼音：duì bù qǐ， wǒ ná cuò běn zǐ le。\n目标字：对、本、杯\n剧情结构：先交代一个真实小场景，再出现一个小问题或小任务，接着通过人物互动自然说出台词，最后温暖收尾。\n镜头1：建立真实场景，让学生一眼看懂人物在做什么，并为“对不起，我拿错本子了。”做铺垫。\n镜头2：出现一个具体动作或小问题，把目标字 对、本、杯 藏在物件、地点、任务或人物反应里，不要像生硬教学演示。\n镜头3：角色在情境里自然说出固定台词“对不起，我拿错本子了。”，嘴型清楚，情绪真实，动作和台词有关联。\n镜头4：给出回应或结果，例如同学反馈、老师确认、家人回应、任务完成，让学习者感觉这个句子在真实生活里有用。\n镜头5：收尾停留 1-2 秒，保持画面温暖、真实、易懂，但不要过于幼态。\n字幕策略：视频里不强制加入拼音字幕，拼音会由学习页面单独展示；如需字幕，只保留汉字即可。",
+      "focus_pronunciations": [
+        {
+          "char": "对",
+          "pinyin": "duì"
+        },
+        {
+          "char": "本",
+          "pinyin": "běn"
+        },
+        {
+          "char": "杯",
+          "pinyin": "bēi"
+        }
+      ],
+      "image_text_layout": "【标题】\n对不起，我拿错本子了。\nduì bù qǐ， wǒ ná cuò běn zǐ le。\n\n【重点字】\n对\nduì\n本\nběn\n杯\nbēi\n\n【词语】\n对不起\n本子\n\n【教学标签】\n对 duì | 本 běn | 杯 bēi",
+      "image_status": "pending",
+      "image_asset_id": null,
+      "image_path": "",
+      "video_status": "pending",
+      "video_asset_id": null,
+      "video_path": "",
+      "audio_text": "对不起，我拿错本子了。",
+      "audio_status": "pending",
+      "audio_path": ""
+    }
+  ],
+  "image_tasks": [
+    {
+      "scene_id": "scene-1",
+      "prompt": "Create a storybook-style learning illustration for school-age Chinese learners.\nStyle baseline: storybook illustration, soft shapes, warm light, expressive characters.\nScene goal: 老师带大家看校园地图，先找东边，再看西边的图书角。\nScene type: 课堂互动\nLocation: 小学高年级或初中预备阶段的中文课堂或校园环境\nFocus characters: 东、西、对\nFocus words: 东边、西边\nVisual direction:\n- Use soft shapes, warm light, expressive characters, and an age-appropriate atmosphere for learners around ages 9-13.\n- Build a grounded educational scene connected to real Chinese learning moments such as classroom discussion, home routines, reading, greeting, helping, planning, travel, or going out.\n- Include meaningful props related to Chinese learning, such as books, chalkboard, toys, flowers, bags, tables, cups, or other scene-appropriate objects.\n- Keep the layout clean and stable, suitable for a modern learning page or printable study material.\nComposition:\n- One clear main action, readable background, strong focal point, and enough empty space for later educational text layout.\n- Make the illustration feel polished, warm, and visually consistent with the Fun Hanzi style, without looking like preschool material.\nIMPORTANT:\n- Do NOT generate any Chinese characters, pinyin, letters, or text in the image.\n- Leave empty space where educational text can be added later.\n- Hanzi and pinyin planning notes belong in the separate text layout, not inside the image.\n- If any visible text is produced by mistake, it must be treated as an error and regenerated.",
+      "status": "pending",
+      "asset_id": null,
+      "file_path": ""
+    },
+    {
+      "scene_id": "scene-2",
+      "prompt": "Create a storybook-style learning illustration for school-age Chinese learners.\nStyle baseline: storybook illustration, soft shapes, warm light, expressive characters.\nScene goal: 午休时，几个同学坐在图书角交流最近读过的书。\nScene type: 课堂互动\nLocation: 小学高年级或初中预备阶段的中文课堂或校园环境\nFocus characters: 都、读、爱\nFocus words: 读书、爱好\nVisual direction:\n- Use soft shapes, warm light, expressive characters, and an age-appropriate atmosphere for learners around ages 9-13.\n- Build a grounded educational scene connected to real Chinese learning moments such as classroom discussion, home routines, reading, greeting, helping, planning, travel, or going out.\n- Include meaningful props related to Chinese learning, such as books, chalkboard, toys, flowers, bags, tables, cups, or other scene-appropriate objects.\n- Keep the layout clean and stable, suitable for a modern learning page or printable study material.\nComposition:\n- One clear main action, readable background, strong focal point, and enough empty space for later educational text layout.\n- Make the illustration feel polished, warm, and visually consistent with the Fun Hanzi style, without looking like preschool material.\nIMPORTANT:\n- Do NOT generate any Chinese characters, pinyin, letters, or text in the image.\n- Leave empty space where educational text can be added later.\n- Hanzi and pinyin planning notes belong in the separate text layout, not inside the image.\n- If any visible text is produced by mistake, it must be treated as an error and regenerated.",
+      "status": "pending",
+      "asset_id": null,
+      "file_path": ""
+    },
+    {
+      "scene_id": "scene-3",
+      "prompt": "Create a storybook-style learning illustration for school-age Chinese learners.\nStyle baseline: storybook illustration, soft shapes, warm light, expressive characters.\nScene goal: 自习结束后，一位同学把水杯放在桌上，收拾时拿错了别人的本子。\nScene type: 课堂互动\nLocation: 小学高年级或初中预备阶段的中文课堂或校园环境\nFocus characters: 对、本、杯\nFocus words: 对不起、本子\nVisual direction:\n- Use soft shapes, warm light, expressive characters, and an age-appropriate atmosphere for learners around ages 9-13.\n- Build a grounded educational scene connected to real Chinese learning moments such as classroom discussion, home routines, reading, greeting, helping, planning, travel, or going out.\n- Include meaningful props related to Chinese learning, such as books, chalkboard, toys, flowers, bags, tables, cups, or other scene-appropriate objects.\n- Keep the layout clean and stable, suitable for a modern learning page or printable study material.\nComposition:\n- One clear main action, readable background, strong focal point, and enough empty space for later educational text layout.\n- Make the illustration feel polished, warm, and visually consistent with the Fun Hanzi style, without looking like preschool material.\nIMPORTANT:\n- Do NOT generate any Chinese characters, pinyin, letters, or text in the image.\n- Leave empty space where educational text can be added later.\n- Hanzi and pinyin planning notes belong in the separate text layout, not inside the image.\n- If any visible text is produced by mistake, it must be treated as an error and regenerated.",
+      "status": "pending",
+      "asset_id": null,
+      "file_path": ""
+    }
+  ],
+  "video_tasks": [
+    {
+      "scene_id": "scene-1",
+      "prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 校园导览\nLearning goal: 老师带大家看校园地图，先找东边，再看西边的图书角。\nReal-life setting: 课堂互动 / 小学高年级或初中预备阶段的中文课堂或校园环境\nCharacter relationship: 老师和学生围绕一个具体任务进行交流、观察或回答\nFocus characters: 东、西、对\nFocus words: 东边、西边\nFixed spoken line: 先找东边，再看西边。\nReference pinyin for production only: xiān zhǎo dōng biān， zài kàn xī biān。\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 课堂互动 in 小学高年级或初中预备阶段的中文课堂或校园环境. Show 老师和学生围绕一个具体任务进行交流、观察或回答. Let 东边、西边 and the focus characters 东、西、对 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “先找东边，再看西边。”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 东 -> dōng; 西 -> xī; 对 -> duì. Keep these exact Hanzi+pinyin pairs in your notes: 东 dōng | 西 xī | 对 duì.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: xiān zhǎo dōng biān， zài kàn xī biān。. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "status": "pending",
+      "asset_id": null,
+      "file_path": ""
+    },
+    {
+      "scene_id": "scene-2",
+      "prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 图书角\nLearning goal: 午休时，几个同学坐在图书角交流最近读过的书。\nReal-life setting: 课堂互动 / 小学高年级或初中预备阶段的中文课堂或校园环境\nCharacter relationship: 老师和学生围绕一个具体任务进行交流、观察或回答\nFocus characters: 都、读、爱\nFocus words: 读书、爱好\nFixed spoken line: 我们都爱读书。\nReference pinyin for production only: wǒ men dōu ài dú shū。\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 课堂互动 in 小学高年级或初中预备阶段的中文课堂或校园环境. Show 老师和学生围绕一个具体任务进行交流、观察或回答. Let 读书、爱好 and the focus characters 都、读、爱 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “我们都爱读书。”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 都 -> dōu; 读 -> dú; 爱 -> ài. Keep these exact Hanzi+pinyin pairs in your notes: 都 dōu | 读 dú | 爱 ài.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: wǒ men dōu ài dú shū。. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "status": "pending",
+      "asset_id": null,
+      "file_path": ""
+    },
+    {
+      "scene_id": "scene-3",
+      "prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 借书交流\nLearning goal: 自习结束后，一位同学把水杯放在桌上，收拾时拿错了别人的本子。\nReal-life setting: 课堂互动 / 小学高年级或初中预备阶段的中文课堂或校园环境\nCharacter relationship: 老师和学生围绕一个具体任务进行交流、观察或回答\nFocus characters: 对、本、杯\nFocus words: 对不起、本子\nFixed spoken line: 对不起，我拿错本子了。\nReference pinyin for production only: duì bù qǐ， wǒ ná cuò běn zǐ le。\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 课堂互动 in 小学高年级或初中预备阶段的中文课堂或校园环境. Show 老师和学生围绕一个具体任务进行交流、观察或回答. Let 对不起、本子 and the focus characters 对、本、杯 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “对不起，我拿错本子了。”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 对 -> duì; 本 -> běn; 杯 -> bēi. Keep these exact Hanzi+pinyin pairs in your notes: 对 duì | 本 běn | 杯 bēi.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: duì bù qǐ， wǒ ná cuò běn zǐ le。. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "status": "pending",
+      "asset_id": null,
+      "file_path": ""
+    }
+  ],
+  "video_storyboard": [
+    {
+      "scene_id": "scene-1",
+      "title": "校园导览",
+      "prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 校园导览\nLearning goal: 老师带大家看校园地图，先找东边，再看西边的图书角。\nReal-life setting: 课堂互动 / 小学高年级或初中预备阶段的中文课堂或校园环境\nCharacter relationship: 老师和学生围绕一个具体任务进行交流、观察或回答\nFocus characters: 东、西、对\nFocus words: 东边、西边\nFixed spoken line: 先找东边，再看西边。\nReference pinyin for production only: xiān zhǎo dōng biān， zài kàn xī biān。\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 课堂互动 in 小学高年级或初中预备阶段的中文课堂或校园环境. Show 老师和学生围绕一个具体任务进行交流、观察或回答. Let 东边、西边 and the focus characters 东、西、对 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “先找东边，再看西边。”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 东 -> dōng; 西 -> xī; 对 -> duì. Keep these exact Hanzi+pinyin pairs in your notes: 东 dōng | 西 xī | 对 duì.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: xiān zhǎo dōng biān， zài kàn xī biān。. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "script": "场景：校园导览\n视频类型：课堂互动\n真实场合：小学高年级或初中预备阶段的中文课堂或校园环境\n人物关系：老师和学生围绕一个具体任务进行交流、观察或回答\n固定台词：先找东边，再看西边。\n参考拼音：xiān zhǎo dōng biān， zài kàn xī biān。\n目标字：东、西、对\n剧情结构：先交代一个真实小场景，再出现一个小问题或小任务，接着通过人物互动自然说出台词，最后温暖收尾。\n镜头1：建立真实场景，让学生一眼看懂人物在做什么，并为“先找东边，再看西边。”做铺垫。\n镜头2：出现一个具体动作或小问题，把目标字 东、西、对 藏在物件、地点、任务或人物反应里，不要像生硬教学演示。\n镜头3：角色在情境里自然说出固定台词“先找东边，再看西边。”，嘴型清楚，情绪真实，动作和台词有关联。\n镜头4：给出回应或结果，例如同学反馈、老师确认、家人回应、任务完成，让学习者感觉这个句子在真实生活里有用。\n镜头5：收尾停留 1-2 秒，保持画面温暖、真实、易懂，但不要过于幼态。\n字幕策略：视频里不强制加入拼音字幕，拼音会由学习页面单独展示；如需字幕，只保留汉字即可。"
+    },
+    {
+      "scene_id": "scene-2",
+      "title": "图书角",
+      "prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 图书角\nLearning goal: 午休时，几个同学坐在图书角交流最近读过的书。\nReal-life setting: 课堂互动 / 小学高年级或初中预备阶段的中文课堂或校园环境\nCharacter relationship: 老师和学生围绕一个具体任务进行交流、观察或回答\nFocus characters: 都、读、爱\nFocus words: 读书、爱好\nFixed spoken line: 我们都爱读书。\nReference pinyin for production only: wǒ men dōu ài dú shū。\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 课堂互动 in 小学高年级或初中预备阶段的中文课堂或校园环境. Show 老师和学生围绕一个具体任务进行交流、观察或回答. Let 读书、爱好 and the focus characters 都、读、爱 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “我们都爱读书。”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 都 -> dōu; 读 -> dú; 爱 -> ài. Keep these exact Hanzi+pinyin pairs in your notes: 都 dōu | 读 dú | 爱 ài.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: wǒ men dōu ài dú shū。. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "script": "场景：图书角\n视频类型：课堂互动\n真实场合：小学高年级或初中预备阶段的中文课堂或校园环境\n人物关系：老师和学生围绕一个具体任务进行交流、观察或回答\n固定台词：我们都爱读书。\n参考拼音：wǒ men dōu ài dú shū。\n目标字：都、读、爱\n剧情结构：先交代一个真实小场景，再出现一个小问题或小任务，接着通过人物互动自然说出台词，最后温暖收尾。\n镜头1：建立真实场景，让学生一眼看懂人物在做什么，并为“我们都爱读书。”做铺垫。\n镜头2：出现一个具体动作或小问题，把目标字 都、读、爱 藏在物件、地点、任务或人物反应里，不要像生硬教学演示。\n镜头3：角色在情境里自然说出固定台词“我们都爱读书。”，嘴型清楚，情绪真实，动作和台词有关联。\n镜头4：给出回应或结果，例如同学反馈、老师确认、家人回应、任务完成，让学习者感觉这个句子在真实生活里有用。\n镜头5：收尾停留 1-2 秒，保持画面温暖、真实、易懂，但不要过于幼态。\n字幕策略：视频里不强制加入拼音字幕，拼音会由学习页面单独展示；如需字幕，只保留汉字即可。"
+    },
+    {
+      "scene_id": "scene-3",
+      "title": "借书交流",
+      "prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 借书交流\nLearning goal: 自习结束后，一位同学把水杯放在桌上，收拾时拿错了别人的本子。\nReal-life setting: 课堂互动 / 小学高年级或初中预备阶段的中文课堂或校园环境\nCharacter relationship: 老师和学生围绕一个具体任务进行交流、观察或回答\nFocus characters: 对、本、杯\nFocus words: 对不起、本子\nFixed spoken line: 对不起，我拿错本子了。\nReference pinyin for production only: duì bù qǐ， wǒ ná cuò běn zǐ le。\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 课堂互动 in 小学高年级或初中预备阶段的中文课堂或校园环境. Show 老师和学生围绕一个具体任务进行交流、观察或回答. Let 对不起、本子 and the focus characters 对、本、杯 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “对不起，我拿错本子了。”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 对 -> duì; 本 -> běn; 杯 -> bēi. Keep these exact Hanzi+pinyin pairs in your notes: 对 duì | 本 běn | 杯 bēi.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: duì bù qǐ， wǒ ná cuò běn zǐ le。. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "script": "场景：借书交流\n视频类型：课堂互动\n真实场合：小学高年级或初中预备阶段的中文课堂或校园环境\n人物关系：老师和学生围绕一个具体任务进行交流、观察或回答\n固定台词：对不起，我拿错本子了。\n参考拼音：duì bù qǐ， wǒ ná cuò běn zǐ le。\n目标字：对、本、杯\n剧情结构：先交代一个真实小场景，再出现一个小问题或小任务，接着通过人物互动自然说出台词，最后温暖收尾。\n镜头1：建立真实场景，让学生一眼看懂人物在做什么，并为“对不起，我拿错本子了。”做铺垫。\n镜头2：出现一个具体动作或小问题，把目标字 对、本、杯 藏在物件、地点、任务或人物反应里，不要像生硬教学演示。\n镜头3：角色在情境里自然说出固定台词“对不起，我拿错本子了。”，嘴型清楚，情绪真实，动作和台词有关联。\n镜头4：给出回应或结果，例如同学反馈、老师确认、家人回应、任务完成，让学习者感觉这个句子在真实生活里有用。\n镜头5：收尾停留 1-2 秒，保持画面温暖、真实、易懂，但不要过于幼态。\n字幕策略：视频里不强制加入拼音字幕，拼音会由学习页面单独展示；如需字幕，只保留汉字即可。"
+    }
+  ],
+  "audio_tasks": [
+    {
+      "scope": "char",
+      "id": "东",
+      "text": "东，第一声，dōng",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "西",
+      "text": "西，第一声，xī",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "都",
+      "text": "都，第一声，dōu",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "读",
+      "text": "读，第二声，dú",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "对",
+      "text": "对，第四声，duì",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "杯",
+      "text": "杯，第一声，bēi",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "爱",
+      "text": "爱，第四声，ài",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "本",
+      "text": "本，第三声，běn",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-1",
+      "text": "东边",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-2",
+      "text": "西边",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-3",
+      "text": "读书",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-4",
+      "text": "对不起",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-5",
+      "text": "本子",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-6",
+      "text": "杯子",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "sentence",
+      "id": "sentence-1",
+      "text": "请先往东走，再向西看。",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "sentence",
+      "id": "sentence-2",
+      "text": "我们都爱读书。",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "sentence",
+      "id": "sentence-3",
+      "text": "对不起，我拿错本子了。",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "sentence",
+      "id": "sentence-4",
+      "text": "读书是我的爱好。",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "story",
+      "id": "scene-1",
+      "text": "老师带大家看校园地图，先找东边，再看西边的图书角。",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "story",
+      "id": "scene-2",
+      "text": "午休时，几个同学坐在图书角交流最近读过的书。",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "story",
+      "id": "scene-3",
+      "text": "自习结束后，一位同学把水杯放在桌上，收拾时拿错了别人的本子。",
+      "status": "pending",
+      "file_path": ""
+    }
+  ],
+  "worksheet": {
+    "status": "ready",
+    "file_path": "/assets/worksheets/2026-W11/handwriting_practice.pdf",
+    "page_size": "A4",
+    "entries": 8
+  },
+  "status": "ready",
+  "generation_mode": "ai",
+  "updated_at": "2026-03-15T02:19:47.218379+00:00"
+}

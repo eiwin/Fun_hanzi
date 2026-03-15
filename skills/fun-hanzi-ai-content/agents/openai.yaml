@@ -1,0 +1,7 @@
+interface:
+  display_name: "Fun Hanzi AI Content"
+  short_description: "Generate weekly Hanzi content packs and prompt bundles"
+  default_prompt: "Use $fun-hanzi-ai-content to plan the next weekly pack, select new and review characters, and draft image/video prompts."
+
+policy:
+  allow_implicit_invocation: true

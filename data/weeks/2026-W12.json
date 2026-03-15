@@ -1,0 +1,867 @@
+{
+  "week_id": "2026-W12",
+  "learner_id": "default",
+  "generated_at": "2026-03-15T02:23:25.081053+00:00",
+  "title": "校园问路与集合周",
+  "summary": "本周会认识新字 很、这、那、哪、人，再复习 们、气、天。我们会在校园集合、问路和课后约定里学习指代、询问位置和描述天气。",
+  "new_chars": [
+    "很",
+    "这",
+    "那",
+    "哪",
+    "人"
+  ],
+  "review_chars": [
+    "们",
+    "气",
+    "天"
+  ],
+  "char_cards": [
+    {
+      "char": "很",
+      "pinyin": "hěn",
+      "pinyin_numeric": "hen3",
+      "pronunciation_guide": "很，第三声，hěn",
+      "meaning": "very",
+      "radical": "彳",
+      "stroke_count": 9,
+      "stroke_hint": "",
+      "structure": "左右",
+      "components": [
+        "彳",
+        "艮"
+      ],
+      "words": [
+        "很好",
+        "很多"
+      ],
+      "word_pronunciation_hints": [
+        "很好: hěn hǎo",
+        "很多: 很(hěn)"
+      ],
+      "sentence": "天气很好。",
+      "sentence_pinyin": "tiān qì hěn hǎo。",
+      "sentence_pronunciation_labels": [
+        "天(tiān)",
+        "气(qì)",
+        "很(hěn)",
+        "好(hǎo)"
+      ],
+      "tags": [
+        "degree"
+      ],
+      "audio_text": "很，第三声，hěn",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "这",
+      "pinyin": "zhè",
+      "pinyin_numeric": "zhe4",
+      "pronunciation_guide": "这，第四声，zhè",
+      "meaning": "this",
+      "radical": "辶",
+      "stroke_count": 7,
+      "stroke_hint": "",
+      "structure": "半包围",
+      "components": [
+        "文",
+        "辶"
+      ],
+      "words": [
+        "这是",
+        "这书"
+      ],
+      "word_pronunciation_hints": [
+        "这是: zhè shì",
+        "这书: zhè shū"
+      ],
+      "sentence": "这是书。",
+      "sentence_pinyin": "zhè shì shū。",
+      "sentence_pronunciation_labels": [
+        "这(zhè)",
+        "是(shì)",
+        "书(shū)"
+      ],
+      "tags": [
+        "place"
+      ],
+      "audio_text": "这，第四声，zhè",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "那",
+      "pinyin": "nà",
+      "pinyin_numeric": "na4",
+      "pronunciation_guide": "那，第四声，nà",
+      "meaning": "that",
+      "radical": "阝",
+      "stroke_count": 6,
+      "stroke_hint": "",
+      "structure": "左右",
+      "components": [
+        "冄",
+        "阝"
+      ],
+      "words": [
+        "那是",
+        "那书"
+      ],
+      "word_pronunciation_hints": [
+        "那是: nà shì",
+        "那书: nà shū"
+      ],
+      "sentence": "那是书。",
+      "sentence_pinyin": "nà shì shū。",
+      "sentence_pronunciation_labels": [
+        "那(nà)",
+        "是(shì)",
+        "书(shū)"
+      ],
+      "tags": [
+        "place"
+      ],
+      "audio_text": "那，第四声，nà",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "哪",
+      "pinyin": "nǎ",
+      "pinyin_numeric": "na3",
+      "pronunciation_guide": "哪，第三声，nǎ",
+      "meaning": "which; where",
+      "radical": "口",
+      "stroke_count": 9,
+      "stroke_hint": "",
+      "structure": "左右",
+      "components": [
+        "口",
+        "那"
+      ],
+      "words": [
+        "在哪",
+        "哪本"
+      ],
+      "word_pronunciation_hints": [
+        "在哪: zài nǎ",
+        "哪本: 哪(nǎ)"
+      ],
+      "sentence": "你在哪？",
+      "sentence_pinyin": "nǐ zài nǎ？",
+      "sentence_pronunciation_labels": [
+        "你(nǐ)",
+        "在(zài)",
+        "哪(nǎ)"
+      ],
+      "tags": [
+        "question"
+      ],
+      "audio_text": "哪，第三声，nǎ",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pinyin_numeric": "ren2",
+      "pronunciation_guide": "人，第二声，rén",
+      "meaning": "person",
+      "radical": "人",
+      "stroke_count": 2,
+      "stroke_hint": "",
+      "structure": "独体",
+      "components": [
+        "人"
+      ],
+      "words": [
+        "好人",
+        "家人"
+      ],
+      "word_pronunciation_hints": [
+        "好人: hǎo rén",
+        "家人: jiā rén"
+      ],
+      "sentence": "他是好人。",
+      "sentence_pinyin": "tā shì hǎo rén。",
+      "sentence_pronunciation_labels": [
+        "他(tā)",
+        "是(shì)",
+        "好(hǎo)",
+        "人(rén)"
+      ],
+      "tags": [
+        "people"
+      ],
+      "audio_text": "人，第二声，rén",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "们",
+      "pinyin": "men",
+      "pinyin_numeric": "men5",
+      "pronunciation_guide": "们，轻声，men",
+      "meaning": "plural marker",
+      "radical": "亻",
+      "stroke_count": 5,
+      "stroke_hint": "",
+      "structure": "左右",
+      "components": [
+        "亻",
+        "门"
+      ],
+      "words": [
+        "你们",
+        "我们"
+      ],
+      "word_pronunciation_hints": [
+        "你们: nǐ men",
+        "我们: wǒ men"
+      ],
+      "sentence": "你们好。",
+      "sentence_pinyin": "nǐ men hǎo。",
+      "sentence_pronunciation_labels": [
+        "你(nǐ)",
+        "们(men)",
+        "好(hǎo)"
+      ],
+      "tags": [
+        "people"
+      ],
+      "audio_text": "们，轻声，men",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "气",
+      "pinyin": "qì",
+      "pinyin_numeric": "qi4",
+      "pronunciation_guide": "气，第四声，qì",
+      "meaning": "air; weather",
+      "radical": "气",
+      "stroke_count": 4,
+      "stroke_hint": "",
+      "structure": "独体",
+      "components": [
+        "气"
+      ],
+      "words": [
+        "天气",
+        "生气"
+      ],
+      "word_pronunciation_hints": [
+        "天气: tiān qì",
+        "生气: shēng qì"
+      ],
+      "sentence": "天气好。",
+      "sentence_pinyin": "tiān qì hǎo。",
+      "sentence_pronunciation_labels": [
+        "天(tiān)",
+        "气(qì)",
+        "好(hǎo)"
+      ],
+      "tags": [
+        "nature"
+      ],
+      "audio_text": "气，第四声，qì",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "天",
+      "pinyin": "tiān",
+      "pinyin_numeric": "tian1",
+      "pronunciation_guide": "天，第一声，tiān",
+      "meaning": "day; sky",
+      "radical": "大",
+      "stroke_count": 4,
+      "stroke_hint": "",
+      "structure": "上下",
+      "components": [
+        "一",
+        "大"
+      ],
+      "words": [
+        "天气",
+        "天文"
+      ],
+      "word_pronunciation_hints": [
+        "天气: tiān qì",
+        "天文: tiān wén"
+      ],
+      "sentence": "天气好。",
+      "sentence_pinyin": "tiān qì hǎo。",
+      "sentence_pronunciation_labels": [
+        "天(tiān)",
+        "气(qì)",
+        "好(hǎo)"
+      ],
+      "tags": [
+        "nature"
+      ],
+      "audio_text": "天，第一声，tiān",
+      "audio_status": "pending",
+      "audio_path": ""
+    }
+  ],
+  "words": [
+    {
+      "text": "很好",
+      "pinyin_text": "hěn hǎo",
+      "pronunciation_labels": [
+        "很(hěn)",
+        "好(hǎo)"
+      ],
+      "audio_text": "很好",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "text": "这里",
+      "pinyin_text": "zhè lǐ",
+      "pronunciation_labels": [
+        "这(zhè)",
+        "里(lǐ)"
+      ],
+      "audio_text": "这里",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "text": "那边",
+      "pinyin_text": "nà biān",
+      "pronunciation_labels": [
+        "那(nà)",
+        "边(biān)"
+      ],
+      "audio_text": "那边",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "text": "哪里",
+      "pinyin_text": "nǎ lǐ",
+      "pronunciation_labels": [
+        "哪(nǎ)",
+        "里(lǐ)"
+      ],
+      "audio_text": "哪里",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "text": "天气",
+      "pinyin_text": "tiān qì",
+      "pronunciation_labels": [
+        "天(tiān)",
+        "气(qì)"
+      ],
+      "audio_text": "天气",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "text": "你们",
+      "pinyin_text": "nǐ men",
+      "pronunciation_labels": [
+        "你(nǐ)",
+        "们(men)"
+      ],
+      "audio_text": "你们",
+      "audio_status": "pending",
+      "audio_path": ""
+    }
+  ],
+  "sentences": [
+    {
+      "id": "sentence-1",
+      "text": "今天天气很好。",
+      "pinyin_text": "jīn tiān tiān qì hěn hǎo。",
+      "pronunciation_labels": [
+        "今(jīn)",
+        "天(tiān)",
+        "气(qì)",
+        "很(hěn)",
+        "好(hǎo)"
+      ],
+      "audio_text": "今天天气很好。",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "id": "sentence-2",
+      "text": "这个人是新同学。",
+      "pinyin_text": "zhè gè rén shì xīn tóng xué。",
+      "pronunciation_labels": [
+        "这(zhè)",
+        "个(gè)",
+        "人(rén)",
+        "是(shì)",
+        "新(xīn)",
+        "同(tóng)",
+        "学(xué)"
+      ],
+      "audio_text": "这个人是新同学。",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "id": "sentence-3",
+      "text": "那边是哪间教室？",
+      "pinyin_text": "nà biān shì nǎ jiān jiāo shì？",
+      "pronunciation_labels": [
+        "那(nà)",
+        "边(biān)",
+        "是(shì)",
+        "哪(nǎ)",
+        "间(jiān)",
+        "教(jiāo)",
+        "室(shì)"
+      ],
+      "audio_text": "那边是哪间教室？",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "id": "sentence-4",
+      "text": "你们在这里等我。",
+      "pinyin_text": "nǐ men zài zhè lǐ děng wǒ。",
+      "pronunciation_labels": [
+        "你(nǐ)",
+        "们(men)",
+        "在(zài)",
+        "这(zhè)",
+        "里(lǐ)",
+        "等(děng)",
+        "我(wǒ)"
+      ],
+      "audio_text": "你们在这里等我。",
+      "audio_status": "pending",
+      "audio_path": ""
+    }
+  ],
+  "story": [
+    {
+      "id": "scene-1",
+      "title": "校门集合",
+      "text": "下午活动前，大家在校门口集合，天气很好。",
+      "pinyin_text": "jīn tiān tiān qì hěn hǎo。",
+      "pronunciation_labels": [
+        "下(xià)",
+        "午(wǔ)",
+        "活(huó)",
+        "动(dòng)",
+        "前(qián)",
+        "大(dà)",
+        "家(jiā)",
+        "在(zài)",
+        "校(jiào)",
+        "门(mén)",
+        "口(kǒu)",
+        "合(gě)",
+        "天(tiān)",
+        "气(qì)",
+        "很(hěn)",
+        "好(hǎo)"
+      ],
+      "dialogue_line": "今天天气很好。",
+      "dialogue_pinyin": "jīn tiān tiān qì hěn hǎo。",
+      "focus_chars": [
+        "很",
+        "天",
+        "气"
+      ],
+      "focus_words": [
+        "天气",
+        "很好"
+      ],
+      "image_prompt": "Create a storybook-style learning illustration for school-age Chinese learners.\nStyle baseline: storybook illustration, soft shapes, warm light, expressive characters.\nScene goal: 下午活动前，大家在校门口集合，天气很好。\nScene type: 课堂互动\nLocation: 小学高年级或初中预备阶段的中文课堂或校园环境\nFocus characters: 很、天、气\nFocus words: 天气、很好\nVisual direction:\n- Use soft shapes, warm light, expressive characters, and an age-appropriate atmosphere for learners around ages 9-13.\n- Build a grounded educational scene connected to real Chinese learning moments such as classroom discussion, home routines, reading, greeting, helping, planning, travel, or going out.\n- Include meaningful props related to Chinese learning, such as books, chalkboard, toys, flowers, bags, tables, cups, or other scene-appropriate objects.\n- Keep the layout clean and stable, suitable for a modern learning page or printable study material.\nComposition:\n- One clear main action, readable background, strong focal point, and enough empty space for later educational text layout.\n- Make the illustration feel polished, warm, and visually consistent with the Fun Hanzi style, without looking like preschool material.\nIMPORTANT:\n- Do NOT generate any Chinese characters, pinyin, letters, or text in the image.\n- Leave empty space where educational text can be added later.\n- Hanzi and pinyin planning notes belong in the separate text layout, not inside the image.\n- If any visible text is produced by mistake, it must be treated as an error and regenerated.",
+      "video_prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 校门集合\nLearning goal: 下午活动前，大家在校门口集合，天气很好。\nReal-life setting: 课堂互动 / 小学高年级或初中预备阶段的中文课堂或校园环境\nCharacter relationship: 老师和学生围绕一个具体任务进行交流、观察或回答\nFocus characters: 很、天、气\nFocus words: 天气、很好\nFixed spoken line: 今天天气很好。\nReference pinyin for production only: jīn tiān tiān qì hěn hǎo。\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 课堂互动 in 小学高年级或初中预备阶段的中文课堂或校园环境. Show 老师和学生围绕一个具体任务进行交流、观察或回答. Let 天气、很好 and the focus characters 很、天、气 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “今天天气很好。”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 很 -> hěn; 天 -> tiān; 气 -> qì. Keep these exact Hanzi+pinyin pairs in your notes: 很 hěn | 天 tiān | 气 qì.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: jīn tiān tiān qì hěn hǎo。. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "video_script": "场景：校门集合\n视频类型：课堂互动\n真实场合：小学高年级或初中预备阶段的中文课堂或校园环境\n人物关系：老师和学生围绕一个具体任务进行交流、观察或回答\n固定台词：今天天气很好。\n参考拼音：jīn tiān tiān qì hěn hǎo。\n目标字：很、天、气\n剧情结构：先交代一个真实小场景，再出现一个小问题或小任务，接着通过人物互动自然说出台词，最后温暖收尾。\n镜头1：建立真实场景，让学生一眼看懂人物在做什么，并为“今天天气很好。”做铺垫。\n镜头2：出现一个具体动作或小问题，把目标字 很、天、气 藏在物件、地点、任务或人物反应里，不要像生硬教学演示。\n镜头3：角色在情境里自然说出固定台词“今天天气很好。”，嘴型清楚，情绪真实，动作和台词有关联。\n镜头4：给出回应或结果，例如同学反馈、老师确认、家人回应、任务完成，让学习者感觉这个句子在真实生活里有用。\n镜头5：收尾停留 1-2 秒，保持画面温暖、真实、易懂，但不要过于幼态。\n字幕策略：视频里不强制加入拼音字幕，拼音会由学习页面单独展示；如需字幕，只保留汉字即可。",
+      "focus_pronunciations": [
+        {
+          "char": "很",
+          "pinyin": "hěn"
+        },
+        {
+          "char": "天",
+          "pinyin": "tiān"
+        },
+        {
+          "char": "气",
+          "pinyin": "qì"
+        }
+      ],
+      "image_status": "pending",
+      "image_asset_id": null,
+      "image_path": "",
+      "video_status": "pending",
+      "video_asset_id": null,
+      "video_path": "",
+      "audio_text": "今天天气很好。",
+      "audio_status": "pending",
+      "audio_path": "",
+      "image_text_layout": "【标题】\n今天天气很好。\njīn tiān tiān qì hěn hǎo。\n\n【重点字】\n很\nhěn\n天\ntiān\n气\nqì\n\n【词语】\n天气\n很好\n\n【教学标签】\n很 hěn | 天 tiān | 气 qì"
+    },
+    {
+      "id": "scene-2",
+      "title": "问路去教室",
+      "text": "新同学站在教学楼前，看着指示牌问下一节课在哪里上。",
+      "pinyin_text": "xīn tóng xué zhàn zài jiāo xué lóu qián， kàn zhe zhǐ shì pái wèn xià yī jié kè zài nǎ lǐ shàng。",
+      "pronunciation_labels": [
+        "新(xīn)",
+        "同(tóng)",
+        "学(xué)",
+        "站(zhàn)",
+        "在(zài)",
+        "教(jiāo)",
+        "楼(lóu)",
+        "前(qián)",
+        "看(kàn)",
+        "着(zhe)",
+        "指(zhǐ)",
+        "示(shì)",
+        "牌(pái)",
+        "问(wèn)",
+        "下(xià)",
+        "一(yī)",
+        "节(jié)",
+        "课(kè)",
+        "哪(nǎ)",
+        "里(lǐ)",
+        "上(shàng)"
+      ],
+      "dialogue_line": "那边是哪间教室？",
+      "dialogue_pinyin": "nà biān shì nǎ jiān jiāo shì？",
+      "focus_chars": [
+        "这",
+        "那",
+        "哪"
+      ],
+      "focus_words": [
+        "这里",
+        "那边"
+      ],
+      "image_prompt": "Create a storybook-style learning illustration for school-age Chinese learners.\nStyle baseline: storybook illustration, soft shapes, warm light, expressive characters.\nScene goal: 新同学站在教学楼前，看着指示牌问下一节课在哪里上。\nScene type: 课堂互动\nLocation: 小学高年级或初中预备阶段的中文课堂或校园环境\nFocus characters: 这、那、哪\nFocus words: 这里、那边\nVisual direction:\n- Use soft shapes, warm light, expressive characters, and an age-appropriate atmosphere for learners around ages 9-13.\n- Build a grounded educational scene connected to real Chinese learning moments such as classroom discussion, home routines, reading, greeting, helping, planning, travel, or going out.\n- Include meaningful props related to Chinese learning, such as books, chalkboard, toys, flowers, bags, tables, cups, or other scene-appropriate objects.\n- Keep the layout clean and stable, suitable for a modern learning page or printable study material.\nComposition:\n- One clear main action, readable background, strong focal point, and enough empty space for later educational text layout.\n- Make the illustration feel polished, warm, and visually consistent with the Fun Hanzi style, without looking like preschool material.\nIMPORTANT:\n- Do NOT generate any Chinese characters, pinyin, letters, or text in the image.\n- Leave empty space where educational text can be added later.\n- Hanzi and pinyin planning notes belong in the separate text layout, not inside the image.\n- If any visible text is produced by mistake, it must be treated as an error and regenerated.",
+      "video_prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 问路去教室\nLearning goal: 新同学站在教学楼前，看着指示牌问下一节课在哪里上。\nReal-life setting: 课堂互动 / 小学高年级或初中预备阶段的中文课堂或校园环境\nCharacter relationship: 老师和学生围绕一个具体任务进行交流、观察或回答\nFocus characters: 这、那、哪\nFocus words: 这里、那边\nFixed spoken line: 那边是哪间教室？\nReference pinyin for production only: nà biān shì nǎ jiān jiāo shì？\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 课堂互动 in 小学高年级或初中预备阶段的中文课堂或校园环境. Show 老师和学生围绕一个具体任务进行交流、观察或回答. Let 这里、那边 and the focus characters 这、那、哪 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “那边是哪间教室？”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 这 -> zhè; 那 -> nà; 哪 -> nǎ. Keep these exact Hanzi+pinyin pairs in your notes: 这 zhè | 那 nà | 哪 nǎ.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: nà biān shì nǎ jiān jiāo shì？. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "video_script": "场景：问路去教室\n视频类型：课堂互动\n真实场合：小学高年级或初中预备阶段的中文课堂或校园环境\n人物关系：老师和学生围绕一个具体任务进行交流、观察或回答\n固定台词：那边是哪间教室？\n参考拼音：nà biān shì nǎ jiān jiāo shì？\n目标字：这、那、哪\n剧情结构：先交代一个真实小场景，再出现一个小问题或小任务，接着通过人物互动自然说出台词，最后温暖收尾。\n镜头1：建立真实场景，让学生一眼看懂人物在做什么，并为“那边是哪间教室？”做铺垫。\n镜头2：出现一个具体动作或小问题，把目标字 这、那、哪 藏在物件、地点、任务或人物反应里，不要像生硬教学演示。\n镜头3：角色在情境里自然说出固定台词“那边是哪间教室？”，嘴型清楚，情绪真实，动作和台词有关联。\n镜头4：给出回应或结果，例如同学反馈、老师确认、家人回应、任务完成，让学习者感觉这个句子在真实生活里有用。\n镜头5：收尾停留 1-2 秒，保持画面温暖、真实、易懂，但不要过于幼态。\n字幕策略：视频里不强制加入拼音字幕，拼音会由学习页面单独展示；如需字幕，只保留汉字即可。",
+      "focus_pronunciations": [
+        {
+          "char": "这",
+          "pinyin": "zhè"
+        },
+        {
+          "char": "那",
+          "pinyin": "nà"
+        },
+        {
+          "char": "哪",
+          "pinyin": "nǎ"
+        }
+      ],
+      "image_status": "pending",
+      "image_asset_id": null,
+      "image_path": "",
+      "video_status": "pending",
+      "video_asset_id": null,
+      "video_path": "",
+      "audio_text": "那边是哪间教室？",
+      "audio_status": "pending",
+      "audio_path": "",
+      "image_text_layout": "【标题】\n那边是哪间教室？\nnà biān shì nǎ jiān jiāo shì？\n\n【重点字】\n这\nzhè\n那\nnà\n哪\nnǎ\n\n【词语】\n这里\n那边\n\n【教学标签】\n这 zhè | 那 nà | 哪 nǎ"
+    },
+    {
+      "id": "scene-3",
+      "title": "放学约定",
+      "text": "活动结束后，门口有很多人，一个学生正在找同学会合。",
+      "pinyin_text": "huó dòng jiē shù hòu， mén kǒu yǒu hěn duō rén， yī gè xué shēng zhèng zài zhǎo tóng xué huì gě。",
+      "pronunciation_labels": [
+        "活(huó)",
+        "动(dòng)",
+        "结(jiē)",
+        "束(shù)",
+        "后(hòu)",
+        "门(mén)",
+        "口(kǒu)",
+        "有(yǒu)",
+        "很(hěn)",
+        "多(duō)",
+        "人(rén)",
+        "一(yī)",
+        "个(gè)",
+        "学(xué)",
+        "生(shēng)",
+        "正(zhèng)",
+        "在(zài)",
+        "找(zhǎo)",
+        "同(tóng)",
+        "会(huì)",
+        "合(gě)"
+      ],
+      "dialogue_line": "你们在哪里？",
+      "dialogue_pinyin": "nǐ men zài nǎ lǐ？",
+      "focus_chars": [
+        "人",
+        "们",
+        "哪"
+      ],
+      "focus_words": [
+        "你们",
+        "哪里"
+      ],
+      "image_prompt": "Create a storybook-style learning illustration for school-age Chinese learners.\nStyle baseline: storybook illustration, soft shapes, warm light, expressive characters.\nScene goal: 活动结束后，门口有很多人，一个学生正在找同学会合。\nScene type: 课堂互动\nLocation: 小学高年级或初中预备阶段的中文课堂或校园环境\nFocus characters: 人、们、哪\nFocus words: 你们、哪里\nVisual direction:\n- Use soft shapes, warm light, expressive characters, and an age-appropriate atmosphere for learners around ages 9-13.\n- Build a grounded educational scene connected to real Chinese learning moments such as classroom discussion, home routines, reading, greeting, helping, planning, travel, or going out.\n- Include meaningful props related to Chinese learning, such as books, chalkboard, toys, flowers, bags, tables, cups, or other scene-appropriate objects.\n- Keep the layout clean and stable, suitable for a modern learning page or printable study material.\nComposition:\n- One clear main action, readable background, strong focal point, and enough empty space for later educational text layout.\n- Make the illustration feel polished, warm, and visually consistent with the Fun Hanzi style, without looking like preschool material.\nIMPORTANT:\n- Do NOT generate any Chinese characters, pinyin, letters, or text in the image.\n- Leave empty space where educational text can be added later.\n- Hanzi and pinyin planning notes belong in the separate text layout, not inside the image.\n- If any visible text is produced by mistake, it must be treated as an error and regenerated.",
+      "video_prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 放学约定\nLearning goal: 活动结束后，门口有很多人，一个学生正在找同学会合。\nReal-life setting: 课堂互动 / 小学高年级或初中预备阶段的中文课堂或校园环境\nCharacter relationship: 老师和学生围绕一个具体任务进行交流、观察或回答\nFocus characters: 人、们、哪\nFocus words: 你们、哪里\nFixed spoken line: 你们在哪里？\nReference pinyin for production only: nǐ men zài nǎ lǐ？\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 课堂互动 in 小学高年级或初中预备阶段的中文课堂或校园环境. Show 老师和学生围绕一个具体任务进行交流、观察或回答. Let 你们、哪里 and the focus characters 人、们、哪 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “你们在哪里？”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 人 -> rén; 们 -> men; 哪 -> nǎ. Keep these exact Hanzi+pinyin pairs in your notes: 人 rén | 们 men | 哪 nǎ.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: nǐ men zài nǎ lǐ？. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "video_script": "场景：放学约定\n视频类型：课堂互动\n真实场合：小学高年级或初中预备阶段的中文课堂或校园环境\n人物关系：老师和学生围绕一个具体任务进行交流、观察或回答\n固定台词：你们在哪里？\n参考拼音：nǐ men zài nǎ lǐ？\n目标字：人、们、哪\n剧情结构：先交代一个真实小场景，再出现一个小问题或小任务，接着通过人物互动自然说出台词，最后温暖收尾。\n镜头1：建立真实场景，让学生一眼看懂人物在做什么，并为“你们在哪里？”做铺垫。\n镜头2：出现一个具体动作或小问题，把目标字 人、们、哪 藏在物件、地点、任务或人物反应里，不要像生硬教学演示。\n镜头3：角色在情境里自然说出固定台词“你们在哪里？”，嘴型清楚，情绪真实，动作和台词有关联。\n镜头4：给出回应或结果，例如同学反馈、老师确认、家人回应、任务完成，让学习者感觉这个句子在真实生活里有用。\n镜头5：收尾停留 1-2 秒，保持画面温暖、真实、易懂，但不要过于幼态。\n字幕策略：视频里不强制加入拼音字幕，拼音会由学习页面单独展示；如需字幕，只保留汉字即可。",
+      "focus_pronunciations": [
+        {
+          "char": "人",
+          "pinyin": "rén"
+        },
+        {
+          "char": "们",
+          "pinyin": "men"
+        },
+        {
+          "char": "哪",
+          "pinyin": "nǎ"
+        }
+      ],
+      "image_status": "pending",
+      "image_asset_id": null,
+      "image_path": "",
+      "video_status": "pending",
+      "video_asset_id": null,
+      "video_path": "",
+      "audio_text": "你们在哪里？",
+      "audio_status": "pending",
+      "audio_path": "",
+      "image_text_layout": "【标题】\n你们在哪里？\nnǐ men zài nǎ lǐ？\n\n【重点字】\n人\nrén\n们\nmen\n哪\nnǎ\n\n【词语】\n你们\n哪里\n\n【教学标签】\n人 rén | 们 men | 哪 nǎ"
+    }
+  ],
+  "image_tasks": [
+    {
+      "scene_id": "scene-1",
+      "prompt": "Create a storybook-style learning illustration for school-age Chinese learners.\nStyle baseline: storybook illustration, soft shapes, warm light, expressive characters.\nScene goal: 下午活动前，大家在校门口集合，天气很好。\nScene type: 课堂互动\nLocation: 小学高年级或初中预备阶段的中文课堂或校园环境\nFocus characters: 很、天、气\nFocus words: 天气、很好\nVisual direction:\n- Use soft shapes, warm light, expressive characters, and an age-appropriate atmosphere for learners around ages 9-13.\n- Build a grounded educational scene connected to real Chinese learning moments such as classroom discussion, home routines, reading, greeting, helping, planning, travel, or going out.\n- Include meaningful props related to Chinese learning, such as books, chalkboard, toys, flowers, bags, tables, cups, or other scene-appropriate objects.\n- Keep the layout clean and stable, suitable for a modern learning page or printable study material.\nComposition:\n- One clear main action, readable background, strong focal point, and enough empty space for later educational text layout.\n- Make the illustration feel polished, warm, and visually consistent with the Fun Hanzi style, without looking like preschool material.\nIMPORTANT:\n- Do NOT generate any Chinese characters, pinyin, letters, or text in the image.\n- Leave empty space where educational text can be added later.\n- Hanzi and pinyin planning notes belong in the separate text layout, not inside the image.\n- If any visible text is produced by mistake, it must be treated as an error and regenerated.",
+      "status": "pending",
+      "asset_id": null,
+      "file_path": ""
+    },
+    {
+      "scene_id": "scene-2",
+      "prompt": "Create a storybook-style learning illustration for school-age Chinese learners.\nStyle baseline: storybook illustration, soft shapes, warm light, expressive characters.\nScene goal: 新同学站在教学楼前，看着指示牌问下一节课在哪里上。\nScene type: 课堂互动\nLocation: 小学高年级或初中预备阶段的中文课堂或校园环境\nFocus characters: 这、那、哪\nFocus words: 这里、那边\nVisual direction:\n- Use soft shapes, warm light, expressive characters, and an age-appropriate atmosphere for learners around ages 9-13.\n- Build a grounded educational scene connected to real Chinese learning moments such as classroom discussion, home routines, reading, greeting, helping, planning, travel, or going out.\n- Include meaningful props related to Chinese learning, such as books, chalkboard, toys, flowers, bags, tables, cups, or other scene-appropriate objects.\n- Keep the layout clean and stable, suitable for a modern learning page or printable study material.\nComposition:\n- One clear main action, readable background, strong focal point, and enough empty space for later educational text layout.\n- Make the illustration feel polished, warm, and visually consistent with the Fun Hanzi style, without looking like preschool material.\nIMPORTANT:\n- Do NOT generate any Chinese characters, pinyin, letters, or text in the image.\n- Leave empty space where educational text can be added later.\n- Hanzi and pinyin planning notes belong in the separate text layout, not inside the image.\n- If any visible text is produced by mistake, it must be treated as an error and regenerated.",
+      "status": "pending",
+      "asset_id": null,
+      "file_path": ""
+    },
+    {
+      "scene_id": "scene-3",
+      "prompt": "Create a storybook-style learning illustration for school-age Chinese learners.\nStyle baseline: storybook illustration, soft shapes, warm light, expressive characters.\nScene goal: 活动结束后，门口有很多人，一个学生正在找同学会合。\nScene type: 课堂互动\nLocation: 小学高年级或初中预备阶段的中文课堂或校园环境\nFocus characters: 人、们、哪\nFocus words: 你们、哪里\nVisual direction:\n- Use soft shapes, warm light, expressive characters, and an age-appropriate atmosphere for learners around ages 9-13.\n- Build a grounded educational scene connected to real Chinese learning moments such as classroom discussion, home routines, reading, greeting, helping, planning, travel, or going out.\n- Include meaningful props related to Chinese learning, such as books, chalkboard, toys, flowers, bags, tables, cups, or other scene-appropriate objects.\n- Keep the layout clean and stable, suitable for a modern learning page or printable study material.\nComposition:\n- One clear main action, readable background, strong focal point, and enough empty space for later educational text layout.\n- Make the illustration feel polished, warm, and visually consistent with the Fun Hanzi style, without looking like preschool material.\nIMPORTANT:\n- Do NOT generate any Chinese characters, pinyin, letters, or text in the image.\n- Leave empty space where educational text can be added later.\n- Hanzi and pinyin planning notes belong in the separate text layout, not inside the image.\n- If any visible text is produced by mistake, it must be treated as an error and regenerated.",
+      "status": "pending",
+      "asset_id": null,
+      "file_path": ""
+    }
+  ],
+  "video_tasks": [
+    {
+      "scene_id": "scene-1",
+      "prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 校门集合\nLearning goal: 下午活动前，大家在校门口集合，天气很好。\nReal-life setting: 课堂互动 / 小学高年级或初中预备阶段的中文课堂或校园环境\nCharacter relationship: 老师和学生围绕一个具体任务进行交流、观察或回答\nFocus characters: 很、天、气\nFocus words: 天气、很好\nFixed spoken line: 今天天气很好。\nReference pinyin for production only: jīn tiān tiān qì hěn hǎo。\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 课堂互动 in 小学高年级或初中预备阶段的中文课堂或校园环境. Show 老师和学生围绕一个具体任务进行交流、观察或回答. Let 天气、很好 and the focus characters 很、天、气 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “今天天气很好。”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 很 -> hěn; 天 -> tiān; 气 -> qì. Keep these exact Hanzi+pinyin pairs in your notes: 很 hěn | 天 tiān | 气 qì.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: jīn tiān tiān qì hěn hǎo。. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "status": "pending",
+      "asset_id": null,
+      "file_path": ""
+    },
+    {
+      "scene_id": "scene-2",
+      "prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 问路去教室\nLearning goal: 新同学站在教学楼前，看着指示牌问下一节课在哪里上。\nReal-life setting: 课堂互动 / 小学高年级或初中预备阶段的中文课堂或校园环境\nCharacter relationship: 老师和学生围绕一个具体任务进行交流、观察或回答\nFocus characters: 这、那、哪\nFocus words: 这里、那边\nFixed spoken line: 那边是哪间教室？\nReference pinyin for production only: nà biān shì nǎ jiān jiāo shì？\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 课堂互动 in 小学高年级或初中预备阶段的中文课堂或校园环境. Show 老师和学生围绕一个具体任务进行交流、观察或回答. Let 这里、那边 and the focus characters 这、那、哪 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “那边是哪间教室？”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 这 -> zhè; 那 -> nà; 哪 -> nǎ. Keep these exact Hanzi+pinyin pairs in your notes: 这 zhè | 那 nà | 哪 nǎ.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: nà biān shì nǎ jiān jiāo shì？. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "status": "pending",
+      "asset_id": null,
+      "file_path": ""
+    },
+    {
+      "scene_id": "scene-3",
+      "prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 放学约定\nLearning goal: 活动结束后，门口有很多人，一个学生正在找同学会合。\nReal-life setting: 课堂互动 / 小学高年级或初中预备阶段的中文课堂或校园环境\nCharacter relationship: 老师和学生围绕一个具体任务进行交流、观察或回答\nFocus characters: 人、们、哪\nFocus words: 你们、哪里\nFixed spoken line: 你们在哪里？\nReference pinyin for production only: nǐ men zài nǎ lǐ？\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 课堂互动 in 小学高年级或初中预备阶段的中文课堂或校园环境. Show 老师和学生围绕一个具体任务进行交流、观察或回答. Let 你们、哪里 and the focus characters 人、们、哪 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “你们在哪里？”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 人 -> rén; 们 -> men; 哪 -> nǎ. Keep these exact Hanzi+pinyin pairs in your notes: 人 rén | 们 men | 哪 nǎ.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: nǐ men zài nǎ lǐ？. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "status": "pending",
+      "asset_id": null,
+      "file_path": ""
+    }
+  ],
+  "video_storyboard": [
+    {
+      "scene_id": "scene-1",
+      "title": "校门集合",
+      "prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 校门集合\nLearning goal: 下午活动前，大家在校门口集合，天气很好。\nReal-life setting: 课堂互动 / 小学高年级或初中预备阶段的中文课堂或校园环境\nCharacter relationship: 老师和学生围绕一个具体任务进行交流、观察或回答\nFocus characters: 很、天、气\nFocus words: 天气、很好\nFixed spoken line: 今天天气很好。\nReference pinyin for production only: jīn tiān tiān qì hěn hǎo。\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 课堂互动 in 小学高年级或初中预备阶段的中文课堂或校园环境. Show 老师和学生围绕一个具体任务进行交流、观察或回答. Let 天气、很好 and the focus characters 很、天、气 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “今天天气很好。”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 很 -> hěn; 天 -> tiān; 气 -> qì. Keep these exact Hanzi+pinyin pairs in your notes: 很 hěn | 天 tiān | 气 qì.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: jīn tiān tiān qì hěn hǎo。. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "script": "场景：校门集合\n视频类型：课堂互动\n真实场合：小学高年级或初中预备阶段的中文课堂或校园环境\n人物关系：老师和学生围绕一个具体任务进行交流、观察或回答\n固定台词：今天天气很好。\n参考拼音：jīn tiān tiān qì hěn hǎo。\n目标字：很、天、气\n剧情结构：先交代一个真实小场景，再出现一个小问题或小任务，接着通过人物互动自然说出台词，最后温暖收尾。\n镜头1：建立真实场景，让学生一眼看懂人物在做什么，并为“今天天气很好。”做铺垫。\n镜头2：出现一个具体动作或小问题，把目标字 很、天、气 藏在物件、地点、任务或人物反应里，不要像生硬教学演示。\n镜头3：角色在情境里自然说出固定台词“今天天气很好。”，嘴型清楚，情绪真实，动作和台词有关联。\n镜头4：给出回应或结果，例如同学反馈、老师确认、家人回应、任务完成，让学习者感觉这个句子在真实生活里有用。\n镜头5：收尾停留 1-2 秒，保持画面温暖、真实、易懂，但不要过于幼态。\n字幕策略：视频里不强制加入拼音字幕，拼音会由学习页面单独展示；如需字幕，只保留汉字即可。"
+    },
+    {
+      "scene_id": "scene-2",
+      "title": "问路去教室",
+      "prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 问路去教室\nLearning goal: 新同学站在教学楼前，看着指示牌问下一节课在哪里上。\nReal-life setting: 课堂互动 / 小学高年级或初中预备阶段的中文课堂或校园环境\nCharacter relationship: 老师和学生围绕一个具体任务进行交流、观察或回答\nFocus characters: 这、那、哪\nFocus words: 这里、那边\nFixed spoken line: 那边是哪间教室？\nReference pinyin for production only: nà biān shì nǎ jiān jiāo shì？\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 课堂互动 in 小学高年级或初中预备阶段的中文课堂或校园环境. Show 老师和学生围绕一个具体任务进行交流、观察或回答. Let 这里、那边 and the focus characters 这、那、哪 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “那边是哪间教室？”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 这 -> zhè; 那 -> nà; 哪 -> nǎ. Keep these exact Hanzi+pinyin pairs in your notes: 这 zhè | 那 nà | 哪 nǎ.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: nà biān shì nǎ jiān jiāo shì？. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "script": "场景：问路去教室\n视频类型：课堂互动\n真实场合：小学高年级或初中预备阶段的中文课堂或校园环境\n人物关系：老师和学生围绕一个具体任务进行交流、观察或回答\n固定台词：那边是哪间教室？\n参考拼音：nà biān shì nǎ jiān jiāo shì？\n目标字：这、那、哪\n剧情结构：先交代一个真实小场景，再出现一个小问题或小任务，接着通过人物互动自然说出台词，最后温暖收尾。\n镜头1：建立真实场景，让学生一眼看懂人物在做什么，并为“那边是哪间教室？”做铺垫。\n镜头2：出现一个具体动作或小问题，把目标字 这、那、哪 藏在物件、地点、任务或人物反应里，不要像生硬教学演示。\n镜头3：角色在情境里自然说出固定台词“那边是哪间教室？”，嘴型清楚，情绪真实，动作和台词有关联。\n镜头4：给出回应或结果，例如同学反馈、老师确认、家人回应、任务完成，让学习者感觉这个句子在真实生活里有用。\n镜头5：收尾停留 1-2 秒，保持画面温暖、真实、易懂，但不要过于幼态。\n字幕策略：视频里不强制加入拼音字幕，拼音会由学习页面单独展示；如需字幕，只保留汉字即可。"
+    },
+    {
+      "scene_id": "scene-3",
+      "title": "放学约定",
+      "prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 放学约定\nLearning goal: 活动结束后，门口有很多人，一个学生正在找同学会合。\nReal-life setting: 课堂互动 / 小学高年级或初中预备阶段的中文课堂或校园环境\nCharacter relationship: 老师和学生围绕一个具体任务进行交流、观察或回答\nFocus characters: 人、们、哪\nFocus words: 你们、哪里\nFixed spoken line: 你们在哪里？\nReference pinyin for production only: nǐ men zài nǎ lǐ？\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 课堂互动 in 小学高年级或初中预备阶段的中文课堂或校园环境. Show 老师和学生围绕一个具体任务进行交流、观察或回答. Let 你们、哪里 and the focus characters 人、们、哪 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “你们在哪里？”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 人 -> rén; 们 -> men; 哪 -> nǎ. Keep these exact Hanzi+pinyin pairs in your notes: 人 rén | 们 men | 哪 nǎ.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: nǐ men zài nǎ lǐ？. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "script": "场景：放学约定\n视频类型：课堂互动\n真实场合：小学高年级或初中预备阶段的中文课堂或校园环境\n人物关系：老师和学生围绕一个具体任务进行交流、观察或回答\n固定台词：你们在哪里？\n参考拼音：nǐ men zài nǎ lǐ？\n目标字：人、们、哪\n剧情结构：先交代一个真实小场景，再出现一个小问题或小任务，接着通过人物互动自然说出台词，最后温暖收尾。\n镜头1：建立真实场景，让学生一眼看懂人物在做什么，并为“你们在哪里？”做铺垫。\n镜头2：出现一个具体动作或小问题，把目标字 人、们、哪 藏在物件、地点、任务或人物反应里，不要像生硬教学演示。\n镜头3：角色在情境里自然说出固定台词“你们在哪里？”，嘴型清楚，情绪真实，动作和台词有关联。\n镜头4：给出回应或结果，例如同学反馈、老师确认、家人回应、任务完成，让学习者感觉这个句子在真实生活里有用。\n镜头5：收尾停留 1-2 秒，保持画面温暖、真实、易懂，但不要过于幼态。\n字幕策略：视频里不强制加入拼音字幕，拼音会由学习页面单独展示；如需字幕，只保留汉字即可。"
+    }
+  ],
+  "audio_tasks": [
+    {
+      "scope": "char",
+      "id": "很",
+      "text": "很，第三声，hěn",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "这",
+      "text": "这，第四声，zhè",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "那",
+      "text": "那，第四声，nà",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "哪",
+      "text": "哪，第三声，nǎ",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "人",
+      "text": "人，第二声，rén",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "们",
+      "text": "们，轻声，men",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "气",
+      "text": "气，第四声，qì",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "天",
+      "text": "天，第一声，tiān",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-1",
+      "text": "很好",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-2",
+      "text": "这里",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-3",
+      "text": "那边",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-4",
+      "text": "哪里",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-5",
+      "text": "天气",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-6",
+      "text": "你们",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "sentence",
+      "id": "sentence-1",
+      "text": "今天天气很好。",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "sentence",
+      "id": "sentence-2",
+      "text": "这个人是新同学。",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "sentence",
+      "id": "sentence-3",
+      "text": "那边是哪间教室？",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "sentence",
+      "id": "sentence-4",
+      "text": "你们在这里等我。",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "story",
+      "id": "scene-1",
+      "text": "下午活动前，大家在校门口集合，天气很好。",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "story",
+      "id": "scene-2",
+      "text": "新同学站在教学楼前，看着指示牌问下一节课在哪里上。",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "story",
+      "id": "scene-3",
+      "text": "活动结束后，门口有很多人，一个学生正在找同学会合。",
+      "status": "pending",
+      "file_path": ""
+    }
+  ],
+  "worksheet": {
+    "status": "ready",
+    "file_path": "/assets/worksheets/2026-W12/handwriting_practice.pdf",
+    "page_size": "A4",
+    "entries": 8
+  },
+  "status": "ready",
+  "generation_mode": "ai",
+  "updated_at": "2026-03-08T15:10:55.091099+00:00"
+}

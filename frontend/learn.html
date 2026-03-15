@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Fun Hanzi Learn</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
@@ -20,7 +21,13 @@
             <div class="kicker">本周故事</div>
             <h2 id="weekTitle">正在加载本周故事包...</h2>
           </div>
-          <div id="weekBadge" class="week-badge">Week</div>
+          <div class="week-head-tools">
+            <label class="week-picker">
+              <span>学习内容</span>
+              <select id="weekPicker"></select>
+            </label>
+            <div id="weekBadge" class="week-badge">Week</div>
+          </div>
         </div>
         <p id="weekSummary" class="summary"></p>
         <div class="split-row split-row-tight">
@@ -70,7 +77,9 @@
           <div class="char-guide" id="studyGuide"></div>
           <div class="char-meaning" id="studyMeaning">you</div>
           <div class="char-extra" id="studyWords"></div>
+          <div class="char-extra char-extra-pinyin" id="studyWordPinyin"></div>
           <div class="char-extra" id="studySentence"></div>
+          <div class="char-extra char-extra-pinyin" id="studySentencePinyin"></div>
           <button id="btnPlayChar" class="btn btn-audio" type="button">播放读音</button>
         </div>
         <div id="studyDone" class="empty-state hidden">今天这一轮已经完成，明天再来吧。</div>

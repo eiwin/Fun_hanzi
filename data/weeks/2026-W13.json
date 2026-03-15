@@ -1,0 +1,852 @@
+{
+  "week_id": "2026-W13",
+  "learner_id": "default",
+  "generated_at": "2026-03-15T02:15:17.575392+00:00",
+  "title": "开心收尾",
+  "summary": "本周会认识新字 北、京、本、客、菜，再复习 杯、爱、子。故事会围绕 北京、不客气、北方 展开。",
+  "new_chars": [
+    "北",
+    "京",
+    "本",
+    "客",
+    "菜"
+  ],
+  "review_chars": [
+    "杯",
+    "爱",
+    "子"
+  ],
+  "char_cards": [
+    {
+      "char": "北",
+      "pinyin": "běi",
+      "pinyin_numeric": "bei3",
+      "pronunciation_guide": "北，第三声，běi",
+      "meaning": "north",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "北京",
+        "北方"
+      ],
+      "word_pronunciation_hints": [
+        "北京: běi jīng",
+        "北方: běi fāng"
+      ],
+      "sentence": "我们学习“北京”。",
+      "sentence_pinyin": "wǒ men xué xí “ běi jīng ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "北(běi)",
+        "京(jīng)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "北，第三声，běi",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "京",
+      "pinyin": "jīng",
+      "pinyin_numeric": "Jing1",
+      "pronunciation_guide": "京，第一声，jīng",
+      "meaning": "abbr. for Beijing",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "北京",
+        "京剧"
+      ],
+      "word_pronunciation_hints": [
+        "北京: běi jīng",
+        "京剧: jīng jù"
+      ],
+      "sentence": "我们学习“北京”。",
+      "sentence_pinyin": "wǒ men xué xí “ běi jīng ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "北(běi)",
+        "京(jīng)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "京，第一声，jīng",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "本",
+      "pinyin": "běn",
+      "pinyin_numeric": "ben3",
+      "pronunciation_guide": "本，第三声，běn",
+      "meaning": "roots or stems of plants; origin; source; this; the current; root; foundation; basis; classifier for books, periodicals, files etc; originally",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "本",
+        "笔记本",
+        "本来"
+      ],
+      "word_pronunciation_hints": [
+        "本: běn",
+        "笔记本: bǐ jì běn",
+        "本来: běn lái"
+      ],
+      "sentence": "我们学习“本”。",
+      "sentence_pinyin": "wǒ men xué xí “ běn ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "本(běn)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "本，第三声，běn",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "客",
+      "pinyin": "kè",
+      "pinyin_numeric": "ke4",
+      "pronunciation_guide": "客，第四声，kè",
+      "meaning": "customer",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "不客气",
+        "客人",
+        "顾客",
+        "客厅"
+      ],
+      "word_pronunciation_hints": [
+        "不客气: bù kè qì",
+        "客人: kè rén",
+        "顾客: gù kè",
+        "客厅: kè tīng"
+      ],
+      "sentence": "我们学习“不客气”。",
+      "sentence_pinyin": "wǒ men xué xí “ bù kè qì ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "不(bù)",
+        "客(kè)",
+        "气(qì)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "客，第四声，kè",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "菜",
+      "pinyin": "cài",
+      "pinyin_numeric": "cai4",
+      "pronunciation_guide": "菜，第四声，cài",
+      "meaning": "dish (type of food); vegetables; vegetable; cuisine; CL:盤|盘[pan2],道[dao4]",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "菜",
+        "菜单"
+      ],
+      "word_pronunciation_hints": [
+        "菜: cài",
+        "菜单: cài chán"
+      ],
+      "sentence": "我们学习“菜”。",
+      "sentence_pinyin": "wǒ men xué xí “ cài ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "菜(cài)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "菜，第四声，cài",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "杯",
+      "pinyin": "bēi",
+      "pinyin_numeric": "bei1",
+      "pronunciation_guide": "杯，第一声，bēi",
+      "meaning": "cup",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "杯子",
+        "干杯"
+      ],
+      "word_pronunciation_hints": [
+        "杯子: bēi zǐ",
+        "干杯: gàn bēi"
+      ],
+      "sentence": "我们学习“杯子”。",
+      "sentence_pinyin": "wǒ men xué xí “ bēi zǐ ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "杯(bēi)",
+        "子(zǐ)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "杯，第一声，bēi",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "爱",
+      "pinyin": "ài",
+      "pinyin_numeric": "ai4",
+      "pronunciation_guide": "爱，第四声，ài",
+      "meaning": "to love; affection; to be fond of; to like",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "爱",
+        "爱好",
+        "可爱",
+        "爱情"
+      ],
+      "word_pronunciation_hints": [
+        "爱: ài",
+        "爱好: ài hǎo",
+        "可爱: kě ài",
+        "爱情: ài qíng"
+      ],
+      "sentence": "我们学习“爱”。",
+      "sentence_pinyin": "wǒ men xué xí “ ài ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "爱(ài)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "爱，第四声，ài",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pinyin_numeric": "zi3",
+      "pronunciation_guide": "子，第三声，zǐ",
+      "meaning": "son",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "杯子",
+        "儿子",
+        "椅子",
+        "桌子",
+        "孩子",
+        "妻子"
+      ],
+      "word_pronunciation_hints": [
+        "杯子: bēi zǐ",
+        "儿子: ér zǐ",
+        "椅子: yǐ zǐ",
+        "桌子: zhuō zǐ",
+        "孩子: hái zǐ",
+        "妻子: qī zǐ"
+      ],
+      "sentence": "我们学习“杯子”。",
+      "sentence_pinyin": "wǒ men xué xí “ bēi zǐ ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "杯(bēi)",
+        "子(zǐ)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "子，第三声，zǐ",
+      "audio_status": "pending",
+      "audio_path": ""
+    }
+  ],
+  "words": [
+    {
+      "text": "北京",
+      "pinyin_text": "běi jīng",
+      "pronunciation_labels": [
+        "北(běi)",
+        "京(jīng)"
+      ],
+      "audio_text": "北京",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "text": "不客气",
+      "pinyin_text": "bù kè qì",
+      "pronunciation_labels": [
+        "不(bù)",
+        "客(kè)",
+        "气(qì)"
+      ],
+      "audio_text": "不客气",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "text": "北方",
+      "pinyin_text": "běi fāng",
+      "pronunciation_labels": [
+        "北(běi)",
+        "方(fāng)"
+      ],
+      "audio_text": "北方",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "text": "笔记本",
+      "pinyin_text": "bǐ jì běn",
+      "pronunciation_labels": [
+        "笔(bǐ)",
+        "记(jì)",
+        "本(běn)"
+      ],
+      "audio_text": "笔记本",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "text": "菜单",
+      "pinyin_text": "cài chán",
+      "pronunciation_labels": [
+        "菜(cài)",
+        "单(chán)"
+      ],
+      "audio_text": "菜单",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "text": "客人",
+      "pinyin_text": "kè rén",
+      "pronunciation_labels": [
+        "客(kè)",
+        "人(rén)"
+      ],
+      "audio_text": "客人",
+      "audio_status": "pending",
+      "audio_path": ""
+    }
+  ],
+  "sentences": [
+    {
+      "id": "sentence-1",
+      "text": "我喜欢北京。",
+      "pinyin_text": "wǒ xǐ huān běi jīng。",
+      "pronunciation_labels": [
+        "我(wǒ)",
+        "喜(xǐ)",
+        "欢(huān)",
+        "北(běi)",
+        "京(jīng)"
+      ],
+      "audio_text": "我喜欢北京。",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "id": "sentence-2",
+      "text": "我们一起学不客气。",
+      "pinyin_text": "wǒ men yī qǐ xué bù kè qì。",
+      "pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "一(yī)",
+        "起(qǐ)",
+        "学(xué)",
+        "不(bù)",
+        "客(kè)",
+        "气(qì)"
+      ],
+      "audio_text": "我们一起学不客气。",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "id": "sentence-3",
+      "text": "老师说：北方。",
+      "pinyin_text": "lǎo shī shuì： běi fāng。",
+      "pronunciation_labels": [
+        "老(lǎo)",
+        "师(shī)",
+        "说(shuì)",
+        "北(běi)",
+        "方(fāng)"
+      ],
+      "audio_text": "老师说：北方。",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "id": "sentence-4",
+      "text": "我会写笔记本。",
+      "pinyin_text": "wǒ huì xiě bǐ jì běn。",
+      "pronunciation_labels": [
+        "我(wǒ)",
+        "会(huì)",
+        "写(xiě)",
+        "笔(bǐ)",
+        "记(jì)",
+        "本(běn)"
+      ],
+      "audio_text": "我会写笔记本。",
+      "audio_status": "pending",
+      "audio_path": ""
+    }
+  ],
+  "story": [
+    {
+      "id": "scene-1",
+      "title": "早晨出发",
+      "text": "我喜欢北京。",
+      "pinyin_text": "wǒ xǐ huān běi jīng。",
+      "pronunciation_labels": [
+        "我(wǒ)",
+        "喜(xǐ)",
+        "欢(huān)",
+        "北(běi)",
+        "京(jīng)"
+      ],
+      "dialogue_line": "我喜欢北京。",
+      "dialogue_pinyin": "wǒ xǐ huān běi jīng。",
+      "focus_chars": [
+        "北",
+        "京",
+        "本"
+      ],
+      "focus_words": [
+        "北京",
+        "不客气"
+      ],
+      "image_prompt": "Create a storybook-style learning illustration for school-age Chinese learners.\nStyle baseline: storybook illustration, soft shapes, warm light, expressive characters.\nScene goal: 我喜欢北京。\nScene type: 出门场景\nLocation: 真实的外部生活场景\nFocus characters: 北、京、本\nFocus words: 北京、不客气\nVisual direction:\n- Use soft shapes, warm light, expressive characters, and an age-appropriate atmosphere for learners around ages 9-13.\n- Build a grounded educational scene connected to real Chinese learning moments such as classroom discussion, home routines, reading, greeting, helping, planning, travel, or going out.\n- Include meaningful props related to Chinese learning, such as books, chalkboard, toys, flowers, bags, tables, cups, or other scene-appropriate objects.\n- Keep the layout clean and stable, suitable for a modern learning page or printable study material.\nComposition:\n- One clear main action, readable background, strong focal point, and enough empty space for later educational text layout.\n- Make the illustration feel polished, warm, and visually consistent with the Fun Hanzi style, without looking like preschool material.\nIMPORTANT:\n- Do NOT generate any Chinese characters, pinyin, letters, or text in the image.\n- Leave empty space where educational text can be added later.\n- Hanzi and pinyin planning notes belong in the separate text layout, not inside the image.\n- If any visible text is produced by mistake, it must be treated as an error and regenerated.",
+      "video_prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 早晨出发\nLearning goal: 我喜欢北京。\nReal-life setting: 出门场景 / 真实的外部生活场景\nCharacter relationship: 学生在现实环境里观察信息、做出回应、自然开口表达\nFocus characters: 北、京、本\nFocus words: 北京、不客气\nFixed spoken line: 我喜欢北京。\nReference pinyin for production only: wǒ xǐ huān běi jīng。\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 出门场景 in 真实的外部生活场景. Show 学生在现实环境里观察信息、做出回应、自然开口表达. Let 北京、不客气 and the focus characters 北、京、本 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “我喜欢北京。”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 北 -> běi; 京 -> jīng; 本 -> běn. Keep these exact Hanzi+pinyin pairs in your notes: 北 běi | 京 jīng | 本 běn.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: wǒ xǐ huān běi jīng。. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "video_script": "场景：早晨出发\n视频类型：出门场景\n真实场合：真实的外部生活场景\n人物关系：学生在现实环境里观察信息、做出回应、自然开口表达\n固定台词：我喜欢北京。\n参考拼音：wǒ xǐ huān běi jīng。\n目标字：北、京、本\n剧情结构：先交代一个真实小场景，再出现一个小问题或小任务，接着通过人物互动自然说出台词，最后温暖收尾。\n镜头1：建立真实场景，让学生一眼看懂人物在做什么，并为“我喜欢北京。”做铺垫。\n镜头2：出现一个具体动作或小问题，把目标字 北、京、本 藏在物件、地点、任务或人物反应里，不要像生硬教学演示。\n镜头3：角色在情境里自然说出固定台词“我喜欢北京。”，嘴型清楚，情绪真实，动作和台词有关联。\n镜头4：给出回应或结果，例如同学反馈、老师确认、家人回应、任务完成，让学习者感觉这个句子在真实生活里有用。\n镜头5：收尾停留 1-2 秒，保持画面温暖、真实、易懂，但不要过于幼态。\n字幕策略：视频里不强制加入拼音字幕，拼音会由学习页面单独展示；如需字幕，只保留汉字即可。",
+      "focus_pronunciations": [
+        {
+          "char": "北",
+          "pinyin": "běi"
+        },
+        {
+          "char": "京",
+          "pinyin": "jīng"
+        },
+        {
+          "char": "本",
+          "pinyin": "běn"
+        }
+      ],
+      "image_status": "ready",
+      "image_asset_id": "asset-7482cbb21b",
+      "image_path": "/assets/images/2026-W13/scene-1.png",
+      "video_status": "ready",
+      "video_asset_id": "asset-5d7893aaa8",
+      "video_path": "/assets/videos/2026-W13/scene-1.mp4",
+      "audio_text": "我喜欢北京。",
+      "audio_status": "pending",
+      "audio_path": "",
+      "image_text_layout": "【标题】\n我喜欢北京。\nwǒ xǐ huān běi jīng。\n\n【重点字】\n北\nběi\n京\njīng\n本\nběn\n\n【词语】\n北京\n不客气\n\n【教学标签】\n北 běi | 京 jīng | 本 běn"
+    },
+    {
+      "id": "scene-2",
+      "title": "课堂发现",
+      "text": "我们一起学不客气。",
+      "pinyin_text": "wǒ men yī qǐ xué bù kè qì。",
+      "pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "一(yī)",
+        "起(qǐ)",
+        "学(xué)",
+        "不(bù)",
+        "客(kè)",
+        "气(qì)"
+      ],
+      "dialogue_line": "我们一起学不客气。",
+      "dialogue_pinyin": "wǒ men yī qǐ xué bù kè qì。",
+      "focus_chars": [
+        "京",
+        "本",
+        "客"
+      ],
+      "focus_words": [
+        "不客气",
+        "北方"
+      ],
+      "image_prompt": "Create a storybook-style learning illustration for school-age Chinese learners.\nStyle baseline: storybook illustration, soft shapes, warm light, expressive characters.\nScene goal: 我们一起学不客气。\nScene type: 课堂互动\nLocation: 小学高年级或初中预备阶段的中文课堂\nFocus characters: 京、本、客\nFocus words: 不客气、北方\nVisual direction:\n- Use soft shapes, warm light, expressive characters, and an age-appropriate atmosphere for learners around ages 9-13.\n- Build a grounded educational scene connected to real Chinese learning moments such as classroom discussion, home routines, reading, greeting, helping, planning, travel, or going out.\n- Include meaningful props related to Chinese learning, such as books, chalkboard, toys, flowers, bags, tables, cups, or other scene-appropriate objects.\n- Keep the layout clean and stable, suitable for a modern learning page or printable study material.\nComposition:\n- One clear main action, readable background, strong focal point, and enough empty space for later educational text layout.\n- Make the illustration feel polished, warm, and visually consistent with the Fun Hanzi style, without looking like preschool material.\nIMPORTANT:\n- Do NOT generate any Chinese characters, pinyin, letters, or text in the image.\n- Leave empty space where educational text can be added later.\n- Hanzi and pinyin planning notes belong in the separate text layout, not inside the image.\n- If any visible text is produced by mistake, it must be treated as an error and regenerated.",
+      "video_prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 课堂发现\nLearning goal: 我们一起学不客气。\nReal-life setting: 课堂互动 / 小学高年级或初中预备阶段的中文课堂\nCharacter relationship: 老师和学生围绕一个具体任务进行交流、观察或回答\nFocus characters: 京、本、客\nFocus words: 不客气、北方\nFixed spoken line: 我们一起学不客气。\nReference pinyin for production only: wǒ men yī qǐ xué bù kè qì。\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 课堂互动 in 小学高年级或初中预备阶段的中文课堂. Show 老师和学生围绕一个具体任务进行交流、观察或回答. Let 不客气、北方 and the focus characters 京、本、客 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “我们一起学不客气。”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 京 -> jīng; 本 -> běn; 客 -> kè. Keep these exact Hanzi+pinyin pairs in your notes: 京 jīng | 本 běn | 客 kè.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: wǒ men yī qǐ xué bù kè qì。. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "video_script": "场景：课堂发现\n视频类型：课堂互动\n真实场合：小学高年级或初中预备阶段的中文课堂\n人物关系：老师和学生围绕一个具体任务进行交流、观察或回答\n固定台词：我们一起学不客气。\n参考拼音：wǒ men yī qǐ xué bù kè qì。\n目标字：京、本、客\n剧情结构：先交代一个真实小场景，再出现一个小问题或小任务，接着通过人物互动自然说出台词，最后温暖收尾。\n镜头1：建立真实场景，让学生一眼看懂人物在做什么，并为“我们一起学不客气。”做铺垫。\n镜头2：出现一个具体动作或小问题，把目标字 京、本、客 藏在物件、地点、任务或人物反应里，不要像生硬教学演示。\n镜头3：角色在情境里自然说出固定台词“我们一起学不客气。”，嘴型清楚，情绪真实，动作和台词有关联。\n镜头4：给出回应或结果，例如同学反馈、老师确认、家人回应、任务完成，让学习者感觉这个句子在真实生活里有用。\n镜头5：收尾停留 1-2 秒，保持画面温暖、真实、易懂，但不要过于幼态。\n字幕策略：视频里不强制加入拼音字幕，拼音会由学习页面单独展示；如需字幕，只保留汉字即可。",
+      "focus_pronunciations": [
+        {
+          "char": "京",
+          "pinyin": "jīng"
+        },
+        {
+          "char": "本",
+          "pinyin": "běn"
+        },
+        {
+          "char": "客",
+          "pinyin": "kè"
+        }
+      ],
+      "image_status": "ready",
+      "image_asset_id": "asset-9679832d01",
+      "image_path": "/assets/images/2026-W13/scene-2.png",
+      "video_status": "ready",
+      "video_asset_id": "asset-57c88e1726",
+      "video_path": "/assets/videos/2026-W13/scene-2.mp4",
+      "audio_text": "我们一起学不客气。",
+      "audio_status": "pending",
+      "audio_path": "",
+      "image_text_layout": "【标题】\n我们一起学不客气。\nwǒ men yī qǐ xué bù kè qì。\n\n【重点字】\n京\njīng\n本\nběn\n客\nkè\n\n【词语】\n不客气\n北方\n\n【教学标签】\n京 jīng | 本 běn | 客 kè"
+    },
+    {
+      "id": "scene-3",
+      "title": "开心收尾",
+      "text": "老师说：北方。",
+      "pinyin_text": "lǎo shī shuō： běi fāng。",
+      "pronunciation_labels": [
+        "老(lǎo)",
+        "师(shī)",
+        "说(shuō)",
+        "北(běi)",
+        "方(fāng)"
+      ],
+      "dialogue_line": "老师说：北方。",
+      "dialogue_pinyin": "lǎo shī shuō： běi fāng。",
+      "focus_chars": [
+        "本",
+        "客",
+        "菜"
+      ],
+      "focus_words": [
+        "北方",
+        "笔记本"
+      ],
+      "image_prompt": "Create a storybook-style learning illustration for school-age Chinese learners.\nStyle baseline: storybook illustration, soft shapes, warm light, expressive characters.\nScene goal: 老师说：北方。\nScene type: 课堂互动\nLocation: 小学高年级或初中预备阶段的中文课堂\nFocus characters: 本、客、菜\nFocus words: 北方、笔记本\nVisual direction:\n- Use soft shapes, warm light, expressive characters, and an age-appropriate atmosphere for learners around ages 9-13.\n- Build a grounded educational scene connected to real Chinese learning moments such as classroom discussion, home routines, reading, greeting, helping, planning, travel, or going out.\n- Include meaningful props related to Chinese learning, such as books, chalkboard, toys, flowers, bags, tables, cups, or other scene-appropriate objects.\n- Keep the layout clean and stable, suitable for a modern learning page or printable study material.\nComposition:\n- One clear main action, readable background, strong focal point, and enough empty space for later educational text layout.\n- Make the illustration feel polished, warm, and visually consistent with the Fun Hanzi style, without looking like preschool material.\nIMPORTANT:\n- Do NOT generate any Chinese characters, pinyin, letters, or text in the image.\n- Leave empty space where educational text can be added later.\n- Hanzi and pinyin planning notes belong in the separate text layout, not inside the image.\n- If any visible text is produced by mistake, it must be treated as an error and regenerated.",
+      "video_prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 开心收尾\nLearning goal: 老师说：北方。\nReal-life setting: 课堂互动 / 小学高年级或初中预备阶段的中文课堂\nCharacter relationship: 老师和学生围绕一个具体任务进行交流、观察或回答\nFocus characters: 本、客、菜\nFocus words: 北方、笔记本\nFixed spoken line: 老师说：北方。\nReference pinyin for production only: lǎo shī shuō： běi fāng。\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 课堂互动 in 小学高年级或初中预备阶段的中文课堂. Show 老师和学生围绕一个具体任务进行交流、观察或回答. Let 北方、笔记本 and the focus characters 本、客、菜 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “老师说：北方。”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 本 -> běn; 客 -> kè; 菜 -> cài. Keep these exact Hanzi+pinyin pairs in your notes: 本 běn | 客 kè | 菜 cài.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: lǎo shī shuō： běi fāng。. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "video_script": "场景：开心收尾\n视频类型：课堂互动\n真实场合：小学高年级或初中预备阶段的中文课堂\n人物关系：老师和学生围绕一个具体任务进行交流、观察或回答\n固定台词：老师说：北方。\n参考拼音：lǎo shī shuō： běi fāng。\n目标字：本、客、菜\n剧情结构：先交代一个真实小场景，再出现一个小问题或小任务，接着通过人物互动自然说出台词，最后温暖收尾。\n镜头1：建立真实场景，让学生一眼看懂人物在做什么，并为“老师说：北方。”做铺垫。\n镜头2：出现一个具体动作或小问题，把目标字 本、客、菜 藏在物件、地点、任务或人物反应里，不要像生硬教学演示。\n镜头3：角色在情境里自然说出固定台词“老师说：北方。”，嘴型清楚，情绪真实，动作和台词有关联。\n镜头4：给出回应或结果，例如同学反馈、老师确认、家人回应、任务完成，让学习者感觉这个句子在真实生活里有用。\n镜头5：收尾停留 1-2 秒，保持画面温暖、真实、易懂，但不要过于幼态。\n字幕策略：视频里不强制加入拼音字幕，拼音会由学习页面单独展示；如需字幕，只保留汉字即可。",
+      "focus_pronunciations": [
+        {
+          "char": "本",
+          "pinyin": "běn"
+        },
+        {
+          "char": "客",
+          "pinyin": "kè"
+        },
+        {
+          "char": "菜",
+          "pinyin": "cài"
+        }
+      ],
+      "image_status": "ready",
+      "image_asset_id": "asset-9ba73f742e",
+      "image_path": "/assets/images/2026-W13/scene-3.png",
+      "video_status": "ready",
+      "video_asset_id": "asset-74eaf3c6c6",
+      "video_path": "/assets/videos/2026-W13/scene-3.mp4",
+      "audio_text": "老师说：北方。",
+      "audio_status": "pending",
+      "audio_path": "",
+      "image_text_layout": "【标题】\n老师说：北方。\nlǎo shī shuō： běi fāng。\n\n【重点字】\n本\nběn\n客\nkè\n菜\ncài\n\n【词语】\n北方\n笔记本\n\n【教学标签】\n本 běn | 客 kè | 菜 cài"
+    }
+  ],
+  "image_tasks": [
+    {
+      "scene_id": "scene-1",
+      "prompt": "Create a storybook-style learning illustration for school-age Chinese learners.\nStyle baseline: storybook illustration, soft shapes, warm light, expressive characters.\nScene goal: 我喜欢北京。\nScene type: 出门场景\nLocation: 真实的外部生活场景\nFocus characters: 北、京、本\nFocus words: 北京、不客气\nVisual direction:\n- Use soft shapes, warm light, expressive characters, and an age-appropriate atmosphere for learners around ages 9-13.\n- Build a grounded educational scene connected to real Chinese learning moments such as classroom discussion, home routines, reading, greeting, helping, planning, travel, or going out.\n- Include meaningful props related to Chinese learning, such as books, chalkboard, toys, flowers, bags, tables, cups, or other scene-appropriate objects.\n- Keep the layout clean and stable, suitable for a modern learning page or printable study material.\nComposition:\n- One clear main action, readable background, strong focal point, and enough empty space for later educational text layout.\n- Make the illustration feel polished, warm, and visually consistent with the Fun Hanzi style, without looking like preschool material.\nIMPORTANT:\n- Do NOT generate any Chinese characters, pinyin, letters, or text in the image.\n- Leave empty space where educational text can be added later.\n- Hanzi and pinyin planning notes belong in the separate text layout, not inside the image.\n- If any visible text is produced by mistake, it must be treated as an error and regenerated.",
+      "status": "ready",
+      "asset_id": "asset-7482cbb21b",
+      "file_path": "/assets/images/2026-W13/scene-1.png"
+    },
+    {
+      "scene_id": "scene-2",
+      "prompt": "Create a storybook-style learning illustration for school-age Chinese learners.\nStyle baseline: storybook illustration, soft shapes, warm light, expressive characters.\nScene goal: 我们一起学不客气。\nScene type: 课堂互动\nLocation: 小学高年级或初中预备阶段的中文课堂\nFocus characters: 京、本、客\nFocus words: 不客气、北方\nVisual direction:\n- Use soft shapes, warm light, expressive characters, and an age-appropriate atmosphere for learners around ages 9-13.\n- Build a grounded educational scene connected to real Chinese learning moments such as classroom discussion, home routines, reading, greeting, helping, planning, travel, or going out.\n- Include meaningful props related to Chinese learning, such as books, chalkboard, toys, flowers, bags, tables, cups, or other scene-appropriate objects.\n- Keep the layout clean and stable, suitable for a modern learning page or printable study material.\nComposition:\n- One clear main action, readable background, strong focal point, and enough empty space for later educational text layout.\n- Make the illustration feel polished, warm, and visually consistent with the Fun Hanzi style, without looking like preschool material.\nIMPORTANT:\n- Do NOT generate any Chinese characters, pinyin, letters, or text in the image.\n- Leave empty space where educational text can be added later.\n- Hanzi and pinyin planning notes belong in the separate text layout, not inside the image.\n- If any visible text is produced by mistake, it must be treated as an error and regenerated.",
+      "status": "ready",
+      "asset_id": "asset-9679832d01",
+      "file_path": "/assets/images/2026-W13/scene-2.png"
+    },
+    {
+      "scene_id": "scene-3",
+      "prompt": "Create a storybook-style learning illustration for school-age Chinese learners.\nStyle baseline: storybook illustration, soft shapes, warm light, expressive characters.\nScene goal: 老师说：北方。\nScene type: 课堂互动\nLocation: 小学高年级或初中预备阶段的中文课堂\nFocus characters: 本、客、菜\nFocus words: 北方、笔记本\nVisual direction:\n- Use soft shapes, warm light, expressive characters, and an age-appropriate atmosphere for learners around ages 9-13.\n- Build a grounded educational scene connected to real Chinese learning moments such as classroom discussion, home routines, reading, greeting, helping, planning, travel, or going out.\n- Include meaningful props related to Chinese learning, such as books, chalkboard, toys, flowers, bags, tables, cups, or other scene-appropriate objects.\n- Keep the layout clean and stable, suitable for a modern learning page or printable study material.\nComposition:\n- One clear main action, readable background, strong focal point, and enough empty space for later educational text layout.\n- Make the illustration feel polished, warm, and visually consistent with the Fun Hanzi style, without looking like preschool material.\nIMPORTANT:\n- Do NOT generate any Chinese characters, pinyin, letters, or text in the image.\n- Leave empty space where educational text can be added later.\n- Hanzi and pinyin planning notes belong in the separate text layout, not inside the image.\n- If any visible text is produced by mistake, it must be treated as an error and regenerated.",
+      "status": "ready",
+      "asset_id": "asset-9ba73f742e",
+      "file_path": "/assets/images/2026-W13/scene-3.png"
+    }
+  ],
+  "video_tasks": [
+    {
+      "scene_id": "scene-1",
+      "prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 早晨出发\nLearning goal: 我喜欢北京。\nReal-life setting: 出门场景 / 真实的外部生活场景\nCharacter relationship: 学生在现实环境里观察信息、做出回应、自然开口表达\nFocus characters: 北、京、本\nFocus words: 北京、不客气\nFixed spoken line: 我喜欢北京。\nReference pinyin for production only: wǒ xǐ huān běi jīng。\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 出门场景 in 真实的外部生活场景. Show 学生在现实环境里观察信息、做出回应、自然开口表达. Let 北京、不客气 and the focus characters 北、京、本 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “我喜欢北京。”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 北 -> běi; 京 -> jīng; 本 -> běn. Keep these exact Hanzi+pinyin pairs in your notes: 北 běi | 京 jīng | 本 běn.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: wǒ xǐ huān běi jīng。. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "status": "ready",
+      "asset_id": "asset-5d7893aaa8",
+      "file_path": "/assets/videos/2026-W13/scene-1.mp4"
+    },
+    {
+      "scene_id": "scene-2",
+      "prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 课堂发现\nLearning goal: 我们一起学不客气。\nReal-life setting: 课堂互动 / 小学高年级或初中预备阶段的中文课堂\nCharacter relationship: 老师和学生围绕一个具体任务进行交流、观察或回答\nFocus characters: 京、本、客\nFocus words: 不客气、北方\nFixed spoken line: 我们一起学不客气。\nReference pinyin for production only: wǒ men yī qǐ xué bù kè qì。\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 课堂互动 in 小学高年级或初中预备阶段的中文课堂. Show 老师和学生围绕一个具体任务进行交流、观察或回答. Let 不客气、北方 and the focus characters 京、本、客 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “我们一起学不客气。”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 京 -> jīng; 本 -> běn; 客 -> kè. Keep these exact Hanzi+pinyin pairs in your notes: 京 jīng | 本 běn | 客 kè.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: wǒ men yī qǐ xué bù kè qì。. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "status": "ready",
+      "asset_id": "asset-57c88e1726",
+      "file_path": "/assets/videos/2026-W13/scene-2.mp4"
+    },
+    {
+      "scene_id": "scene-3",
+      "prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 开心收尾\nLearning goal: 老师说：北方。\nReal-life setting: 课堂互动 / 小学高年级或初中预备阶段的中文课堂\nCharacter relationship: 老师和学生围绕一个具体任务进行交流、观察或回答\nFocus characters: 本、客、菜\nFocus words: 北方、笔记本\nFixed spoken line: 老师说：北方。\nReference pinyin for production only: lǎo shī shuō： běi fāng。\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 课堂互动 in 小学高年级或初中预备阶段的中文课堂. Show 老师和学生围绕一个具体任务进行交流、观察或回答. Let 北方、笔记本 and the focus characters 本、客、菜 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “老师说：北方。”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 本 -> běn; 客 -> kè; 菜 -> cài. Keep these exact Hanzi+pinyin pairs in your notes: 本 běn | 客 kè | 菜 cài.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: lǎo shī shuō： běi fāng。. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "status": "ready",
+      "asset_id": "asset-74eaf3c6c6",
+      "file_path": "/assets/videos/2026-W13/scene-3.mp4"
+    }
+  ],
+  "video_storyboard": [
+    {
+      "scene_id": "scene-1",
+      "title": "早晨出发",
+      "prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 早晨出发\nLearning goal: 我喜欢北京。\nReal-life setting: 出门场景 / 真实的外部生活场景\nCharacter relationship: 学生在现实环境里观察信息、做出回应、自然开口表达\nFocus characters: 北、京、本\nFocus words: 北京、不客气\nFixed spoken line: 我喜欢北京。\nReference pinyin for production only: wǒ xǐ huān běi jīng。\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 出门场景 in 真实的外部生活场景. Show 学生在现实环境里观察信息、做出回应、自然开口表达. Let 北京、不客气 and the focus characters 北、京、本 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “我喜欢北京。”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 北 -> běi; 京 -> jīng; 本 -> běn. Keep these exact Hanzi+pinyin pairs in your notes: 北 běi | 京 jīng | 本 běn.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: wǒ xǐ huān běi jīng。. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "script": "场景：早晨出发\n视频类型：出门场景\n真实场合：真实的外部生活场景\n人物关系：学生在现实环境里观察信息、做出回应、自然开口表达\n固定台词：我喜欢北京。\n参考拼音：wǒ xǐ huān běi jīng。\n目标字：北、京、本\n剧情结构：先交代一个真实小场景，再出现一个小问题或小任务，接着通过人物互动自然说出台词，最后温暖收尾。\n镜头1：建立真实场景，让学生一眼看懂人物在做什么，并为“我喜欢北京。”做铺垫。\n镜头2：出现一个具体动作或小问题，把目标字 北、京、本 藏在物件、地点、任务或人物反应里，不要像生硬教学演示。\n镜头3：角色在情境里自然说出固定台词“我喜欢北京。”，嘴型清楚，情绪真实，动作和台词有关联。\n镜头4：给出回应或结果，例如同学反馈、老师确认、家人回应、任务完成，让学习者感觉这个句子在真实生活里有用。\n镜头5：收尾停留 1-2 秒，保持画面温暖、真实、易懂，但不要过于幼态。\n字幕策略：视频里不强制加入拼音字幕，拼音会由学习页面单独展示；如需字幕，只保留汉字即可。"
+    },
+    {
+      "scene_id": "scene-2",
+      "title": "课堂发现",
+      "prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 课堂发现\nLearning goal: 我们一起学不客气。\nReal-life setting: 课堂互动 / 小学高年级或初中预备阶段的中文课堂\nCharacter relationship: 老师和学生围绕一个具体任务进行交流、观察或回答\nFocus characters: 京、本、客\nFocus words: 不客气、北方\nFixed spoken line: 我们一起学不客气。\nReference pinyin for production only: wǒ men yī qǐ xué bù kè qì。\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 课堂互动 in 小学高年级或初中预备阶段的中文课堂. Show 老师和学生围绕一个具体任务进行交流、观察或回答. Let 不客气、北方 and the focus characters 京、本、客 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “我们一起学不客气。”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 京 -> jīng; 本 -> běn; 客 -> kè. Keep these exact Hanzi+pinyin pairs in your notes: 京 jīng | 本 běn | 客 kè.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: wǒ men yī qǐ xué bù kè qì。. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "script": "场景：课堂发现\n视频类型：课堂互动\n真实场合：小学高年级或初中预备阶段的中文课堂\n人物关系：老师和学生围绕一个具体任务进行交流、观察或回答\n固定台词：我们一起学不客气。\n参考拼音：wǒ men yī qǐ xué bù kè qì。\n目标字：京、本、客\n剧情结构：先交代一个真实小场景，再出现一个小问题或小任务，接着通过人物互动自然说出台词，最后温暖收尾。\n镜头1：建立真实场景，让学生一眼看懂人物在做什么，并为“我们一起学不客气。”做铺垫。\n镜头2：出现一个具体动作或小问题，把目标字 京、本、客 藏在物件、地点、任务或人物反应里，不要像生硬教学演示。\n镜头3：角色在情境里自然说出固定台词“我们一起学不客气。”，嘴型清楚，情绪真实，动作和台词有关联。\n镜头4：给出回应或结果，例如同学反馈、老师确认、家人回应、任务完成，让学习者感觉这个句子在真实生活里有用。\n镜头5：收尾停留 1-2 秒，保持画面温暖、真实、易懂，但不要过于幼态。\n字幕策略：视频里不强制加入拼音字幕，拼音会由学习页面单独展示；如需字幕，只保留汉字即可。"
+    },
+    {
+      "scene_id": "scene-3",
+      "title": "开心收尾",
+      "prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 开心收尾\nLearning goal: 老师说：北方。\nReal-life setting: 课堂互动 / 小学高年级或初中预备阶段的中文课堂\nCharacter relationship: 老师和学生围绕一个具体任务进行交流、观察或回答\nFocus characters: 本、客、菜\nFocus words: 北方、笔记本\nFixed spoken line: 老师说：北方。\nReference pinyin for production only: lǎo shī shuō： běi fāng。\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 课堂互动 in 小学高年级或初中预备阶段的中文课堂. Show 老师和学生围绕一个具体任务进行交流、观察或回答. Let 北方、笔记本 and the focus characters 本、客、菜 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “老师说：北方。”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 本 -> běn; 客 -> kè; 菜 -> cài. Keep these exact Hanzi+pinyin pairs in your notes: 本 běn | 客 kè | 菜 cài.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: lǎo shī shuō： běi fāng。. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "script": "场景：开心收尾\n视频类型：课堂互动\n真实场合：小学高年级或初中预备阶段的中文课堂\n人物关系：老师和学生围绕一个具体任务进行交流、观察或回答\n固定台词：老师说：北方。\n参考拼音：lǎo shī shuō： běi fāng。\n目标字：本、客、菜\n剧情结构：先交代一个真实小场景，再出现一个小问题或小任务，接着通过人物互动自然说出台词，最后温暖收尾。\n镜头1：建立真实场景，让学生一眼看懂人物在做什么，并为“老师说：北方。”做铺垫。\n镜头2：出现一个具体动作或小问题，把目标字 本、客、菜 藏在物件、地点、任务或人物反应里，不要像生硬教学演示。\n镜头3：角色在情境里自然说出固定台词“老师说：北方。”，嘴型清楚，情绪真实，动作和台词有关联。\n镜头4：给出回应或结果，例如同学反馈、老师确认、家人回应、任务完成，让学习者感觉这个句子在真实生活里有用。\n镜头5：收尾停留 1-2 秒，保持画面温暖、真实、易懂，但不要过于幼态。\n字幕策略：视频里不强制加入拼音字幕，拼音会由学习页面单独展示；如需字幕，只保留汉字即可。"
+    }
+  ],
+  "audio_tasks": [
+    {
+      "scope": "char",
+      "id": "北",
+      "text": "北，第三声，běi",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "京",
+      "text": "京，第一声，jīng",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "本",
+      "text": "本，第三声，běn",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "客",
+      "text": "客，第四声，kè",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "菜",
+      "text": "菜，第四声，cài",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "杯",
+      "text": "杯，第一声，bēi",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "爱",
+      "text": "爱，第四声，ài",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "子",
+      "text": "子，第三声，zǐ",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-1",
+      "text": "北京",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-2",
+      "text": "不客气",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-3",
+      "text": "北方",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-4",
+      "text": "笔记本",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-5",
+      "text": "菜单",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-6",
+      "text": "客人",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "sentence",
+      "id": "sentence-1",
+      "text": "我喜欢北京。",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "sentence",
+      "id": "sentence-2",
+      "text": "我们一起学不客气。",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "sentence",
+      "id": "sentence-3",
+      "text": "老师说：北方。",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "sentence",
+      "id": "sentence-4",
+      "text": "我会写笔记本。",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "story",
+      "id": "scene-1",
+      "text": "我喜欢北京。",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "story",
+      "id": "scene-2",
+      "text": "我们一起学不客气。",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "story",
+      "id": "scene-3",
+      "text": "老师说：北方。",
+      "status": "pending",
+      "file_path": ""
+    }
+  ],
+  "worksheet": {
+    "status": "ready",
+    "file_path": "/assets/worksheets/2026-W13/handwriting_practice.pdf",
+    "page_size": "A4",
+    "entries": 8
+  },
+  "status": "ready",
+  "generation_mode": "template",
+  "updated_at": "2026-03-08T16:02:43.989113+00:00",
+  "generation_warning": "OpenRouter request failed: [Errno 8] nodename nor servname provided, or not known"
+}

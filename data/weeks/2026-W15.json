@@ -1,0 +1,922 @@
+{
+  "week_id": "2026-W15",
+  "learner_id": "default",
+  "generated_at": "2026-03-15T02:30:49.434667+00:00",
+  "title": "联系家人与来客周",
+  "summary": "本周会认识新字 爸、打、电、话、大，再复习 客、杯、爱。我们会围绕打电话、接待客人和家庭沟通，学习怎样联系家人、说明情况和礼貌招呼。",
+  "new_chars": [
+    "爸",
+    "打",
+    "电",
+    "话",
+    "大"
+  ],
+  "review_chars": [
+    "客",
+    "杯",
+    "爱"
+  ],
+  "char_cards": [
+    {
+      "char": "爸",
+      "pinyin": "bà",
+      "pinyin_numeric": "ba4",
+      "pronunciation_guide": "爸，第四声，bà",
+      "meaning": "father",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "爸爸"
+      ],
+      "word_pronunciation_hints": [
+        "爸爸: bà bà"
+      ],
+      "sentence": "我们学习“爸爸”。",
+      "sentence_pinyin": "wǒ men xué xí “ bà bà ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "爸(bà)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "爸，第四声，bà",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "打",
+      "pinyin": "dǎ",
+      "pinyin_numeric": "da3",
+      "pronunciation_guide": "打，第三声，dǎ",
+      "meaning": "dozen",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "打电话",
+        "打篮球",
+        "打扫",
+        "打算",
+        "打扮",
+        "打扰"
+      ],
+      "word_pronunciation_hints": [
+        "打电话: dá diàn huà",
+        "打篮球: dá lán qiú",
+        "打扫: dá sǎo",
+        "打算: dá suàn",
+        "打扮: dá bàn",
+        "打扰: dá rǎo"
+      ],
+      "sentence": "我们学习“打电话”。",
+      "sentence_pinyin": "wǒ men xué xí “ dǎ diàn huà ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "打(dǎ)",
+        "电(diàn)",
+        "话(huà)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "打，第三声，dǎ",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "电",
+      "pinyin": "diàn",
+      "pinyin_numeric": "dian4",
+      "pronunciation_guide": "电，第四声，diàn",
+      "meaning": "electric",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "打电话",
+        "电脑",
+        "电视",
+        "电影",
+        "电梯",
+        "电子邮件"
+      ],
+      "word_pronunciation_hints": [
+        "打电话: dá diàn huà",
+        "电脑: diàn nǎo",
+        "电视: diàn shì",
+        "电影: diàn yǐng",
+        "电梯: diàn tī",
+        "电子邮件: diàn zǐ yóu jiàn"
+      ],
+      "sentence": "我们学习“打电话”。",
+      "sentence_pinyin": "wǒ men xué xí “ dǎ diàn huà ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "打(dǎ)",
+        "电(diàn)",
+        "话(huà)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "电，第四声，diàn",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "话",
+      "pinyin": "huà",
+      "pinyin_numeric": "hua4",
+      "pronunciation_guide": "话，第四声，huà",
+      "meaning": "dialect",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "打电话",
+        "说话",
+        "对话",
+        "普通话",
+        "笑话"
+      ],
+      "word_pronunciation_hints": [
+        "打电话: dá diàn huà",
+        "说话: shuō huà",
+        "对话: duì huà",
+        "普通话: pǔ tōng huà",
+        "笑话: xiào huà"
+      ],
+      "sentence": "我们学习“打电话”。",
+      "sentence_pinyin": "wǒ men xué xí “ dǎ diàn huà ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "打(dǎ)",
+        "电(diàn)",
+        "话(huà)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "话，第四声，huà",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "大",
+      "pinyin": "dà",
+      "pinyin_numeric": "da4",
+      "pronunciation_guide": "大，第四声，dà",
+      "meaning": "big; huge; large; major; great; wide; deep; oldest; eldest",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "大",
+        "大家",
+        "大概",
+        "大使馆",
+        "大约",
+        "大夫"
+      ],
+      "word_pronunciation_hints": [
+        "大: dà",
+        "大家: dà jiā",
+        "大概: dà gài",
+        "大使馆: dà shǐ guǎn",
+        "大约: dà yāo",
+        "大夫: dà fū"
+      ],
+      "sentence": "我们学习“大”。",
+      "sentence_pinyin": "wǒ men xué xí “ dà ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "大(dà)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "大，第四声，dà",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "客",
+      "pinyin": "kè",
+      "pinyin_numeric": "ke4",
+      "pronunciation_guide": "客，第四声，kè",
+      "meaning": "customer",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "不客气",
+        "客人",
+        "顾客",
+        "客厅"
+      ],
+      "word_pronunciation_hints": [
+        "不客气: bù kè qì",
+        "客人: kè rén",
+        "顾客: gù kè",
+        "客厅: kè tīng"
+      ],
+      "sentence": "我们学习“不客气”。",
+      "sentence_pinyin": "wǒ men xué xí “ bù kè qì ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "不(bù)",
+        "客(kè)",
+        "气(qì)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "客，第四声，kè",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "杯",
+      "pinyin": "bēi",
+      "pinyin_numeric": "bei1",
+      "pronunciation_guide": "杯，第一声，bēi",
+      "meaning": "cup",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "杯子",
+        "干杯"
+      ],
+      "word_pronunciation_hints": [
+        "杯子: bēi zǐ",
+        "干杯: gàn bēi"
+      ],
+      "sentence": "我们学习“杯子”。",
+      "sentence_pinyin": "wǒ men xué xí “ bēi zǐ ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "杯(bēi)",
+        "子(zǐ)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "杯，第一声，bēi",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "爱",
+      "pinyin": "ài",
+      "pinyin_numeric": "ai4",
+      "pronunciation_guide": "爱，第四声，ài",
+      "meaning": "to love; affection; to be fond of; to like",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "爱",
+        "爱好",
+        "可爱",
+        "爱情"
+      ],
+      "word_pronunciation_hints": [
+        "爱: ài",
+        "爱好: ài hǎo",
+        "可爱: kě ài",
+        "爱情: ài qíng"
+      ],
+      "sentence": "我们学习“爱”。",
+      "sentence_pinyin": "wǒ men xué xí “ ài ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "爱(ài)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "爱，第四声，ài",
+      "audio_status": "pending",
+      "audio_path": ""
+    }
+  ],
+  "words": [
+    {
+      "text": "打电话",
+      "pinyin_text": "dǎ diàn huà",
+      "pronunciation_labels": [
+        "打(dǎ)",
+        "电(diàn)",
+        "话(huà)"
+      ],
+      "audio_text": "打电话",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "text": "电话",
+      "pinyin_text": "diàn huà",
+      "pronunciation_labels": [
+        "电(diàn)",
+        "话(huà)"
+      ],
+      "audio_text": "电话",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "text": "爸爸",
+      "pinyin_text": "bà bà",
+      "pronunciation_labels": [
+        "爸(bà)"
+      ],
+      "audio_text": "爸爸",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "text": "大家",
+      "pinyin_text": "dà jiā",
+      "pronunciation_labels": [
+        "大(dà)",
+        "家(jiā)"
+      ],
+      "audio_text": "大家",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "text": "客人",
+      "pinyin_text": "kè rén",
+      "pronunciation_labels": [
+        "客(kè)",
+        "人(rén)"
+      ],
+      "audio_text": "客人",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "text": "杯子",
+      "pinyin_text": "bēi zǐ",
+      "pronunciation_labels": [
+        "杯(bēi)",
+        "子(zǐ)"
+      ],
+      "audio_text": "杯子",
+      "audio_status": "pending",
+      "audio_path": ""
+    }
+  ],
+  "sentences": [
+    {
+      "id": "sentence-1",
+      "text": "我想给爸爸打电话。",
+      "pinyin_text": "wǒ xiǎng gěi bà bà dǎ diàn huà。",
+      "pronunciation_labels": [
+        "我(wǒ)",
+        "想(xiǎng)",
+        "给(gěi)",
+        "爸(bà)",
+        "打(dǎ)",
+        "电(diàn)",
+        "话(huà)"
+      ],
+      "audio_text": "我想给爸爸打电话。",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "id": "sentence-2",
+      "text": "客人到了，请先拿杯子。",
+      "pinyin_text": "kè rén dào le， qǐng xiān ná bēi zǐ。",
+      "pronunciation_labels": [
+        "客(kè)",
+        "人(rén)",
+        "到(dào)",
+        "了(le)",
+        "请(qǐng)",
+        "先(xiān)",
+        "拿(ná)",
+        "杯(bēi)",
+        "子(zǐ)"
+      ],
+      "audio_text": "客人到了，请先拿杯子。",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "id": "sentence-3",
+      "text": "大家在门口说话。",
+      "pinyin_text": "dà jiā zài mén kǒu shuō huà。",
+      "pronunciation_labels": [
+        "大(dà)",
+        "家(jiā)",
+        "在(zài)",
+        "门(mén)",
+        "口(kǒu)",
+        "说(shuō)",
+        "话(huà)"
+      ],
+      "audio_text": "大家在门口说话。",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "id": "sentence-4",
+      "text": "爸爸正在接电话。",
+      "pinyin_text": "bà bà zhèng zài jiē diàn huà。",
+      "pronunciation_labels": [
+        "爸(bà)",
+        "正(zhèng)",
+        "在(zài)",
+        "接(jiē)",
+        "电(diàn)",
+        "话(huà)"
+      ],
+      "audio_text": "爸爸正在接电话。",
+      "audio_status": "pending",
+      "audio_path": ""
+    }
+  ],
+  "story": [
+    {
+      "id": "scene-1",
+      "title": "联系爸爸",
+      "text": "放学后，一个学生想晚一点回家，先用电话联系爸爸。",
+      "pinyin_text": "fàng xué hòu， yī gè xué shēng xiǎng wǎn yī diǎn huí jiā， xiān yòng diàn huà lián xì bà bà。",
+      "pronunciation_labels": [
+        "放(fàng)",
+        "学(xué)",
+        "后(hòu)",
+        "一(yī)",
+        "个(gè)",
+        "生(shēng)",
+        "想(xiǎng)",
+        "晚(wǎn)",
+        "点(diǎn)",
+        "回(huí)",
+        "家(jiā)",
+        "先(xiān)",
+        "用(yòng)",
+        "电(diàn)",
+        "话(huà)",
+        "联(lián)",
+        "系(xì)",
+        "爸(bà)"
+      ],
+      "dialogue_line": "我想给爸爸打电话。",
+      "dialogue_pinyin": "wǒ xiǎng gěi bà bà dǎ diàn huà。",
+      "focus_chars": [
+        "爸",
+        "打",
+        "话"
+      ],
+      "focus_words": [
+        "打电话",
+        "爸爸"
+      ],
+      "image_prompt": "Create a storybook-style learning illustration for school-age Chinese learners.\nStyle baseline: storybook illustration, soft shapes, warm light, expressive characters.\nScene goal: 放学后，一个学生想晚一点回家，先用电话联系爸爸。\nScene type: 家庭时刻\nLocation: 温暖真实的家庭空间\nFocus characters: 爸、打、话\nFocus words: 打电话、爸爸\nVisual direction:\n- Use soft shapes, warm light, expressive characters, and an age-appropriate atmosphere for learners around ages 9-13.\n- Build a grounded educational scene connected to real Chinese learning moments such as classroom discussion, home routines, reading, greeting, helping, planning, travel, or going out.\n- Include meaningful props related to Chinese learning, such as books, chalkboard, toys, flowers, bags, tables, cups, or other scene-appropriate objects.\n- Keep the layout clean and stable, suitable for a modern learning page or printable study material.\nComposition:\n- One clear main action, readable background, strong focal point, and enough empty space for later educational text layout.\n- Make the illustration feel polished, warm, and visually consistent with the Fun Hanzi style, without looking like preschool material.\nIMPORTANT:\n- Do NOT generate any Chinese characters, pinyin, letters, or text in the image.\n- Leave empty space where educational text can be added later.\n- Hanzi and pinyin planning notes belong in the separate text layout, not inside the image.\n- If any visible text is produced by mistake, it must be treated as an error and regenerated.",
+      "video_prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 联系爸爸\nLearning goal: 放学后，一个学生想晚一点回家，先用电话联系爸爸。\nReal-life setting: 家庭时刻 / 温暖真实的家庭空间\nCharacter relationship: 学生和家人围绕生活安排、礼貌表达或简单分工进行互动\nFocus characters: 爸、打、话\nFocus words: 打电话、爸爸\nFixed spoken line: 我想给爸爸打电话。\nReference pinyin for production only: wǒ xiǎng gěi bà bà dǎ diàn huà。\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 家庭时刻 in 温暖真实的家庭空间. Show 学生和家人围绕生活安排、礼貌表达或简单分工进行互动. Let 打电话、爸爸 and the focus characters 爸、打、话 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “我想给爸爸打电话。”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 爸 -> bà; 打 -> dǎ; 话 -> huà. Keep these exact Hanzi+pinyin pairs in your notes: 爸 bà | 打 dǎ | 话 huà.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: wǒ xiǎng gěi bà bà dǎ diàn huà。. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "video_script": "场景：联系爸爸\n视频类型：家庭时刻\n真实场合：温暖真实的家庭空间\n人物关系：学生和家人围绕生活安排、礼貌表达或简单分工进行互动\n固定台词：我想给爸爸打电话。\n参考拼音：wǒ xiǎng gěi bà bà dǎ diàn huà。\n目标字：爸、打、话\n剧情结构：先交代一个真实小场景，再出现一个小问题或小任务，接着通过人物互动自然说出台词，最后温暖收尾。\n镜头1：建立真实场景，让学生一眼看懂人物在做什么，并为“我想给爸爸打电话。”做铺垫。\n镜头2：出现一个具体动作或小问题，把目标字 爸、打、话 藏在物件、地点、任务或人物反应里，不要像生硬教学演示。\n镜头3：角色在情境里自然说出固定台词“我想给爸爸打电话。”，嘴型清楚，情绪真实，动作和台词有关联。\n镜头4：给出回应或结果，例如同学反馈、老师确认、家人回应、任务完成，让学习者感觉这个句子在真实生活里有用。\n镜头5：收尾停留 1-2 秒，保持画面温暖、真实、易懂，但不要过于幼态。\n字幕策略：视频里不强制加入拼音字幕，拼音会由学习页面单独展示；如需字幕，只保留汉字即可。",
+      "focus_pronunciations": [
+        {
+          "char": "爸",
+          "pinyin": "bà"
+        },
+        {
+          "char": "打",
+          "pinyin": "dǎ"
+        },
+        {
+          "char": "话",
+          "pinyin": "huà"
+        }
+      ],
+      "image_text_layout": "【标题】\n我想给爸爸打电话。\nwǒ xiǎng gěi bà bà dǎ diàn huà。\n\n【重点字】\n爸\nbà\n打\ndǎ\n话\nhuà\n\n【词语】\n打电话\n爸爸\n\n【教学标签】\n爸 bà | 打 dǎ | 话 huà",
+      "image_status": "ready",
+      "image_asset_id": "asset-4c16c13a6f",
+      "image_path": "/assets/images/2026-W15/scene-1.png",
+      "video_status": "ready",
+      "video_asset_id": "asset-ed2ecaf08b",
+      "video_path": "/assets/videos/2026-W15/scene-1.mp4",
+      "audio_text": "我想给爸爸打电话。",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "id": "scene-2",
+      "title": "客人到了",
+      "text": "晚上家里来了客人，大家正在门口打招呼，桌上已经放好了杯子。",
+      "pinyin_text": "wǎn shàng jiā lǐ lái le kè rén， dà jiā zhèng zài mén kǒu dǎ zhāo hū， zhuō shàng yǐ jīng fàng hǎo le bēi zǐ。",
+      "pronunciation_labels": [
+        "晚(wǎn)",
+        "上(shàng)",
+        "家(jiā)",
+        "里(lǐ)",
+        "来(lái)",
+        "了(le)",
+        "客(kè)",
+        "人(rén)",
+        "大(dà)",
+        "正(zhèng)",
+        "在(zài)",
+        "门(mén)",
+        "口(kǒu)",
+        "打(dǎ)",
+        "招(zhāo)",
+        "呼(hū)",
+        "桌(zhuō)",
+        "已(yǐ)",
+        "经(jīng)",
+        "放(fàng)",
+        "好(hǎo)",
+        "杯(bēi)",
+        "子(zǐ)"
+      ],
+      "dialogue_line": "客人到了，请先拿杯子。",
+      "dialogue_pinyin": "kè rén dào le， qǐng xiān ná bēi zǐ。",
+      "focus_chars": [
+        "客",
+        "杯",
+        "大"
+      ],
+      "focus_words": [
+        "客人",
+        "杯子"
+      ],
+      "image_prompt": "Create a storybook-style learning illustration for school-age Chinese learners.\nStyle baseline: storybook illustration, soft shapes, warm light, expressive characters.\nScene goal: 晚上家里来了客人，大家正在门口打招呼，桌上已经放好了杯子。\nScene type: 家庭时刻\nLocation: 温暖真实的家庭空间\nFocus characters: 客、杯、大\nFocus words: 客人、杯子\nVisual direction:\n- Use soft shapes, warm light, expressive characters, and an age-appropriate atmosphere for learners around ages 9-13.\n- Build a grounded educational scene connected to real Chinese learning moments such as classroom discussion, home routines, reading, greeting, helping, planning, travel, or going out.\n- Include meaningful props related to Chinese learning, such as books, chalkboard, toys, flowers, bags, tables, cups, or other scene-appropriate objects.\n- Keep the layout clean and stable, suitable for a modern learning page or printable study material.\nComposition:\n- One clear main action, readable background, strong focal point, and enough empty space for later educational text layout.\n- Make the illustration feel polished, warm, and visually consistent with the Fun Hanzi style, without looking like preschool material.\nIMPORTANT:\n- Do NOT generate any Chinese characters, pinyin, letters, or text in the image.\n- Leave empty space where educational text can be added later.\n- Hanzi and pinyin planning notes belong in the separate text layout, not inside the image.\n- If any visible text is produced by mistake, it must be treated as an error and regenerated.",
+      "video_prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 客人到了\nLearning goal: 晚上家里来了客人，大家正在门口打招呼，桌上已经放好了杯子。\nReal-life setting: 家庭时刻 / 温暖真实的家庭空间\nCharacter relationship: 学生和家人围绕生活安排、礼貌表达或简单分工进行互动\nFocus characters: 客、杯、大\nFocus words: 客人、杯子\nFixed spoken line: 客人到了，请先拿杯子。\nReference pinyin for production only: kè rén dào le， qǐng xiān ná bēi zǐ。\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 家庭时刻 in 温暖真实的家庭空间. Show 学生和家人围绕生活安排、礼貌表达或简单分工进行互动. Let 客人、杯子 and the focus characters 客、杯、大 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “客人到了，请先拿杯子。”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 客 -> kè; 杯 -> bēi; 大 -> dà. Keep these exact Hanzi+pinyin pairs in your notes: 客 kè | 杯 bēi | 大 dà.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: kè rén dào le， qǐng xiān ná bēi zǐ。. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "video_script": "场景：客人到了\n视频类型：家庭时刻\n真实场合：温暖真实的家庭空间\n人物关系：学生和家人围绕生活安排、礼貌表达或简单分工进行互动\n固定台词：客人到了，请先拿杯子。\n参考拼音：kè rén dào le， qǐng xiān ná bēi zǐ。\n目标字：客、杯、大\n剧情结构：先交代一个真实小场景，再出现一个小问题或小任务，接着通过人物互动自然说出台词，最后温暖收尾。\n镜头1：建立真实场景，让学生一眼看懂人物在做什么，并为“客人到了，请先拿杯子。”做铺垫。\n镜头2：出现一个具体动作或小问题，把目标字 客、杯、大 藏在物件、地点、任务或人物反应里，不要像生硬教学演示。\n镜头3：角色在情境里自然说出固定台词“客人到了，请先拿杯子。”，嘴型清楚，情绪真实，动作和台词有关联。\n镜头4：给出回应或结果，例如同学反馈、老师确认、家人回应、任务完成，让学习者感觉这个句子在真实生活里有用。\n镜头5：收尾停留 1-2 秒，保持画面温暖、真实、易懂，但不要过于幼态。\n字幕策略：视频里不强制加入拼音字幕，拼音会由学习页面单独展示；如需字幕，只保留汉字即可。",
+      "focus_pronunciations": [
+        {
+          "char": "客",
+          "pinyin": "kè"
+        },
+        {
+          "char": "杯",
+          "pinyin": "bēi"
+        },
+        {
+          "char": "大",
+          "pinyin": "dà"
+        }
+      ],
+      "image_text_layout": "【标题】\n客人到了，请先拿杯子。\nkè rén dào le， qǐng xiān ná bēi zǐ。\n\n【重点字】\n客\nkè\n杯\nbēi\n大\ndà\n\n【词语】\n客人\n杯子\n\n【教学标签】\n客 kè | 杯 bēi | 大 dà",
+      "image_status": "ready",
+      "image_asset_id": "asset-77c0811274",
+      "image_path": "/assets/images/2026-W15/scene-2.png",
+      "video_status": "ready",
+      "video_asset_id": "asset-87bcb9903d",
+      "video_path": "/assets/videos/2026-W15/scene-2.mp4",
+      "audio_text": "客人到了，请先拿杯子。",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "id": "scene-3",
+      "title": "说清安排",
+      "text": "爸爸接完电话后，和家人一起确认晚上的安排，大家说话很清楚。",
+      "pinyin_text": "bà bà jiē wán diàn huà hòu， hé jiā rén yī qǐ què rèn wǎn shàng de ān pái， dà jiā shuō huà hěn qīng chǔ。",
+      "pronunciation_labels": [
+        "爸(bà)",
+        "接(jiē)",
+        "完(wán)",
+        "电(diàn)",
+        "话(huà)",
+        "后(hòu)",
+        "和(hé)",
+        "家(jiā)",
+        "人(rén)",
+        "一(yī)",
+        "起(qǐ)",
+        "确(què)",
+        "认(rèn)",
+        "晚(wǎn)",
+        "上(shàng)",
+        "的(de)",
+        "安(ān)",
+        "排(pái)",
+        "大(dà)",
+        "说(shuō)",
+        "很(hěn)",
+        "清(qīng)",
+        "楚(chǔ)"
+      ],
+      "dialogue_line": "大家在门口说话。",
+      "dialogue_pinyin": "dà jiā zài mén kǒu shuō huà。",
+      "focus_chars": [
+        "电",
+        "话",
+        "大"
+      ],
+      "focus_words": [
+        "电话",
+        "大家"
+      ],
+      "image_prompt": "Create a storybook-style learning illustration for school-age Chinese learners.\nStyle baseline: storybook illustration, soft shapes, warm light, expressive characters.\nScene goal: 爸爸接完电话后，和家人一起确认晚上的安排，大家说话很清楚。\nScene type: 家庭时刻\nLocation: 温暖真实的家庭空间\nFocus characters: 电、话、大\nFocus words: 电话、大家\nVisual direction:\n- Use soft shapes, warm light, expressive characters, and an age-appropriate atmosphere for learners around ages 9-13.\n- Build a grounded educational scene connected to real Chinese learning moments such as classroom discussion, home routines, reading, greeting, helping, planning, travel, or going out.\n- Include meaningful props related to Chinese learning, such as books, chalkboard, toys, flowers, bags, tables, cups, or other scene-appropriate objects.\n- Keep the layout clean and stable, suitable for a modern learning page or printable study material.\nComposition:\n- One clear main action, readable background, strong focal point, and enough empty space for later educational text layout.\n- Make the illustration feel polished, warm, and visually consistent with the Fun Hanzi style, without looking like preschool material.\nIMPORTANT:\n- Do NOT generate any Chinese characters, pinyin, letters, or text in the image.\n- Leave empty space where educational text can be added later.\n- Hanzi and pinyin planning notes belong in the separate text layout, not inside the image.\n- If any visible text is produced by mistake, it must be treated as an error and regenerated.",
+      "video_prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 说清安排\nLearning goal: 爸爸接完电话后，和家人一起确认晚上的安排，大家说话很清楚。\nReal-life setting: 家庭时刻 / 温暖真实的家庭空间\nCharacter relationship: 学生和家人围绕生活安排、礼貌表达或简单分工进行互动\nFocus characters: 电、话、大\nFocus words: 电话、大家\nFixed spoken line: 大家在门口说话。\nReference pinyin for production only: dà jiā zài mén kǒu shuō huà。\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 家庭时刻 in 温暖真实的家庭空间. Show 学生和家人围绕生活安排、礼貌表达或简单分工进行互动. Let 电话、大家 and the focus characters 电、话、大 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “大家在门口说话。”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 电 -> diàn; 话 -> huà; 大 -> dà. Keep these exact Hanzi+pinyin pairs in your notes: 电 diàn | 话 huà | 大 dà.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: dà jiā zài mén kǒu shuō huà。. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "video_script": "场景：说清安排\n视频类型：家庭时刻\n真实场合：温暖真实的家庭空间\n人物关系：学生和家人围绕生活安排、礼貌表达或简单分工进行互动\n固定台词：大家在门口说话。\n参考拼音：dà jiā zài mén kǒu shuō huà。\n目标字：电、话、大\n剧情结构：先交代一个真实小场景，再出现一个小问题或小任务，接着通过人物互动自然说出台词，最后温暖收尾。\n镜头1：建立真实场景，让学生一眼看懂人物在做什么，并为“大家在门口说话。”做铺垫。\n镜头2：出现一个具体动作或小问题，把目标字 电、话、大 藏在物件、地点、任务或人物反应里，不要像生硬教学演示。\n镜头3：角色在情境里自然说出固定台词“大家在门口说话。”，嘴型清楚，情绪真实，动作和台词有关联。\n镜头4：给出回应或结果，例如同学反馈、老师确认、家人回应、任务完成，让学习者感觉这个句子在真实生活里有用。\n镜头5：收尾停留 1-2 秒，保持画面温暖、真实、易懂，但不要过于幼态。\n字幕策略：视频里不强制加入拼音字幕，拼音会由学习页面单独展示；如需字幕，只保留汉字即可。",
+      "focus_pronunciations": [
+        {
+          "char": "电",
+          "pinyin": "diàn"
+        },
+        {
+          "char": "话",
+          "pinyin": "huà"
+        },
+        {
+          "char": "大",
+          "pinyin": "dà"
+        }
+      ],
+      "image_text_layout": "【标题】\n大家在门口说话。\ndà jiā zài mén kǒu shuō huà。\n\n【重点字】\n电\ndiàn\n话\nhuà\n大\ndà\n\n【词语】\n电话\n大家\n\n【教学标签】\n电 diàn | 话 huà | 大 dà",
+      "image_status": "ready",
+      "image_asset_id": "asset-4b153ea367",
+      "image_path": "/assets/images/2026-W15/scene-3.png",
+      "video_status": "ready",
+      "video_asset_id": "asset-d929491bd4",
+      "video_path": "/assets/videos/2026-W15/scene-3.mp4",
+      "audio_text": "大家在门口说话。",
+      "audio_status": "pending",
+      "audio_path": ""
+    }
+  ],
+  "image_tasks": [
+    {
+      "scene_id": "scene-1",
+      "prompt": "Create a storybook-style learning illustration for school-age Chinese learners.\nStyle baseline: storybook illustration, soft shapes, warm light, expressive characters.\nScene goal: 放学后，一个学生想晚一点回家，先用电话联系爸爸。\nScene type: 家庭时刻\nLocation: 温暖真实的家庭空间\nFocus characters: 爸、打、话\nFocus words: 打电话、爸爸\nVisual direction:\n- Use soft shapes, warm light, expressive characters, and an age-appropriate atmosphere for learners around ages 9-13.\n- Build a grounded educational scene connected to real Chinese learning moments such as classroom discussion, home routines, reading, greeting, helping, planning, travel, or going out.\n- Include meaningful props related to Chinese learning, such as books, chalkboard, toys, flowers, bags, tables, cups, or other scene-appropriate objects.\n- Keep the layout clean and stable, suitable for a modern learning page or printable study material.\nComposition:\n- One clear main action, readable background, strong focal point, and enough empty space for later educational text layout.\n- Make the illustration feel polished, warm, and visually consistent with the Fun Hanzi style, without looking like preschool material.\nIMPORTANT:\n- Do NOT generate any Chinese characters, pinyin, letters, or text in the image.\n- Leave empty space where educational text can be added later.\n- Hanzi and pinyin planning notes belong in the separate text layout, not inside the image.\n- If any visible text is produced by mistake, it must be treated as an error and regenerated.",
+      "status": "ready",
+      "asset_id": "asset-4c16c13a6f",
+      "file_path": "/assets/images/2026-W15/scene-1.png"
+    },
+    {
+      "scene_id": "scene-2",
+      "prompt": "Create a storybook-style learning illustration for school-age Chinese learners.\nStyle baseline: storybook illustration, soft shapes, warm light, expressive characters.\nScene goal: 晚上家里来了客人，大家正在门口打招呼，桌上已经放好了杯子。\nScene type: 家庭时刻\nLocation: 温暖真实的家庭空间\nFocus characters: 客、杯、大\nFocus words: 客人、杯子\nVisual direction:\n- Use soft shapes, warm light, expressive characters, and an age-appropriate atmosphere for learners around ages 9-13.\n- Build a grounded educational scene connected to real Chinese learning moments such as classroom discussion, home routines, reading, greeting, helping, planning, travel, or going out.\n- Include meaningful props related to Chinese learning, such as books, chalkboard, toys, flowers, bags, tables, cups, or other scene-appropriate objects.\n- Keep the layout clean and stable, suitable for a modern learning page or printable study material.\nComposition:\n- One clear main action, readable background, strong focal point, and enough empty space for later educational text layout.\n- Make the illustration feel polished, warm, and visually consistent with the Fun Hanzi style, without looking like preschool material.\nIMPORTANT:\n- Do NOT generate any Chinese characters, pinyin, letters, or text in the image.\n- Leave empty space where educational text can be added later.\n- Hanzi and pinyin planning notes belong in the separate text layout, not inside the image.\n- If any visible text is produced by mistake, it must be treated as an error and regenerated.",
+      "status": "ready",
+      "asset_id": "asset-77c0811274",
+      "file_path": "/assets/images/2026-W15/scene-2.png"
+    },
+    {
+      "scene_id": "scene-3",
+      "prompt": "Create a storybook-style learning illustration for school-age Chinese learners.\nStyle baseline: storybook illustration, soft shapes, warm light, expressive characters.\nScene goal: 爸爸接完电话后，和家人一起确认晚上的安排，大家说话很清楚。\nScene type: 家庭时刻\nLocation: 温暖真实的家庭空间\nFocus characters: 电、话、大\nFocus words: 电话、大家\nVisual direction:\n- Use soft shapes, warm light, expressive characters, and an age-appropriate atmosphere for learners around ages 9-13.\n- Build a grounded educational scene connected to real Chinese learning moments such as classroom discussion, home routines, reading, greeting, helping, planning, travel, or going out.\n- Include meaningful props related to Chinese learning, such as books, chalkboard, toys, flowers, bags, tables, cups, or other scene-appropriate objects.\n- Keep the layout clean and stable, suitable for a modern learning page or printable study material.\nComposition:\n- One clear main action, readable background, strong focal point, and enough empty space for later educational text layout.\n- Make the illustration feel polished, warm, and visually consistent with the Fun Hanzi style, without looking like preschool material.\nIMPORTANT:\n- Do NOT generate any Chinese characters, pinyin, letters, or text in the image.\n- Leave empty space where educational text can be added later.\n- Hanzi and pinyin planning notes belong in the separate text layout, not inside the image.\n- If any visible text is produced by mistake, it must be treated as an error and regenerated.",
+      "status": "ready",
+      "asset_id": "asset-4b153ea367",
+      "file_path": "/assets/images/2026-W15/scene-3.png"
+    }
+  ],
+  "video_tasks": [
+    {
+      "scene_id": "scene-1",
+      "prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 联系爸爸\nLearning goal: 放学后，一个学生想晚一点回家，先用电话联系爸爸。\nReal-life setting: 家庭时刻 / 温暖真实的家庭空间\nCharacter relationship: 学生和家人围绕生活安排、礼貌表达或简单分工进行互动\nFocus characters: 爸、打、话\nFocus words: 打电话、爸爸\nFixed spoken line: 我想给爸爸打电话。\nReference pinyin for production only: wǒ xiǎng gěi bà bà dǎ diàn huà。\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 家庭时刻 in 温暖真实的家庭空间. Show 学生和家人围绕生活安排、礼貌表达或简单分工进行互动. Let 打电话、爸爸 and the focus characters 爸、打、话 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “我想给爸爸打电话。”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 爸 -> bà; 打 -> dǎ; 话 -> huà. Keep these exact Hanzi+pinyin pairs in your notes: 爸 bà | 打 dǎ | 话 huà.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: wǒ xiǎng gěi bà bà dǎ diàn huà。. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "status": "ready",
+      "asset_id": "asset-ed2ecaf08b",
+      "file_path": "/assets/videos/2026-W15/scene-1.mp4"
+    },
+    {
+      "scene_id": "scene-2",
+      "prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 客人到了\nLearning goal: 晚上家里来了客人，大家正在门口打招呼，桌上已经放好了杯子。\nReal-life setting: 家庭时刻 / 温暖真实的家庭空间\nCharacter relationship: 学生和家人围绕生活安排、礼貌表达或简单分工进行互动\nFocus characters: 客、杯、大\nFocus words: 客人、杯子\nFixed spoken line: 客人到了，请先拿杯子。\nReference pinyin for production only: kè rén dào le， qǐng xiān ná bēi zǐ。\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 家庭时刻 in 温暖真实的家庭空间. Show 学生和家人围绕生活安排、礼貌表达或简单分工进行互动. Let 客人、杯子 and the focus characters 客、杯、大 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “客人到了，请先拿杯子。”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 客 -> kè; 杯 -> bēi; 大 -> dà. Keep these exact Hanzi+pinyin pairs in your notes: 客 kè | 杯 bēi | 大 dà.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: kè rén dào le， qǐng xiān ná bēi zǐ。. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "status": "ready",
+      "asset_id": "asset-87bcb9903d",
+      "file_path": "/assets/videos/2026-W15/scene-2.mp4"
+    },
+    {
+      "scene_id": "scene-3",
+      "prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 说清安排\nLearning goal: 爸爸接完电话后，和家人一起确认晚上的安排，大家说话很清楚。\nReal-life setting: 家庭时刻 / 温暖真实的家庭空间\nCharacter relationship: 学生和家人围绕生活安排、礼貌表达或简单分工进行互动\nFocus characters: 电、话、大\nFocus words: 电话、大家\nFixed spoken line: 大家在门口说话。\nReference pinyin for production only: dà jiā zài mén kǒu shuō huà。\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 家庭时刻 in 温暖真实的家庭空间. Show 学生和家人围绕生活安排、礼貌表达或简单分工进行互动. Let 电话、大家 and the focus characters 电、话、大 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “大家在门口说话。”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 电 -> diàn; 话 -> huà; 大 -> dà. Keep these exact Hanzi+pinyin pairs in your notes: 电 diàn | 话 huà | 大 dà.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: dà jiā zài mén kǒu shuō huà。. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "status": "ready",
+      "asset_id": "asset-d929491bd4",
+      "file_path": "/assets/videos/2026-W15/scene-3.mp4"
+    }
+  ],
+  "video_storyboard": [
+    {
+      "scene_id": "scene-1",
+      "title": "联系爸爸",
+      "prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 联系爸爸\nLearning goal: 放学后，一个学生想晚一点回家，先用电话联系爸爸。\nReal-life setting: 家庭时刻 / 温暖真实的家庭空间\nCharacter relationship: 学生和家人围绕生活安排、礼貌表达或简单分工进行互动\nFocus characters: 爸、打、话\nFocus words: 打电话、爸爸\nFixed spoken line: 我想给爸爸打电话。\nReference pinyin for production only: wǒ xiǎng gěi bà bà dǎ diàn huà。\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 家庭时刻 in 温暖真实的家庭空间. Show 学生和家人围绕生活安排、礼貌表达或简单分工进行互动. Let 打电话、爸爸 and the focus characters 爸、打、话 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “我想给爸爸打电话。”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 爸 -> bà; 打 -> dǎ; 话 -> huà. Keep these exact Hanzi+pinyin pairs in your notes: 爸 bà | 打 dǎ | 话 huà.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: wǒ xiǎng gěi bà bà dǎ diàn huà。. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "script": "场景：联系爸爸\n视频类型：家庭时刻\n真实场合：温暖真实的家庭空间\n人物关系：学生和家人围绕生活安排、礼貌表达或简单分工进行互动\n固定台词：我想给爸爸打电话。\n参考拼音：wǒ xiǎng gěi bà bà dǎ diàn huà。\n目标字：爸、打、话\n剧情结构：先交代一个真实小场景，再出现一个小问题或小任务，接着通过人物互动自然说出台词，最后温暖收尾。\n镜头1：建立真实场景，让学生一眼看懂人物在做什么，并为“我想给爸爸打电话。”做铺垫。\n镜头2：出现一个具体动作或小问题，把目标字 爸、打、话 藏在物件、地点、任务或人物反应里，不要像生硬教学演示。\n镜头3：角色在情境里自然说出固定台词“我想给爸爸打电话。”，嘴型清楚，情绪真实，动作和台词有关联。\n镜头4：给出回应或结果，例如同学反馈、老师确认、家人回应、任务完成，让学习者感觉这个句子在真实生活里有用。\n镜头5：收尾停留 1-2 秒，保持画面温暖、真实、易懂，但不要过于幼态。\n字幕策略：视频里不强制加入拼音字幕，拼音会由学习页面单独展示；如需字幕，只保留汉字即可。"
+    },
+    {
+      "scene_id": "scene-2",
+      "title": "客人到了",
+      "prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 客人到了\nLearning goal: 晚上家里来了客人，大家正在门口打招呼，桌上已经放好了杯子。\nReal-life setting: 家庭时刻 / 温暖真实的家庭空间\nCharacter relationship: 学生和家人围绕生活安排、礼貌表达或简单分工进行互动\nFocus characters: 客、杯、大\nFocus words: 客人、杯子\nFixed spoken line: 客人到了，请先拿杯子。\nReference pinyin for production only: kè rén dào le， qǐng xiān ná bēi zǐ。\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 家庭时刻 in 温暖真实的家庭空间. Show 学生和家人围绕生活安排、礼貌表达或简单分工进行互动. Let 客人、杯子 and the focus characters 客、杯、大 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “客人到了，请先拿杯子。”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 客 -> kè; 杯 -> bēi; 大 -> dà. Keep these exact Hanzi+pinyin pairs in your notes: 客 kè | 杯 bēi | 大 dà.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: kè rén dào le， qǐng xiān ná bēi zǐ。. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "script": "场景：客人到了\n视频类型：家庭时刻\n真实场合：温暖真实的家庭空间\n人物关系：学生和家人围绕生活安排、礼貌表达或简单分工进行互动\n固定台词：客人到了，请先拿杯子。\n参考拼音：kè rén dào le， qǐng xiān ná bēi zǐ。\n目标字：客、杯、大\n剧情结构：先交代一个真实小场景，再出现一个小问题或小任务，接着通过人物互动自然说出台词，最后温暖收尾。\n镜头1：建立真实场景，让学生一眼看懂人物在做什么，并为“客人到了，请先拿杯子。”做铺垫。\n镜头2：出现一个具体动作或小问题，把目标字 客、杯、大 藏在物件、地点、任务或人物反应里，不要像生硬教学演示。\n镜头3：角色在情境里自然说出固定台词“客人到了，请先拿杯子。”，嘴型清楚，情绪真实，动作和台词有关联。\n镜头4：给出回应或结果，例如同学反馈、老师确认、家人回应、任务完成，让学习者感觉这个句子在真实生活里有用。\n镜头5：收尾停留 1-2 秒，保持画面温暖、真实、易懂，但不要过于幼态。\n字幕策略：视频里不强制加入拼音字幕，拼音会由学习页面单独展示；如需字幕，只保留汉字即可。"
+    },
+    {
+      "scene_id": "scene-3",
+      "title": "说清安排",
+      "prompt": "Create an educational micro-story video for school-age Chinese learners.\nStyle baseline: 10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting.\nScene title: 说清安排\nLearning goal: 爸爸接完电话后，和家人一起确认晚上的安排，大家说话很清楚。\nReal-life setting: 家庭时刻 / 温暖真实的家庭空间\nCharacter relationship: 学生和家人围绕生活安排、礼貌表达或简单分工进行互动\nFocus characters: 电、话、大\nFocus words: 电话、大家\nFixed spoken line: 大家在门口说话。\nReference pinyin for production only: dà jiā zài mén kǒu shuō huà。\nStory direction: Build a school-age learning micro-story instead of a dry teaching clip. Use a believable 家庭时刻 in 温暖真实的家庭空间. Show 学生和家人围绕生活安排、礼貌表达或简单分工进行互动. Let 电话、大家 and the focus characters 电、话、大 appear through a tiny real-life event. The story must contain a setup, a small task or question, a response, and a warm ending. Keep the tone suitable for learners around ages 9-13, a little more mature and grounded than preschool material. Make the spoken line feel natural and land clearly on “大家在门口说话。”.\nStory structure:\n- Opening: establish a real place and a clear student activity.\n- Middle beat: introduce one small task, question, or discovery connected to the target words.\n- Speaking beat: let the character say the fixed line naturally in context.\n- Ending: give a warm response or tiny success moment.\nVisual direction:\n- Keep the action grounded in family life, classroom life, going out, greeting, helping, reading, planning, traveling, or welcoming someone.\n- Use clear staging, readable props, gentle motion, and one main action per shot.\n- Keep the same characters, costume, and mood consistent with the matching image.\nText and subtitle rules:\n- Reference these exact pinyin spellings for production planning and script checking only: 电 -> diàn; 话 -> huà; 大 -> dà. Keep these exact Hanzi+pinyin pairs in your notes: 电 diàn | 话 huà | 大 dà.\n- Use the fixed spoken line provided in the script. Reference pinyin for production only: dà jiā zài mén kǒu shuō huà。. Do not generate pinyin subtitles inside the video; the learning page will show the exact teaching pinyin separately.\n- If text appears on screen, prefer Hanzi only and avoid auto-generated pinyin subtitles.\n- Hanzi writing and pinyin spelling must be absolutely correct; do not invent, simplify, misspell, or place tone marks on the wrong vowel.\nQuality bar:\n- Avoid flashcard-style pointing at words.\n- Avoid empty backgrounds or generic stock actions.\n- Make the moment feel believable, warm, story-led, and useful for a child learner.",
+      "script": "场景：说清安排\n视频类型：家庭时刻\n真实场合：温暖真实的家庭空间\n人物关系：学生和家人围绕生活安排、礼貌表达或简单分工进行互动\n固定台词：大家在门口说话。\n参考拼音：dà jiā zài mén kǒu shuō huà。\n目标字：电、话、大\n剧情结构：先交代一个真实小场景，再出现一个小问题或小任务，接着通过人物互动自然说出台词，最后温暖收尾。\n镜头1：建立真实场景，让学生一眼看懂人物在做什么，并为“大家在门口说话。”做铺垫。\n镜头2：出现一个具体动作或小问题，把目标字 电、话、大 藏在物件、地点、任务或人物反应里，不要像生硬教学演示。\n镜头3：角色在情境里自然说出固定台词“大家在门口说话。”，嘴型清楚，情绪真实，动作和台词有关联。\n镜头4：给出回应或结果，例如同学反馈、老师确认、家人回应、任务完成，让学习者感觉这个句子在真实生活里有用。\n镜头5：收尾停留 1-2 秒，保持画面温暖、真实、易懂，但不要过于幼态。\n字幕策略：视频里不强制加入拼音字幕，拼音会由学习页面单独展示；如需字幕，只保留汉字即可。"
+    }
+  ],
+  "audio_tasks": [
+    {
+      "scope": "char",
+      "id": "爸",
+      "text": "爸，第四声，bà",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "打",
+      "text": "打，第三声，dǎ",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "电",
+      "text": "电，第四声，diàn",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "话",
+      "text": "话，第四声，huà",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "大",
+      "text": "大，第四声，dà",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "客",
+      "text": "客，第四声，kè",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "杯",
+      "text": "杯，第一声，bēi",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "爱",
+      "text": "爱，第四声，ài",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-1",
+      "text": "打电话",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-2",
+      "text": "电话",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-3",
+      "text": "爸爸",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-4",
+      "text": "大家",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-5",
+      "text": "客人",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-6",
+      "text": "杯子",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "sentence",
+      "id": "sentence-1",
+      "text": "我想给爸爸打电话。",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "sentence",
+      "id": "sentence-2",
+      "text": "客人到了，请先拿杯子。",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "sentence",
+      "id": "sentence-3",
+      "text": "大家在门口说话。",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "sentence",
+      "id": "sentence-4",
+      "text": "爸爸正在接电话。",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "story",
+      "id": "scene-1",
+      "text": "放学后，一个学生想晚一点回家，先用电话联系爸爸。",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "story",
+      "id": "scene-2",
+      "text": "晚上家里来了客人，大家正在门口打招呼，桌上已经放好了杯子。",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "story",
+      "id": "scene-3",
+      "text": "爸爸接完电话后，和家人一起确认晚上的安排，大家说话很清楚。",
+      "status": "pending",
+      "file_path": ""
+    }
+  ],
+  "worksheet": {
+    "status": "ready",
+    "file_path": "/assets/worksheets/2026-W15/handwriting_practice.pdf",
+    "page_size": "A4",
+    "entries": 8
+  },
+  "status": "ready",
+  "generation_mode": "template",
+  "updated_at": "2026-03-15T02:28:40.038472+00:00",
+  "generation_warning": "OpenRouter request failed: [Errno 8] nodename nor servname provided, or not known"
+}

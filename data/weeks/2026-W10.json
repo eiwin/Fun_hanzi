@@ -1,0 +1,884 @@
+{
+  "week_id": "2026-W10",
+  "learner_id": "default",
+  "generated_at": "2026-03-08T16:17:23.446309+00:00",
+  "title": "出租车之旅",
+  "summary": "本周我们学习新字符茶、出、租、车，吃。我们在生活中喝茶，坐出租车，学好吃的东西。还复习了八、北、子等老朋友。",
+  "new_chars": [
+    "茶",
+    "吃",
+    "出",
+    "租",
+    "车"
+  ],
+  "review_chars": [
+    "八",
+    "北",
+    "子"
+  ],
+  "char_cards": [
+    {
+      "char": "茶",
+      "pinyin": "chá",
+      "pinyin_numeric": "cha2",
+      "pronunciation_guide": "茶，第二声，chá",
+      "meaning": "tea; tea plant; CL:杯[bei1],壺|壶[hu2]",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "茶"
+      ],
+      "word_pronunciation_hints": [
+        "茶: chá"
+      ],
+      "sentence": "我们学习“茶”。",
+      "sentence_pinyin": "wǒ men xué xí “ chá ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "茶(chá)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "茶，第二声，chá",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "吃",
+      "pinyin": "chī",
+      "pinyin_numeric": "chi1",
+      "pronunciation_guide": "吃，第一声，chī",
+      "meaning": "to eat; to have one's meal; to eradicate; to destroy; to absorb; to suffer; to exhaust",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "吃",
+        "好吃",
+        "吃惊",
+        "小吃"
+      ],
+      "word_pronunciation_hints": [
+        "吃: chī",
+        "好吃: hǎo chī",
+        "吃惊: chī jīng",
+        "小吃: xiǎo chī"
+      ],
+      "sentence": "我们学习“吃”。",
+      "sentence_pinyin": "wǒ men xué xí “ chī ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "吃(chī)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "吃，第一声，chī",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "出",
+      "pinyin": "chū",
+      "pinyin_numeric": "chu1",
+      "pronunciation_guide": "出，第一声，chū",
+      "meaning": "to go out; to come out; to occur; to produce; to go beyond; to rise; to put forth; to happen; classifier for dramas, plays, operas etc",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "出租车",
+        "出",
+        "出差",
+        "出发",
+        "出生",
+        "出现"
+      ],
+      "word_pronunciation_hints": [
+        "出租车: chū zū chē",
+        "出: chū",
+        "出差: chū chà",
+        "出发: chū fā",
+        "出生: chū shēng",
+        "出现: chū xiàn"
+      ],
+      "sentence": "我们学习“出租车”。",
+      "sentence_pinyin": "wǒ men xué xí “ chū zū chē ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "出(chū)",
+        "租(zū)",
+        "车(chē)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "出，第一声，chū",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "租",
+      "pinyin": "zū",
+      "pinyin_numeric": "zu1",
+      "pronunciation_guide": "租，第一声，zū",
+      "meaning": "to hire; to rent; to charter; to rent out; to lease out; rent; land tax",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "出租车",
+        "租"
+      ],
+      "word_pronunciation_hints": [
+        "出租车: chū zū chē",
+        "租: zū"
+      ],
+      "sentence": "我们学习“出租车”。",
+      "sentence_pinyin": "wǒ men xué xí “ chū zū chē ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "出(chū)",
+        "租(zū)",
+        "车(chē)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "租，第一声，zū",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "车",
+      "pinyin": "chē",
+      "pinyin_numeric": "Che1",
+      "pronunciation_guide": "车，第一声，chē",
+      "meaning": "surname Che",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "出租车",
+        "公共汽车",
+        "火车站",
+        "自行车",
+        "堵车"
+      ],
+      "word_pronunciation_hints": [
+        "出租车: chū zū chē",
+        "公共汽车: gōng gòng qì chē",
+        "火车站: huǒ chē zhàn",
+        "自行车: zì xíng chē",
+        "堵车: dǔ chē"
+      ],
+      "sentence": "我们学习“出租车”。",
+      "sentence_pinyin": "wǒ men xué xí “ chū zū chē ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "出(chū)",
+        "租(zū)",
+        "车(chē)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "车，第一声，chē",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "八",
+      "pinyin": "bā",
+      "pinyin_numeric": "ba1",
+      "pronunciation_guide": "八，第一声，bā",
+      "meaning": "eight; 8",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "八"
+      ],
+      "word_pronunciation_hints": [
+        "八: bā"
+      ],
+      "sentence": "我们学习“八”。",
+      "sentence_pinyin": "wǒ men xué xí “ bā ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "八(bā)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "八，第一声，bā",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "北",
+      "pinyin": "běi",
+      "pinyin_numeric": "bei3",
+      "pronunciation_guide": "北，第三声，běi",
+      "meaning": "north",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "北京",
+        "北方"
+      ],
+      "word_pronunciation_hints": [
+        "北京: běi jīng",
+        "北方: běi fāng"
+      ],
+      "sentence": "我们学习“北京”。",
+      "sentence_pinyin": "wǒ men xué xí “ běi jīng ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "北(běi)",
+        "京(jīng)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "北，第三声，běi",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pinyin_numeric": "zi3",
+      "pronunciation_guide": "子，第三声，zǐ",
+      "meaning": "son",
+      "radical": "",
+      "stroke_count": "",
+      "stroke_hint": "",
+      "structure": "",
+      "components": [],
+      "words": [
+        "杯子",
+        "儿子",
+        "椅子",
+        "桌子",
+        "孩子",
+        "妻子"
+      ],
+      "word_pronunciation_hints": [
+        "杯子: bēi zǐ",
+        "儿子: ér zǐ",
+        "椅子: yǐ zǐ",
+        "桌子: zhuō zǐ",
+        "孩子: hái zǐ",
+        "妻子: qī zǐ"
+      ],
+      "sentence": "我们学习“杯子”。",
+      "sentence_pinyin": "wǒ men xué xí “ bēi zǐ ”。",
+      "sentence_pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "学(xué)",
+        "习(xí)",
+        "杯(bēi)",
+        "子(zǐ)"
+      ],
+      "tags": [
+        "hsk",
+        "hsk1"
+      ],
+      "audio_text": "子，第三声，zǐ",
+      "audio_status": "pending",
+      "audio_path": ""
+    }
+  ],
+  "words": [
+    {
+      "text": "出租车",
+      "pinyin_text": "chū zū chē",
+      "pronunciation_labels": [
+        "出(chū)",
+        "租(zū)",
+        "车(chē)"
+      ],
+      "audio_text": "出租车",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "text": "喝茶",
+      "pinyin_text": "hē chá",
+      "pronunciation_labels": [
+        "喝(hē)",
+        "茶(chá)"
+      ],
+      "audio_text": "喝茶",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "text": "好吃",
+      "pinyin_text": "hǎo chī",
+      "pronunciation_labels": [
+        "好(hǎo)",
+        "吃(chī)"
+      ],
+      "audio_text": "好吃",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "text": "八",
+      "pinyin_text": "bā",
+      "pronunciation_labels": [
+        "八(bā)"
+      ],
+      "audio_text": "八",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "text": "北京",
+      "pinyin_text": "běi jīng",
+      "pronunciation_labels": [
+        "北(běi)",
+        "京(jīng)"
+      ],
+      "audio_text": "北京",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "text": "杯子",
+      "pinyin_text": "bēi zǐ",
+      "pronunciation_labels": [
+        "杯(bēi)",
+        "子(zǐ)"
+      ],
+      "audio_text": "杯子",
+      "audio_status": "pending",
+      "audio_path": ""
+    }
+  ],
+  "sentences": [
+    {
+      "id": "sentence-1",
+      "text": "我们一起喝茶。",
+      "pinyin_text": "wǒ men yī qǐ hē chá。",
+      "pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "一(yī)",
+        "起(qǐ)",
+        "喝(hē)",
+        "茶(chá)"
+      ],
+      "audio_text": "我们一起喝茶。",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "id": "sentence-2",
+      "text": "我爱吃好吃的。",
+      "pinyin_text": "wǒ ài chī hǎo chī de。",
+      "pronunciation_labels": [
+        "我(wǒ)",
+        "爱(ài)",
+        "吃(chī)",
+        "好(hǎo)",
+        "的(de)"
+      ],
+      "audio_text": "我爱吃好吃的。",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "id": "sentence-3",
+      "text": "我们坐出租车。",
+      "pinyin_text": "wǒ men zuò chū zū chē。",
+      "pronunciation_labels": [
+        "我(wǒ)",
+        "们(men)",
+        "坐(zuò)",
+        "出(chū)",
+        "租(zū)",
+        "车(chē)"
+      ],
+      "audio_text": "我们坐出租车。",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "id": "sentence-4",
+      "text": "北京的杯子在哪里？",
+      "pinyin_text": "běi jīng de bēi zǐ zài nǎ lǐ？",
+      "pronunciation_labels": [
+        "北(běi)",
+        "京(jīng)",
+        "的(de)",
+        "杯(bēi)",
+        "子(zǐ)",
+        "在(zài)",
+        "哪(nǎ)",
+        "里(lǐ)"
+      ],
+      "audio_text": "北京的杯子在哪里？",
+      "audio_status": "pending",
+      "audio_path": ""
+    }
+  ],
+  "story": [
+    {
+      "id": "scene-1",
+      "title": "喝茶时间",
+      "text": "小明和妈妈在客厅喝茶，妈妈用杯子倒茶，小明说“好喝”。",
+      "pinyin_text": "xiǎo míng hé mā mā zài kè tīng hē chá， mā mā yòng bēi zǐ dào chá， xiǎo míng shuō “ hǎo hē ”。",
+      "pronunciation_labels": [
+        "小(xiǎo)",
+        "明(míng)",
+        "和(hé)",
+        "妈(mā)",
+        "在(zài)",
+        "客(kè)",
+        "厅(tīng)",
+        "喝(hē)",
+        "茶(chá)",
+        "用(yòng)",
+        "杯(bēi)",
+        "子(zǐ)",
+        "倒(dào)",
+        "说(shuō)",
+        "好(hǎo)"
+      ],
+      "dialogue_line": "妈妈，我要喝茶！",
+      "dialogue_pinyin": "mā mā， wǒ yào hē chá！",
+      "focus_chars": [
+        "茶",
+        "子"
+      ],
+      "focus_words": [
+        "茶",
+        "杯子"
+      ],
+      "image_prompt": "Create a polished children's storybook illustration.\nScene goal: 小明和妈妈在客厅喝茶，妈妈用杯子倒茶，小明说“好喝”。\nCreative direction: A warm living room with a mother and a child sitting on a sofa, a small table with a teacup, soft sunlight, child-friendly illustration.\nVisual style: bright picture-book illustration, soft shapes, warm daylight, clean outlines, expressive faces, rich classroom-or-home storytelling detail, child-safe, cheerful, easy to read.\nComposition: one clear main action, medium-wide shot, uncluttered foreground, readable background props, strong focal point on the learning action.\nCharacters and props: include these focus characters in the scene concept: 茶、子. Include these focus words as teaching cues or meaningful objects when natural: 茶、杯子.\nTeaching text requirement: if any Hanzi teaching text appears in the image, add correct pinyin with tone marks above the matching Hanzi, centered and aligned. Use these exact Hanzi+pinyin references: none.\nQuality bar: consistent visual language, no extra gibberish text, no distorted hands, no broken Chinese characters, no random English labels.\nOutput target: a consistent, printable, child-friendly learning illustration that matches the Fun Hanzi visual style.",
+      "video_prompt": "Create a short child-friendly educational micro-story video concept.\nScene goal: 小明和妈妈在客厅喝茶，妈妈用杯子倒茶，小明说“好喝”。\nCreative direction: In a bright living room, a mother pours tea into a small cup while a child watches eagerly. The camera pans to show the tea steam, then focuses on the child's happy face. The mood is warm and inviting, teaching the character 茶 and 杯子.\nNarrative rule: this should feel like a believable little life moment for a young child, not a dry flashcard demo. Include a setup, a small task or question, a response, and a warm ending.\nVideo style: colorful real-life learning clip, gentle camera movement, clear staging, slow enough for children to follow, emotionally warm and encouraging.\nMain speaking line: 妈妈，我要喝茶！\nReference pinyin for production only: none\nFocus characters: 茶、子\nFocus words: 茶、杯子\nOn-screen text rule: if text appears in the video, prefer Hanzi only; do not auto-generate pinyin subtitles inside the video.\nContinuity rule: keep the same characters, clothing, mood, and setting style as the related image prompt.\nQuality bar: avoid noisy motion, avoid complex cuts, keep one clear action beat per shot, preserve child-safe tone, and make the action grounded in a real place or real child activity.",
+      "video_script": "场景：喝茶时间\n固定台词：妈妈，我要喝茶！\n参考拼音：none\n目标字：茶、子\n脚本创意：1. 开场，妈妈走进客厅，手持茶壶。2. 特写茶壶倒茶进杯子。3. 孩子伸手拿杯子，说出台词。4. 孩子喝茶微笑。5. 结束，两人一起笑。\n剧情要求：必须有开场、一个小任务或小问题、人物回应、温暖结果，像真实生活短片，不要像机械认字视频。\n镜头1：建立真实环境和人物关系，让孩子知道故事发生在哪里、为什么会说这句话。\n镜头2：出现一个和目标字 茶、子 相关的小动作、小问题或小发现。\n镜头3：角色自然说出固定台词“妈妈，我要喝茶！”，让台词和动作、情绪对应起来。\n镜头4：给出一个清楚结果或回应，让孩子理解这句话在生活里有什么用。\n镜头5：温柔收尾，用鼓励或满足感结束，并给画面 1-2 秒停留。\n字幕策略：学习页单独展示拼音；视频里如需字幕，只保留规范汉字。",
+      "focus_pronunciations": [
+        {
+          "char": "茶",
+          "pinyin": "chá"
+        },
+        {
+          "char": "子",
+          "pinyin": "zǐ"
+        }
+      ],
+      "image_status": "ready",
+      "image_asset_id": "asset-cdd62296b2",
+      "image_path": "/assets/images/2026-W10/scene-1.png",
+      "video_status": "ready",
+      "video_asset_id": "asset-73d67ce2ee",
+      "video_path": "/assets/videos/2026-W10/scene-1.mp4",
+      "audio_text": "妈妈，我要喝茶！",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "id": "scene-2",
+      "title": "好吃的东西",
+      "text": "小明在餐厅吃好吃的水果，爸爸说北京有很多好吃的。",
+      "pinyin_text": "xiǎo míng zài cān tīng chī hǎo chī de shuǐ guǒ， bà bà shuō běi jīng yǒu hěn duō hǎo chī de。",
+      "pronunciation_labels": [
+        "小(xiǎo)",
+        "明(míng)",
+        "在(zài)",
+        "餐(cān)",
+        "厅(tīng)",
+        "吃(chī)",
+        "好(hǎo)",
+        "的(de)",
+        "水(shuǐ)",
+        "果(guǒ)",
+        "爸(bà)",
+        "说(shuō)",
+        "北(běi)",
+        "京(jīng)",
+        "有(yǒu)",
+        "很(hěn)",
+        "多(duō)"
+      ],
+      "dialogue_line": "爸爸，北京的饭好吃吗？",
+      "dialogue_pinyin": "bà bà， běi jīng de fàn hǎo chī ma？",
+      "focus_chars": [
+        "吃",
+        "北"
+      ],
+      "focus_words": [
+        "好吃",
+        "北京"
+      ],
+      "image_prompt": "Create a polished children's storybook illustration.\nScene goal: 小明在餐厅吃好吃的水果，爸爸说北京有很多好吃的。\nCreative direction: A cheerful dining scene with a child and father at a table filled with fruit and dishes, bright colors, child-friendly illustration.\nVisual style: bright picture-book illustration, soft shapes, warm daylight, clean outlines, expressive faces, rich classroom-or-home storytelling detail, child-safe, cheerful, easy to read.\nComposition: one clear main action, medium-wide shot, uncluttered foreground, readable background props, strong focal point on the learning action.\nCharacters and props: include these focus characters in the scene concept: 吃、北. Include these focus words as teaching cues or meaningful objects when natural: 好吃、北京.\nTeaching text requirement: if any Hanzi teaching text appears in the image, add correct pinyin with tone marks above the matching Hanzi, centered and aligned. Use these exact Hanzi+pinyin references: none.\nQuality bar: consistent visual language, no extra gibberish text, no distorted hands, no broken Chinese characters, no random English labels.\nOutput target: a consistent, printable, child-friendly learning illustration that matches the Fun Hanzi visual style.",
+      "video_prompt": "Create a short child-friendly educational micro-story video concept.\nScene goal: 小明在餐厅吃好吃的水果，爸爸说北京有很多好吃的。\nCreative direction: In a cozy restaurant, a child tastes a piece of fruit and asks about Beijing's food. The camera close-up on the child's curious face, then pans to father smiling. The mood is playful, teaching the character 吃 and the word 北京.\nNarrative rule: this should feel like a believable little life moment for a young child, not a dry flashcard demo. Include a setup, a small task or question, a response, and a warm ending.\nVideo style: colorful real-life learning clip, gentle camera movement, clear staging, slow enough for children to follow, emotionally warm and encouraging.\nMain speaking line: 爸爸，北京的饭好吃吗？\nReference pinyin for production only: none\nFocus characters: 吃、北\nFocus words: 好吃、北京\nOn-screen text rule: if text appears in the video, prefer Hanzi only; do not auto-generate pinyin subtitles inside the video.\nContinuity rule: keep the same characters, clothing, mood, and setting style as the related image prompt.\nQuality bar: avoid noisy motion, avoid complex cuts, keep one clear action beat per shot, preserve child-safe tone, and make the action grounded in a real place or real child activity.",
+      "video_script": "场景：好吃的东西\n固定台词：爸爸，北京的饭好吃吗？\n参考拼音：none\n目标字：吃、北\n脚本创意：1. 开场，餐厅座位上爸爸和孩子坐下，桌上摆满水果。2. 孩子拿起水果品尝，做出好吃表情。3. 孩子抬头问爸爸台词。4. 爸爸笑着回答，提到北京。5. 结束，孩子点头开心。\n剧情要求：必须有开场、一个小任务或小问题、人物回应、温暖结果，像真实生活短片，不要像机械认字视频。\n镜头1：建立真实环境和人物关系，让孩子知道故事发生在哪里、为什么会说这句话。\n镜头2：出现一个和目标字 吃、北 相关的小动作、小问题或小发现。\n镜头3：角色自然说出固定台词“爸爸，北京的饭好吃吗？”，让台词和动作、情绪对应起来。\n镜头4：给出一个清楚结果或回应，让孩子理解这句话在生活里有什么用。\n镜头5：温柔收尾，用鼓励或满足感结束，并给画面 1-2 秒停留。\n字幕策略：学习页单独展示拼音；视频里如需字幕，只保留规范汉字。",
+      "focus_pronunciations": [
+        {
+          "char": "吃",
+          "pinyin": "chī"
+        },
+        {
+          "char": "北",
+          "pinyin": "běi"
+        }
+      ],
+      "image_status": "ready",
+      "image_asset_id": "asset-2ce8562050",
+      "image_path": "/assets/images/2026-W10/scene-2.png",
+      "video_status": "ready",
+      "video_asset_id": "asset-be30a7f295",
+      "video_path": "/assets/videos/2026-W10/scene-2.mp4",
+      "audio_text": "爸爸，北京的饭好吃吗？",
+      "audio_status": "pending",
+      "audio_path": ""
+    },
+    {
+      "id": "scene-3",
+      "title": "出租车之旅",
+      "text": "小明和妈妈在路边等出租车，车来了，他们上车，妈妈说我们坐八号车。",
+      "pinyin_text": "xiǎo míng hé mā mā zài lù biān děng chū zū chē， chē lái le， tā men shàng chē， mā mā shuō wǒ men zuò bā hào chē。",
+      "pronunciation_labels": [
+        "小(xiǎo)",
+        "明(míng)",
+        "和(hé)",
+        "妈(mā)",
+        "在(zài)",
+        "路(lù)",
+        "边(biān)",
+        "等(děng)",
+        "出(chū)",
+        "租(zū)",
+        "车(chē)",
+        "来(lái)",
+        "了(le)",
+        "他(tā)",
+        "们(men)",
+        "上(shàng)",
+        "说(shuō)",
+        "我(wǒ)",
+        "坐(zuò)",
+        "八(bā)",
+        "号(hào)"
+      ],
+      "dialogue_line": "妈妈，出租车来了！",
+      "dialogue_pinyin": "mā mā， chū zū chē lái le！",
+      "focus_chars": [
+        "出",
+        "租",
+        "车",
+        "八"
+      ],
+      "focus_words": [
+        "出租车",
+        "八"
+      ],
+      "image_prompt": "Create a polished children's storybook illustration.\nScene goal: 小明和妈妈在路边等出租车，车来了，他们上车，妈妈说我们坐八号车。\nCreative direction: A street scene with a mother and child waiting at a curb, a yellow taxi pulling up, bright day, child-friendly illustration.\nVisual style: bright picture-book illustration, soft shapes, warm daylight, clean outlines, expressive faces, rich classroom-or-home storytelling detail, child-safe, cheerful, easy to read.\nComposition: one clear main action, medium-wide shot, uncluttered foreground, readable background props, strong focal point on the learning action.\nCharacters and props: include these focus characters in the scene concept: 出、租、车、八. Include these focus words as teaching cues or meaningful objects when natural: 出租车、八.\nTeaching text requirement: if any Hanzi teaching text appears in the image, add correct pinyin with tone marks above the matching Hanzi, centered and aligned. Use these exact Hanzi+pinyin references: none.\nQuality bar: consistent visual language, no extra gibberish text, no distorted hands, no broken Chinese characters, no random English labels.\nOutput target: a consistent, printable, child-friendly learning illustration that matches the Fun Hanzi visual style.",
+      "video_prompt": "Create a short child-friendly educational micro-story video concept.\nScene goal: 小明和妈妈在路边等出租车，车来了，他们上车，妈妈说我们坐八号车。\nCreative direction: On a sunny street, a mother and child wait for a taxi. The taxi arrives, the child waves excitedly and points. The camera follows them entering the car, showing the number eight on the taxi. The mood is exciting, teaching the characters 出, 租, 车 and the word 八.\nNarrative rule: this should feel like a believable little life moment for a young child, not a dry flashcard demo. Include a setup, a small task or question, a response, and a warm ending.\nVideo style: colorful real-life learning clip, gentle camera movement, clear staging, slow enough for children to follow, emotionally warm and encouraging.\nMain speaking line: 妈妈，出租车来了！\nReference pinyin for production only: none\nFocus characters: 出、租、车、八\nFocus words: 出租车、八\nOn-screen text rule: if text appears in the video, prefer Hanzi only; do not auto-generate pinyin subtitles inside the video.\nContinuity rule: keep the same characters, clothing, mood, and setting style as the related image prompt.\nQuality bar: avoid noisy motion, avoid complex cuts, keep one clear action beat per shot, preserve child-safe tone, and make the action grounded in a real place or real child activity.",
+      "video_script": "场景：出租车之旅\n固定台词：妈妈，出租车来了！\n参考拼音：none\n目标字：出、租、车、八\n脚本创意：1. 开场，母子站在路边，看向远处。2. 出租车驶来，停在面前。3. 孩子指向出租车，说出台词。4. 妈妈打开车门，孩子上车。5. 结束，车子驶离，孩子开心笑。\n剧情要求：必须有开场、一个小任务或小问题、人物回应、温暖结果，像真实生活短片，不要像机械认字视频。\n镜头1：建立真实环境和人物关系，让孩子知道故事发生在哪里、为什么会说这句话。\n镜头2：出现一个和目标字 出、租、车、八 相关的小动作、小问题或小发现。\n镜头3：角色自然说出固定台词“妈妈，出租车来了！”，让台词和动作、情绪对应起来。\n镜头4：给出一个清楚结果或回应，让孩子理解这句话在生活里有什么用。\n镜头5：温柔收尾，用鼓励或满足感结束，并给画面 1-2 秒停留。\n字幕策略：学习页单独展示拼音；视频里如需字幕，只保留规范汉字。",
+      "focus_pronunciations": [
+        {
+          "char": "出",
+          "pinyin": "chū"
+        },
+        {
+          "char": "租",
+          "pinyin": "zū"
+        },
+        {
+          "char": "车",
+          "pinyin": "chē"
+        },
+        {
+          "char": "八",
+          "pinyin": "bā"
+        }
+      ],
+      "image_status": "pending",
+      "image_asset_id": null,
+      "image_path": "",
+      "video_status": "pending",
+      "video_asset_id": null,
+      "video_path": "",
+      "audio_text": "妈妈，出租车来了！",
+      "audio_status": "pending",
+      "audio_path": ""
+    }
+  ],
+  "image_tasks": [
+    {
+      "scene_id": "scene-1",
+      "prompt": "Create a polished children's storybook illustration.\nScene goal: 小明和妈妈在客厅喝茶，妈妈用杯子倒茶，小明说“好喝”。\nCreative direction: A warm living room with a mother and a child sitting on a sofa, a small table with a teacup, soft sunlight, child-friendly illustration.\nVisual style: bright picture-book illustration, soft shapes, warm daylight, clean outlines, expressive faces, rich classroom-or-home storytelling detail, child-safe, cheerful, easy to read.\nComposition: one clear main action, medium-wide shot, uncluttered foreground, readable background props, strong focal point on the learning action.\nCharacters and props: include these focus characters in the scene concept: 茶、子. Include these focus words as teaching cues or meaningful objects when natural: 茶、杯子.\nTeaching text requirement: if any Hanzi teaching text appears in the image, add correct pinyin with tone marks above the matching Hanzi, centered and aligned. Use these exact Hanzi+pinyin references: none.\nQuality bar: consistent visual language, no extra gibberish text, no distorted hands, no broken Chinese characters, no random English labels.\nOutput target: a consistent, printable, child-friendly learning illustration that matches the Fun Hanzi visual style.",
+      "status": "ready",
+      "asset_id": "asset-cdd62296b2",
+      "file_path": "/assets/images/2026-W10/scene-1.png"
+    },
+    {
+      "scene_id": "scene-2",
+      "prompt": "Create a polished children's storybook illustration.\nScene goal: 小明在餐厅吃好吃的水果，爸爸说北京有很多好吃的。\nCreative direction: A cheerful dining scene with a child and father at a table filled with fruit and dishes, bright colors, child-friendly illustration.\nVisual style: bright picture-book illustration, soft shapes, warm daylight, clean outlines, expressive faces, rich classroom-or-home storytelling detail, child-safe, cheerful, easy to read.\nComposition: one clear main action, medium-wide shot, uncluttered foreground, readable background props, strong focal point on the learning action.\nCharacters and props: include these focus characters in the scene concept: 吃、北. Include these focus words as teaching cues or meaningful objects when natural: 好吃、北京.\nTeaching text requirement: if any Hanzi teaching text appears in the image, add correct pinyin with tone marks above the matching Hanzi, centered and aligned. Use these exact Hanzi+pinyin references: none.\nQuality bar: consistent visual language, no extra gibberish text, no distorted hands, no broken Chinese characters, no random English labels.\nOutput target: a consistent, printable, child-friendly learning illustration that matches the Fun Hanzi visual style.",
+      "status": "ready",
+      "asset_id": "asset-2ce8562050",
+      "file_path": "/assets/images/2026-W10/scene-2.png"
+    },
+    {
+      "scene_id": "scene-3",
+      "prompt": "Create a polished children's storybook illustration.\nScene goal: 小明和妈妈在路边等出租车，车来了，他们上车，妈妈说我们坐八号车。\nCreative direction: A street scene with a mother and child waiting at a curb, a yellow taxi pulling up, bright day, child-friendly illustration.\nVisual style: bright picture-book illustration, soft shapes, warm daylight, clean outlines, expressive faces, rich classroom-or-home storytelling detail, child-safe, cheerful, easy to read.\nComposition: one clear main action, medium-wide shot, uncluttered foreground, readable background props, strong focal point on the learning action.\nCharacters and props: include these focus characters in the scene concept: 出、租、车、八. Include these focus words as teaching cues or meaningful objects when natural: 出租车、八.\nTeaching text requirement: if any Hanzi teaching text appears in the image, add correct pinyin with tone marks above the matching Hanzi, centered and aligned. Use these exact Hanzi+pinyin references: none.\nQuality bar: consistent visual language, no extra gibberish text, no distorted hands, no broken Chinese characters, no random English labels.\nOutput target: a consistent, printable, child-friendly learning illustration that matches the Fun Hanzi visual style.",
+      "status": "pending",
+      "asset_id": null,
+      "file_path": ""
+    }
+  ],
+  "video_tasks": [
+    {
+      "scene_id": "scene-1",
+      "prompt": "Create a short child-friendly educational micro-story video concept.\nScene goal: 小明和妈妈在客厅喝茶，妈妈用杯子倒茶，小明说“好喝”。\nCreative direction: In a bright living room, a mother pours tea into a small cup while a child watches eagerly. The camera pans to show the tea steam, then focuses on the child's happy face. The mood is warm and inviting, teaching the character 茶 and 杯子.\nNarrative rule: this should feel like a believable little life moment for a young child, not a dry flashcard demo. Include a setup, a small task or question, a response, and a warm ending.\nVideo style: colorful real-life learning clip, gentle camera movement, clear staging, slow enough for children to follow, emotionally warm and encouraging.\nMain speaking line: 妈妈，我要喝茶！\nReference pinyin for production only: none\nFocus characters: 茶、子\nFocus words: 茶、杯子\nOn-screen text rule: if text appears in the video, prefer Hanzi only; do not auto-generate pinyin subtitles inside the video.\nContinuity rule: keep the same characters, clothing, mood, and setting style as the related image prompt.\nQuality bar: avoid noisy motion, avoid complex cuts, keep one clear action beat per shot, preserve child-safe tone, and make the action grounded in a real place or real child activity.",
+      "status": "ready",
+      "asset_id": "asset-73d67ce2ee",
+      "file_path": "/assets/videos/2026-W10/scene-1.mp4"
+    },
+    {
+      "scene_id": "scene-2",
+      "prompt": "Create a short child-friendly educational micro-story video concept.\nScene goal: 小明在餐厅吃好吃的水果，爸爸说北京有很多好吃的。\nCreative direction: In a cozy restaurant, a child tastes a piece of fruit and asks about Beijing's food. The camera close-up on the child's curious face, then pans to father smiling. The mood is playful, teaching the character 吃 and the word 北京.\nNarrative rule: this should feel like a believable little life moment for a young child, not a dry flashcard demo. Include a setup, a small task or question, a response, and a warm ending.\nVideo style: colorful real-life learning clip, gentle camera movement, clear staging, slow enough for children to follow, emotionally warm and encouraging.\nMain speaking line: 爸爸，北京的饭好吃吗？\nReference pinyin for production only: none\nFocus characters: 吃、北\nFocus words: 好吃、北京\nOn-screen text rule: if text appears in the video, prefer Hanzi only; do not auto-generate pinyin subtitles inside the video.\nContinuity rule: keep the same characters, clothing, mood, and setting style as the related image prompt.\nQuality bar: avoid noisy motion, avoid complex cuts, keep one clear action beat per shot, preserve child-safe tone, and make the action grounded in a real place or real child activity.",
+      "status": "ready",
+      "asset_id": "asset-be30a7f295",
+      "file_path": "/assets/videos/2026-W10/scene-2.mp4"
+    },
+    {
+      "scene_id": "scene-3",
+      "prompt": "Create a short child-friendly educational micro-story video concept.\nScene goal: 小明和妈妈在路边等出租车，车来了，他们上车，妈妈说我们坐八号车。\nCreative direction: On a sunny street, a mother and child wait for a taxi. The taxi arrives, the child waves excitedly and points. The camera follows them entering the car, showing the number eight on the taxi. The mood is exciting, teaching the characters 出, 租, 车 and the word 八.\nNarrative rule: this should feel like a believable little life moment for a young child, not a dry flashcard demo. Include a setup, a small task or question, a response, and a warm ending.\nVideo style: colorful real-life learning clip, gentle camera movement, clear staging, slow enough for children to follow, emotionally warm and encouraging.\nMain speaking line: 妈妈，出租车来了！\nReference pinyin for production only: none\nFocus characters: 出、租、车、八\nFocus words: 出租车、八\nOn-screen text rule: if text appears in the video, prefer Hanzi only; do not auto-generate pinyin subtitles inside the video.\nContinuity rule: keep the same characters, clothing, mood, and setting style as the related image prompt.\nQuality bar: avoid noisy motion, avoid complex cuts, keep one clear action beat per shot, preserve child-safe tone, and make the action grounded in a real place or real child activity.",
+      "status": "pending",
+      "asset_id": null,
+      "file_path": ""
+    }
+  ],
+  "video_storyboard": [
+    {
+      "scene_id": "scene-1",
+      "title": "喝茶时间",
+      "prompt": "Create a short child-friendly educational micro-story video concept.\nScene goal: 小明和妈妈在客厅喝茶，妈妈用杯子倒茶，小明说“好喝”。\nCreative direction: In a bright living room, a mother pours tea into a small cup while a child watches eagerly. The camera pans to show the tea steam, then focuses on the child's happy face. The mood is warm and inviting, teaching the character 茶 and 杯子.\nNarrative rule: this should feel like a believable little life moment for a young child, not a dry flashcard demo. Include a setup, a small task or question, a response, and a warm ending.\nVideo style: colorful real-life learning clip, gentle camera movement, clear staging, slow enough for children to follow, emotionally warm and encouraging.\nMain speaking line: 妈妈，我要喝茶！\nReference pinyin for production only: none\nFocus characters: 茶、子\nFocus words: 茶、杯子\nOn-screen text rule: if text appears in the video, prefer Hanzi only; do not auto-generate pinyin subtitles inside the video.\nContinuity rule: keep the same characters, clothing, mood, and setting style as the related image prompt.\nQuality bar: avoid noisy motion, avoid complex cuts, keep one clear action beat per shot, preserve child-safe tone, and make the action grounded in a real place or real child activity.",
+      "script": "场景：喝茶时间\n固定台词：妈妈，我要喝茶！\n参考拼音：none\n目标字：茶、子\n脚本创意：1. 开场，妈妈走进客厅，手持茶壶。2. 特写茶壶倒茶进杯子。3. 孩子伸手拿杯子，说出台词。4. 孩子喝茶微笑。5. 结束，两人一起笑。\n剧情要求：必须有开场、一个小任务或小问题、人物回应、温暖结果，像真实生活短片，不要像机械认字视频。\n镜头1：建立真实环境和人物关系，让孩子知道故事发生在哪里、为什么会说这句话。\n镜头2：出现一个和目标字 茶、子 相关的小动作、小问题或小发现。\n镜头3：角色自然说出固定台词“妈妈，我要喝茶！”，让台词和动作、情绪对应起来。\n镜头4：给出一个清楚结果或回应，让孩子理解这句话在生活里有什么用。\n镜头5：温柔收尾，用鼓励或满足感结束，并给画面 1-2 秒停留。\n字幕策略：学习页单独展示拼音；视频里如需字幕，只保留规范汉字。"
+    },
+    {
+      "scene_id": "scene-2",
+      "title": "好吃的东西",
+      "prompt": "Create a short child-friendly educational micro-story video concept.\nScene goal: 小明在餐厅吃好吃的水果，爸爸说北京有很多好吃的。\nCreative direction: In a cozy restaurant, a child tastes a piece of fruit and asks about Beijing's food. The camera close-up on the child's curious face, then pans to father smiling. The mood is playful, teaching the character 吃 and the word 北京.\nNarrative rule: this should feel like a believable little life moment for a young child, not a dry flashcard demo. Include a setup, a small task or question, a response, and a warm ending.\nVideo style: colorful real-life learning clip, gentle camera movement, clear staging, slow enough for children to follow, emotionally warm and encouraging.\nMain speaking line: 爸爸，北京的饭好吃吗？\nReference pinyin for production only: none\nFocus characters: 吃、北\nFocus words: 好吃、北京\nOn-screen text rule: if text appears in the video, prefer Hanzi only; do not auto-generate pinyin subtitles inside the video.\nContinuity rule: keep the same characters, clothing, mood, and setting style as the related image prompt.\nQuality bar: avoid noisy motion, avoid complex cuts, keep one clear action beat per shot, preserve child-safe tone, and make the action grounded in a real place or real child activity.",
+      "script": "场景：好吃的东西\n固定台词：爸爸，北京的饭好吃吗？\n参考拼音：none\n目标字：吃、北\n脚本创意：1. 开场，餐厅座位上爸爸和孩子坐下，桌上摆满水果。2. 孩子拿起水果品尝，做出好吃表情。3. 孩子抬头问爸爸台词。4. 爸爸笑着回答，提到北京。5. 结束，孩子点头开心。\n剧情要求：必须有开场、一个小任务或小问题、人物回应、温暖结果，像真实生活短片，不要像机械认字视频。\n镜头1：建立真实环境和人物关系，让孩子知道故事发生在哪里、为什么会说这句话。\n镜头2：出现一个和目标字 吃、北 相关的小动作、小问题或小发现。\n镜头3：角色自然说出固定台词“爸爸，北京的饭好吃吗？”，让台词和动作、情绪对应起来。\n镜头4：给出一个清楚结果或回应，让孩子理解这句话在生活里有什么用。\n镜头5：温柔收尾，用鼓励或满足感结束，并给画面 1-2 秒停留。\n字幕策略：学习页单独展示拼音；视频里如需字幕，只保留规范汉字。"
+    },
+    {
+      "scene_id": "scene-3",
+      "title": "出租车之旅",
+      "prompt": "Create a short child-friendly educational micro-story video concept.\nScene goal: 小明和妈妈在路边等出租车，车来了，他们上车，妈妈说我们坐八号车。\nCreative direction: On a sunny street, a mother and child wait for a taxi. The taxi arrives, the child waves excitedly and points. The camera follows them entering the car, showing the number eight on the taxi. The mood is exciting, teaching the characters 出, 租, 车 and the word 八.\nNarrative rule: this should feel like a believable little life moment for a young child, not a dry flashcard demo. Include a setup, a small task or question, a response, and a warm ending.\nVideo style: colorful real-life learning clip, gentle camera movement, clear staging, slow enough for children to follow, emotionally warm and encouraging.\nMain speaking line: 妈妈，出租车来了！\nReference pinyin for production only: none\nFocus characters: 出、租、车、八\nFocus words: 出租车、八\nOn-screen text rule: if text appears in the video, prefer Hanzi only; do not auto-generate pinyin subtitles inside the video.\nContinuity rule: keep the same characters, clothing, mood, and setting style as the related image prompt.\nQuality bar: avoid noisy motion, avoid complex cuts, keep one clear action beat per shot, preserve child-safe tone, and make the action grounded in a real place or real child activity.",
+      "script": "场景：出租车之旅\n固定台词：妈妈，出租车来了！\n参考拼音：none\n目标字：出、租、车、八\n脚本创意：1. 开场，母子站在路边，看向远处。2. 出租车驶来，停在面前。3. 孩子指向出租车，说出台词。4. 妈妈打开车门，孩子上车。5. 结束，车子驶离，孩子开心笑。\n剧情要求：必须有开场、一个小任务或小问题、人物回应、温暖结果，像真实生活短片，不要像机械认字视频。\n镜头1：建立真实环境和人物关系，让孩子知道故事发生在哪里、为什么会说这句话。\n镜头2：出现一个和目标字 出、租、车、八 相关的小动作、小问题或小发现。\n镜头3：角色自然说出固定台词“妈妈，出租车来了！”，让台词和动作、情绪对应起来。\n镜头4：给出一个清楚结果或回应，让孩子理解这句话在生活里有什么用。\n镜头5：温柔收尾，用鼓励或满足感结束，并给画面 1-2 秒停留。\n字幕策略：学习页单独展示拼音；视频里如需字幕，只保留规范汉字。"
+    }
+  ],
+  "audio_tasks": [
+    {
+      "scope": "char",
+      "id": "茶",
+      "text": "茶，第二声，chá",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "吃",
+      "text": "吃，第一声，chī",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "出",
+      "text": "出，第一声，chū",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "租",
+      "text": "租，第一声，zū",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "车",
+      "text": "车，第一声，chē",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "八",
+      "text": "八，第一声，bā",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "北",
+      "text": "北，第三声，běi",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "char",
+      "id": "子",
+      "text": "子，第三声，zǐ",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-1",
+      "text": "出租车",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-2",
+      "text": "喝茶",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-3",
+      "text": "好吃",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-4",
+      "text": "八",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-5",
+      "text": "北京",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "word",
+      "id": "word-6",
+      "text": "杯子",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "sentence",
+      "id": "sentence-1",
+      "text": "我们一起喝茶。",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "sentence",
+      "id": "sentence-2",
+      "text": "我爱吃好吃的。",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "sentence",
+      "id": "sentence-3",
+      "text": "我们坐出租车。",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "sentence",
+      "id": "sentence-4",
+      "text": "北京的杯子在哪里？",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "story",
+      "id": "scene-1",
+      "text": "小明和妈妈在客厅喝茶，妈妈用杯子倒茶，小明说“好喝”。",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "story",
+      "id": "scene-2",
+      "text": "小明在餐厅吃好吃的水果，爸爸说北京有很多好吃的。",
+      "status": "pending",
+      "file_path": ""
+    },
+    {
+      "scope": "story",
+      "id": "scene-3",
+      "text": "小明和妈妈在路边等出租车，车来了，他们上车，妈妈说我们坐八号车。",
+      "status": "pending",
+      "file_path": ""
+    }
+  ],
+  "worksheet": {
+    "status": "ready",
+    "file_path": "/assets/worksheets/2026-W10/handwriting_practice.pdf",
+    "page_size": "A4",
+    "entries": 8
+  },
+  "status": "ready",
+  "generation_mode": "ai",
+  "updated_at": "2026-03-08T17:24:33.634254+00:00",
+  "published_at": "2026-03-08T17:24:33.634254+00:00"
+}

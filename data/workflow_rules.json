@@ -1,11 +1,14 @@
 {
   "level": 1,
-  "weeklyNewCount": 4,
+  "levelSequence": [1, 2, 3, 4],
+  "weeklyNewCount": 5,
   "weeklyReviewCount": 3,
   "storySceneCount": 3,
-  "storyTone": "bright, playful, child-friendly",
+  "newCharStrategy": "hsk_level_order",
+  "reviewStrategy": "weighted_review",
+  "storyTone": "warm, lively, school-age, age 9-13",
   "imageStyle": "storybook illustration, soft shapes, warm light, expressive characters",
-  "videoStyle": "8-second short clip, gentle camera move, kid-safe, colorful classroom adventure",
+  "videoStyle": "10-15 second school-age micro-story clip, gentle camera move, warm realistic lighting, clear staging, simple shot rhythm, vivid everyday setting",
   "wordTarget": 6,
   "sentenceTarget": 4
 }

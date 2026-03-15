@@ -1,0 +1,10 @@
+{
+  "provider": "openrouter",
+  "enabled": true,
+  "base_url": "https://openrouter.ai/api/v1",
+  "model": "minimax/minimax-m2.5",
+  "api_key": "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",
+  "api_key_env": "OPENROUTER_API_KEY",
+  "site_url": "http://127.0.0.1:8000",
+  "app_name": "Fun Hanzi"
+}

@@ -1,16 +1,202 @@
 {
   "version": 1,
-  "sessionHistory": [],
+  "sessionHistory": [
+    {
+      "startedAt": "2026-03-08T17:32:15.161319+00:00",
+      "finishedAt": "2026-03-08T17:33:51.161359+00:00",
+      "weekId": "2026-W10",
+      "total": 8,
+      "knownCount": 7,
+      "unknownCount": 1,
+      "durationSeconds": 96,
+      "answers": [
+        {
+          "char": "茶",
+          "known": true,
+          "at": "2026-03-08T17:33:42.671Z"
+        },
+        {
+          "char": "吃",
+          "known": false,
+          "at": "2026-03-08T17:33:43.488Z"
+        },
+        {
+          "char": "出",
+          "known": true,
+          "at": "2026-03-08T17:33:46.073Z"
+        },
+        {
+          "char": "租",
+          "known": true,
+          "at": "2026-03-08T17:33:48.011Z"
+        },
+        {
+          "char": "车",
+          "known": true,
+          "at": "2026-03-08T17:33:49.196Z"
+        },
+        {
+          "char": "八",
+          "known": true,
+          "at": "2026-03-08T17:33:49.664Z"
+        },
+        {
+          "char": "北",
+          "known": true,
+          "at": "2026-03-08T17:33:50.046Z"
+        },
+        {
+          "char": "子",
+          "known": true,
+          "at": "2026-03-08T17:33:51.128Z"
+        }
+      ]
+    },
+    {
+      "startedAt": "2026-03-08T03:03:40.388955+00:00",
+      "finishedAt": "2026-03-08T03:35:11.388982+00:00",
+      "weekId": "2026-W10",
+      "total": 3,
+      "knownCount": 3,
+      "unknownCount": 0,
+      "durationSeconds": 1891,
+      "answers": [
+        {
+          "char": "吗",
+          "known": true,
+          "at": "2026-03-08T03:35:08.868Z"
+        },
+        {
+          "char": "有",
+          "known": true,
+          "at": "2026-03-08T03:35:10.386Z"
+        },
+        {
+          "char": "他",
+          "known": true,
+          "at": "2026-03-08T03:35:11.354Z"
+        }
+      ]
+    }
+  ],
   "weeklyPacks": [
     {
-      "weekId": "2026-W10",
-      "generatedAt": "2026-03-07T23:38:58.228428+00:00",
-      "title": "学他你冒险周",
-      "newChars": [],
+      "weekId": "2026-W16",
+      "generatedAt": "2026-04-13T00:00:00-04:00",
+      "title": "开心收尾",
+      "newChars": [
+        "起",
+        "多",
+        "少",
+        "儿",
+        "二"
+      ],
       "reviewChars": [
-        "学",
-        "他",
-        "你"
+        "杯",
+        "客",
+        "京"
+      ]
+    },
+    {
+      "weekId": "2026-W15",
+      "generatedAt": "2026-04-06T00:00:00-04:00",
+      "title": "开心收尾",
+      "newChars": [
+        "爸",
+        "打",
+        "电",
+        "话",
+        "大"
+      ],
+      "reviewChars": [
+        "客",
+        "杯",
+        "爱"
+      ]
+    },
+    {
+      "weekId": "2026-W11",
+      "generatedAt": "2026-03-15T02:18:54.401608+00:00",
+      "title": "我们都爱读书",
+      "newChars": [
+        "东",
+        "西",
+        "都",
+        "读",
+        "对"
+      ],
+      "reviewChars": [
+        "杯",
+        "爱",
+        "本"
+      ]
+    },
+    {
+      "weekId": "2026-W14",
+      "generatedAt": "2026-03-30T00:00:00-04:00",
+      "title": "开心收尾",
+      "newChars": [
+        "的",
+        "点",
+        "脑",
+        "视",
+        "影"
+      ],
+      "reviewChars": [
+        "本",
+        "杯",
+        "京"
+      ]
+    },
+    {
+      "weekId": "2026-W10",
+      "generatedAt": "2026-03-08T16:17:23.446309+00:00",
+      "title": "出租车之旅",
+      "newChars": [
+        "茶",
+        "吃",
+        "出",
+        "租",
+        "车"
+      ],
+      "reviewChars": [
+        "八",
+        "北",
+        "子"
+      ]
+    },
+    {
+      "weekId": "2026-W13",
+      "generatedAt": "2026-03-23T00:00:00-04:00",
+      "title": "开心收尾",
+      "newChars": [
+        "北",
+        "京",
+        "本",
+        "客",
+        "菜"
+      ],
+      "reviewChars": [
+        "杯",
+        "爱",
+        "子"
+      ]
+    },
+    {
+      "weekId": "2026-W12",
+      "generatedAt": "2026-03-16T00:00:00-04:00",
+      "title": "你们在哪",
+      "newChars": [
+        "很",
+        "这",
+        "那",
+        "哪",
+        "人"
+      ],
+      "reviewChars": [
+        "们",
+        "气",
+        "天"
       ]
     }
   ],
@@ -28,9 +214,9 @@
       "wrongCount": 0
     },
     "他": {
-      "box": 2,
-      "lastSeen": "2026-01-09",
-      "correctStreak": 1,
+      "box": 3,
+      "lastSeen": "2026-03-08",
+      "correctStreak": 2,
       "wrongCount": 1
     },
     "好": {
@@ -64,9 +250,9 @@
       "wrongCount": 0
     },
     "有": {
-      "box": 1,
-      "lastSeen": "2026-03-07",
-      "correctStreak": 0,
+      "box": 2,
+      "lastSeen": "2026-03-08",
+      "correctStreak": 1,
       "wrongCount": 1
     },
     "学": {
@@ -82,8 +268,56 @@
       "wrongCount": 0
     },
     "吗": {
+      "box": 2,
+      "lastSeen": "2026-03-08",
+      "correctStreak": 2,
+      "wrongCount": 0
+    },
+    "茶": {
       "box": 1,
-      "lastSeen": "2026-01-09",
+      "lastSeen": "2026-03-08",
+      "correctStreak": 1,
+      "wrongCount": 0
+    },
+    "吃": {
+      "box": 1,
+      "lastSeen": "2026-03-08",
+      "correctStreak": 0,
+      "wrongCount": 1
+    },
+    "出": {
+      "box": 1,
+      "lastSeen": "2026-03-08",
+      "correctStreak": 1,
+      "wrongCount": 0
+    },
+    "租": {
+      "box": 1,
+      "lastSeen": "2026-03-08",
+      "correctStreak": 1,
+      "wrongCount": 0
+    },
+    "车": {
+      "box": 1,
+      "lastSeen": "2026-03-08",
+      "correctStreak": 1,
+      "wrongCount": 0
+    },
+    "八": {
+      "box": 1,
+      "lastSeen": "2026-03-08",
+      "correctStreak": 1,
+      "wrongCount": 0
+    },
+    "北": {
+      "box": 1,
+      "lastSeen": "2026-03-08",
+      "correctStreak": 1,
+      "wrongCount": 0
+    },
+    "子": {
+      "box": 1,
+      "lastSeen": "2026-03-08",
       "correctStreak": 1,
       "wrongCount": 0
     }

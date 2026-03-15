@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Fun Hanzi Admin</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
@@ -21,7 +22,13 @@
               <div class="kicker">本周内容</div>
               <h2 id="weekTitle">正在加载本周故事包...</h2>
             </div>
-            <div id="weekBadge" class="week-badge">Week</div>
+            <div class="week-head-tools">
+              <label class="week-picker">
+                <span>查看周包</span>
+                <select id="weekPicker"></select>
+              </label>
+              <div id="weekBadge" class="week-badge">Week</div>
+            </div>
           </div>
           <p id="weekSummary" class="summary"></p>
           <div class="split-row">
@@ -53,13 +60,85 @@
               <h2>生成和维护</h2>
             </div>
           </div>
-          <div class="admin-actions">
-            <button id="btnGenerateWeek" class="btn btn-primary">立即生成本周内容</button>
-            <button id="btnRegeneratePrompts" class="btn btn-secondary">重建图像/视频 Prompt</button>
+          <div class="control-group">
+            <div class="mini-label">本周发布与维护</div>
+            <div class="admin-actions">
+              <button id="btnPublishWeek" class="btn btn-primary">发布到学习页</button>
+              <button id="btnRegeneratePrompts" class="btn btn-secondary">重建图像/视频 Prompt</button>
+              <button id="btnGenerateWorksheet" class="btn btn-secondary">重建写字练习 PDF</button>
+            </div>
+          </div>
+          <div class="control-group control-group-next">
+            <div class="mini-label">新一周创建</div>
+            <div class="admin-actions">
+              <button id="btnGenerateNextWeek" class="btn btn-next-week">开始下一周内容</button>
+              <label class="inline-count-field">
+                <span>连续周数</span>
+                <input id="nextWeekCount" type="number" min="1" max="8" value="1" />
+              </label>
+            </div>
+          </div>
+          <div class="helper-text">
+            “发布到学习页”只把当前选中的周包设为学习页正在使用的内容；
+            “重建 Prompt”才会调用 API 或模板去生成新的 prompt；
+            “开始下一周内容”会保存当前周包，并按顺序创建新的周任务。
           </div>
           <div id="adminStatus" class="status-card">正在读取状态...</div>
+          <div id="worksheetCard" class="status-card">写字练习 PDF 还没有准备好。</div>
           <div class="helper-text">学习页地址：<a href="/learn">/learn</a></div>
         </article>
+      </section>
+
+      <section class="panel panel-admin">
+        <div class="panel-head">
+          <div>
+            <div class="kicker">AI 配置</div>
+            <h2>OpenRouter 和模型选择</h2>
+          </div>
+        </div>
+        <div class="settings-grid">
+          <label class="settings-field">
+            <span>启用 AI 生成</span>
+            <input id="aiEnabled" type="checkbox" />
+          </label>
+          <label class="settings-field">
+            <span>Provider</span>
+            <input id="aiProvider" type="text" value="openrouter" />
+          </label>
+          <label class="settings-field">
+            <span>模型预设</span>
+            <select id="aiPreset"></select>
+          </label>
+          <label class="settings-field">
+            <span>模型 ID</span>
+            <input id="aiModel" type="text" placeholder="例如 openai/gpt-4o-mini" />
+          </label>
+          <label class="settings-field">
+            <span>API Key</span>
+            <input id="aiApiKey" type="password" placeholder="可直接填入，或使用环境变量" />
+          </label>
+          <label class="settings-field">
+            <span>环境变量名</span>
+            <input id="aiApiKeyEnv" type="text" value="OPENROUTER_API_KEY" />
+          </label>
+          <label class="settings-field">
+            <span>Base URL</span>
+            <input id="aiBaseUrl" type="text" value="https://openrouter.ai/api/v1" />
+          </label>
+          <label class="settings-field">
+            <span>站点地址</span>
+            <input id="aiSiteUrl" type="text" value="http://127.0.0.1:8000" />
+          </label>
+          <label class="settings-field">
+            <span>应用名称</span>
+            <input id="aiAppName" type="text" value="Fun Hanzi" />
+          </label>
+        </div>
+        <div class="admin-actions">
+          <button id="btnSaveAiSettings" class="btn btn-primary">保存 AI 配置</button>
+          <button id="btnTestAi" class="btn btn-secondary">测试 AI 连通性</button>
+        </div>
+        <div id="aiStatus" class="status-card">尚未测试 AI 配置。</div>
       </section>
 
       <section class="panel">

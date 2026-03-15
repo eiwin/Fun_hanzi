@@ -1,115 +1,434 @@
 {
   "version": 1,
   "last_run": {
-    "type": "regenerate_prompts",
-    "week_id": "2026-W10",
-    "ran_at": "2026-03-07T23:39:00.197093+00:00",
+    "type": "generate_week",
+    "week_id": "2026-W16",
+    "ran_at": "2026-03-15T02:28:40.080191+00:00",
     "status": "ready",
-    "title": "学他你冒险周",
-    "new_chars": [],
-    "review_chars": [
-      "学",
-      "他",
-      "你"
+    "title": "开心收尾",
+    "new_chars": [
+      "起",
+      "多",
+      "少",
+      "儿",
+      "二"
     ],
-    "error": ""
+    "review_chars": [
+      "杯",
+      "客",
+      "京"
+    ],
+    "error": "OpenRouter request failed: [Errno 8] nodename nor servname provided, or not known",
+    "generation_mode": "template"
   },
   "history": [
     {
-      "type": "regenerate_prompts",
-      "week_id": "2026-W10",
-      "ran_at": "2026-03-07T23:39:00.197093+00:00",
+      "type": "generate_week",
+      "week_id": "2026-W16",
+      "ran_at": "2026-03-15T02:28:40.080191+00:00",
       "status": "ready",
-      "title": "学他你冒险周",
-      "new_chars": [],
-      "review_chars": [
-        "学",
-        "他",
-        "你"
+      "title": "开心收尾",
+      "new_chars": [
+        "起",
+        "多",
+        "少",
+        "儿",
+        "二"
       ],
-      "error": ""
+      "review_chars": [
+        "杯",
+        "客",
+        "京"
+      ],
+      "error": "OpenRouter request failed: [Errno 8] nodename nor servname provided, or not known",
+      "generation_mode": "template"
+    },
+    {
+      "type": "generate_week",
+      "week_id": "2026-W15",
+      "ran_at": "2026-03-15T02:28:40.041017+00:00",
+      "status": "ready",
+      "title": "开心收尾",
+      "new_chars": [
+        "爸",
+        "打",
+        "电",
+        "话",
+        "大"
+      ],
+      "review_chars": [
+        "客",
+        "杯",
+        "爱"
+      ],
+      "error": "OpenRouter request failed: [Errno 8] nodename nor servname provided, or not known",
+      "generation_mode": "template"
+    },
+    {
+      "type": "generate_week",
+      "week_id": "2026-W11",
+      "ran_at": "2026-03-15T02:19:47.224459+00:00",
+      "status": "ready",
+      "title": "我们都爱读书",
+      "new_chars": [
+        "东",
+        "西",
+        "都",
+        "读",
+        "对"
+      ],
+      "review_chars": [
+        "杯",
+        "爱",
+        "本"
+      ],
+      "error": "",
+      "generation_mode": "ai"
+    },
+    {
+      "type": "generate_week",
+      "week_id": "2026-W14",
+      "ran_at": "2026-03-15T02:16:44.004164+00:00",
+      "status": "ready",
+      "title": "开心收尾",
+      "new_chars": [
+        "的",
+        "点",
+        "脑",
+        "视",
+        "影"
+      ],
+      "review_chars": [
+        "本",
+        "杯",
+        "京"
+      ],
+      "error": "OpenRouter request failed: [Errno 8] nodename nor servname provided, or not known",
+      "generation_mode": "template"
+    },
+    {
+      "type": "generate_week",
+      "week_id": "2026-W11",
+      "ran_at": "2026-03-09T10:01:46.825338+00:00",
+      "status": "ready",
+      "title": "客人来了",
+      "new_chars": [
+        "爸",
+        "打",
+        "电",
+        "话",
+        "大"
+      ],
+      "review_chars": [
+        "京",
+        "爱",
+        "客"
+      ],
+      "error": "",
+      "generation_mode": "ai"
+    },
+    {
+      "type": "publish_week",
+      "week_id": "2026-W10",
+      "ran_at": "2026-03-08T17:24:33.634254+00:00",
+      "published_at": "2026-03-08T17:24:33.634254+00:00",
+      "status": "ready",
+      "title": "出租车之旅",
+      "new_chars": [
+        "茶",
+        "吃",
+        "出",
+        "租",
+        "车"
+      ],
+      "review_chars": [
+        "八",
+        "北",
+        "子"
+      ],
+      "error": "",
+      "generation_mode": "ai"
     },
     {
       "type": "generate_week",
       "week_id": "2026-W10",
-      "ran_at": "2026-03-07T23:38:58.231333+00:00",
+      "ran_at": "2026-03-08T16:20:22.327581+00:00",
       "status": "ready",
-      "title": "学他你冒险周",
-      "new_chars": [],
-      "review_chars": [
-        "学",
-        "他",
-        "你"
+      "title": "出租车之旅",
+      "new_chars": [
+        "茶",
+        "吃",
+        "出",
+        "租",
+        "车"
       ],
-      "error": ""
+      "review_chars": [
+        "八",
+        "北",
+        "子"
+      ],
+      "error": "",
+      "generation_mode": "ai"
     },
     {
-      "type": "regenerate_prompts",
-      "week_id": "2026-W10",
-      "ran_at": "2026-03-07T23:38:56.928380+00:00",
+      "type": "generate_week",
+      "week_id": "2026-W13",
+      "ran_at": "2026-03-08T16:02:43.991186+00:00",
       "status": "ready",
-      "title": "学他你冒险周",
-      "new_chars": [],
-      "review_chars": [
-        "学",
-        "他",
-        "你"
+      "title": "开心收尾",
+      "new_chars": [
+        "北",
+        "京",
+        "本",
+        "客",
+        "菜"
       ],
-      "error": ""
+      "review_chars": [
+        "杯",
+        "爱",
+        "子"
+      ],
+      "error": "OpenRouter request failed: [Errno 8] nodename nor servname provided, or not known",
+      "generation_mode": "template"
     },
     {
       "type": "generate_week",
       "week_id": "2026-W10",
-      "ran_at": "2026-03-07T23:38:55.234135+00:00",
+      "ran_at": "2026-03-08T15:41:33.953175+00:00",
       "status": "ready",
-      "title": "学他你冒险周",
-      "new_chars": [],
-      "review_chars": [
-        "学",
-        "他",
-        "你"
+      "title": "我爱爸爸",
+      "new_chars": [
+        "爱",
+        "八",
+        "爸",
+        "杯",
+        "子"
       ],
-      "error": ""
+      "review_chars": [
+        "很",
+        "老",
+        "看"
+      ],
+      "error": "",
+      "generation_mode": "ai"
     },
     {
-      "type": "regenerate_prompts",
-      "week_id": "2026-W10",
-      "ran_at": "2026-03-07T23:38:41.186684+00:00",
+      "type": "generate_week",
+      "week_id": "2026-W12",
+      "ran_at": "2026-03-08T15:10:55.097634+00:00",
       "status": "ready",
-      "title": "学他你冒险周",
-      "new_chars": [],
-      "review_chars": [
-        "学",
-        "他",
-        "你"
+      "title": "你们在哪",
+      "new_chars": [
+        "很",
+        "这",
+        "那",
+        "哪",
+        "人"
       ],
-      "error": ""
+      "review_chars": [
+        "们",
+        "气",
+        "天"
+      ],
+      "error": "",
+      "generation_mode": "ai"
     },
     {
-      "type": "regenerate_prompts",
-      "week_id": "2026-W10",
-      "ran_at": "2026-03-07T23:38:28.811872+00:00",
+      "type": "publish_week",
+      "week_id": "2026-W11",
+      "ran_at": "2026-03-08T15:07:10.510863+00:00",
+      "published_at": "2026-03-08T15:07:10.510863+00:00",
       "status": "ready",
-      "title": "学他你冒险周",
-      "new_chars": [],
-      "review_chars": [
-        "学",
-        "他",
-        "你"
+      "title": "快乐学中文",
+      "new_chars": [
+        "喜",
+        "中",
+        "文"
       ],
-      "error": ""
+      "review_chars": [
+        "师",
+        "们",
+        "天"
+      ],
+      "error": "",
+      "generation_mode": "ai"
+    },
+    {
+      "type": "publish_week",
+      "week_id": "2026-W10",
+      "ran_at": "2026-03-08T13:58:28.867555+00:00",
+      "published_at": "2026-03-08T13:58:28.867555+00:00",
+      "status": "ready",
+      "title": "Joy of Reading at Home",
+      "new_chars": [
+        "家",
+        "欢",
+        "看",
+        "书"
+      ],
+      "review_chars": [
+        "老",
+        "喜",
+        "气"
+      ],
+      "error": "",
+      "generation_mode": "ai"
     },
     {
       "type": "generate_week",
       "week_id": "2026-W10",
-      "ran_at": "2026-03-07T23:31:35.481985+00:00",
+      "ran_at": "2026-03-08T13:49:21.714182+00:00",
       "status": "ready",
-      "title": "学他你冒险周",
-      "new_chars": [],
+      "title": "Joy of Reading at Home",
+      "new_chars": [
+        "家",
+        "欢",
+        "看",
+        "书"
+      ],
       "review_chars": [
-        "学",
-        "他",
-        "你"
+        "老",
+        "喜",
+        "气"
+      ],
+      "error": "",
+      "generation_mode": "ai"
+    },
+    {
+      "type": "regenerate_prompts",
+      "week_id": "2026-W11",
+      "ran_at": "2026-03-08T13:47:44.305550+00:00",
+      "status": "ready",
+      "title": "快乐学中文",
+      "new_chars": [
+        "喜",
+        "中",
+        "文"
+      ],
+      "review_chars": [
+        "师",
+        "们",
+        "天"
+      ],
+      "error": "",
+      "generation_mode": "ai"
+    },
+    {
+      "type": "generate_week",
+      "week_id": "2026-W10",
+      "ran_at": "2026-03-08T13:44:02.814577+00:00",
+      "status": "ready",
+      "title": "这是好人 - 指一指，找一找",
+      "new_chars": [
+        "这",
+        "那",
+        "哪",
+        "人"
+      ],
+      "review_chars": [
+        "老",
+        "气",
+        "天"
+      ],
+      "error": "",
+      "generation_mode": "ai"
+    },
+    {
+      "type": "generate_week",
+      "week_id": "2026-W10",
+      "ran_at": "2026-03-08T13:43:11.091075+00:00",
+      "status": "ready",
+      "title": "家欢看书冒险周",
+      "new_chars": [
+        "家",
+        "欢",
+        "看",
+        "书"
+      ],
+      "review_chars": [
+        "老",
+        "喜",
+        "气"
+      ],
+      "error": "Expecting ',' delimiter: line 1 column 3491 (char 3490)",
+      "generation_mode": "template"
+    },
+    {
+      "type": "generate_week",
+      "week_id": "2026-W11",
+      "ran_at": "2026-03-08T13:35:18.170272+00:00",
+      "status": "ready",
+      "title": "快乐学中文",
+      "new_chars": [
+        "喜",
+        "中",
+        "文"
+      ],
+      "review_chars": [
+        "师",
+        "们",
+        "天"
+      ],
+      "error": "",
+      "generation_mode": "ai"
+    },
+    {
+      "type": "regenerate_prompts",
+      "week_id": "2026-W11",
+      "ran_at": "2026-03-08T13:33:43.899586+00:00",
+      "status": "ready",
+      "title": "们师家看冒险周",
+      "new_chars": [
+        "们",
+        "师",
+        "家",
+        "看",
+        "书"
+      ],
+      "review_chars": [
+        "气",
+        "老",
+        "欢"
+      ],
+      "error": ""
+    },
+    {
+      "type": "regenerate_prompts",
+      "week_id": "2026-W11",
+      "ran_at": "2026-03-08T13:32:34.008403+00:00",
+      "status": "ready",
+      "title": "们师家看冒险周",
+      "new_chars": [
+        "们",
+        "师",
+        "家",
+        "看",
+        "书"
+      ],
+      "review_chars": [
+        "气",
+        "老",
+        "欢"
+      ],
+      "error": ""
+    },
+    {
+      "type": "regenerate_prompts",
+      "week_id": "2026-W11",
+      "ran_at": "2026-03-08T13:31:13.456977+00:00",
+      "status": "ready",
+      "title": "们师家看冒险周",
+      "new_chars": [
+        "们",
+        "师",
+        "家",
+        "看",
+        "书"
+      ],
+      "review_chars": [
+        "气",
+        "老",
+        "欢"
       ],
       "error": ""
     }
