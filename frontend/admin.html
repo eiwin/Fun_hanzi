@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Fun Hanzi Admin</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="stylesheet" href="/style.css?v=20260315-progress-cards" />
+    <link rel="stylesheet" href="/style.css?v=20260315-game-settings" />
   </head>
   <body>
     <main class="app-shell">
@@ -163,6 +163,37 @@
         <div id="aiStatus" class="status-card">尚未测试 AI 配置。</div>
       </section>
 
+      <section class="panel panel-admin">
+        <div class="panel-head">
+          <div>
+            <div class="kicker">学习游戏配置</div>
+            <h2>下落模式和速度</h2>
+          </div>
+        </div>
+        <div class="settings-grid">
+          <label class="settings-field">
+            <span>识音游戏模式</span>
+            <select id="gameModeSelect">
+              <option value="mixed">混合模式</option>
+              <option value="new_only">只练本周新字</option>
+              <option value="review_only">只练复习字</option>
+            </select>
+          </label>
+          <label class="settings-field">
+            <span>下落速度</span>
+            <select id="gameSpeedSelect">
+              <option value="slow">慢一点</option>
+              <option value="medium">适中</option>
+              <option value="fast">快一点</option>
+            </select>
+          </label>
+        </div>
+        <div class="admin-actions">
+          <button id="btnSaveLearnSettings" class="btn btn-primary">保存学习游戏配置</button>
+        </div>
+        <div id="learnSettingsStatus" class="status-card">当前学习页会读取这里的识音游戏设置。</div>
+      </section>
+
       <section class="panel">
         <div class="panel-head">
           <div>
@@ -175,6 +206,6 @@
       </section>
     </main>
 
-    <script src="/admin.js?v=20260315-progress-cards"></script>
+    <script src="/admin.js?v=20260315-game-settings"></script>
   </body>
 </html>

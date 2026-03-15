@@ -60,6 +60,11 @@ DEFAULT_AI_SETTINGS = {
     "app_name": "Fun Hanzi",
 }
 
+DEFAULT_LEARN_SETTINGS = {
+    "game_mode": "mixed",
+    "fall_speed": "slow",
+}
+
 
 def ensure_data_files() -> None:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
@@ -74,6 +79,7 @@ def ensure_data_files() -> None:
         "assets_manifest.json": DEFAULT_ASSETS_MANIFEST,
         "generation_log.json": DEFAULT_GENERATION_LOG,
         "ai_settings.json": DEFAULT_AI_SETTINGS,
+        "learn_settings.json": DEFAULT_LEARN_SETTINGS,
     }
 
     for file_name, payload in defaults.items():

@@ -29,12 +29,16 @@ const aiBaseUrl = document.getElementById("aiBaseUrl");
 const aiSiteUrl = document.getElementById("aiSiteUrl");
 const aiAppName = document.getElementById("aiAppName");
 const aiStatus = document.getElementById("aiStatus");
+const gameModeSelect = document.getElementById("gameModeSelect");
+const gameSpeedSelect = document.getElementById("gameSpeedSelect");
+const learnSettingsStatus = document.getElementById("learnSettingsStatus");
 const btnPublishWeek = document.getElementById("btnPublishWeek");
 const btnGenerateNextWeek = document.getElementById("btnGenerateNextWeek");
 const btnRegeneratePrompts = document.getElementById("btnRegeneratePrompts");
 const btnGenerateWorksheet = document.getElementById("btnGenerateWorksheet");
 const btnSaveAiSettings = document.getElementById("btnSaveAiSettings");
 const btnTestAi = document.getElementById("btnTestAi");
+const btnSaveLearnSettings = document.getElementById("btnSaveLearnSettings");
 
 async function requestJson(url, options = {}) {
   const response = await fetch(url, options);
@@ -97,6 +101,30 @@ function collectAiSettings() {
     base_url: aiBaseUrl.value.trim() || "https://openrouter.ai/api/v1",
     site_url: aiSiteUrl.value.trim() || "http://127.0.0.1:8000",
     app_name: aiAppName.value.trim() || "Fun Hanzi",
+  };
+}
+
+function renderLearnSettings(payload) {
+  const settings = payload?.settings || {};
+  gameModeSelect.value = settings.game_mode || "mixed";
+  gameSpeedSelect.value = settings.fall_speed || "slow";
+  const modeLabels = {
+    mixed: "混合模式",
+    new_only: "只练本周新字",
+    review_only: "只练复习字",
+  };
+  const speedLabels = {
+    slow: "慢一点",
+    medium: "适中",
+    fast: "快一点",
+  };
+  learnSettingsStatus.textContent = `当前配置：${modeLabels[gameModeSelect.value]} · ${speedLabels[gameSpeedSelect.value]}`;
+}
+
+function collectLearnSettings() {
+  return {
+    game_mode: gameModeSelect.value || "mixed",
+    fall_speed: gameSpeedSelect.value || "slow",
   };
 }
 
@@ -536,9 +564,10 @@ function renderWeek(pack) {
 
 async function loadAll() {
   const fallbackWeek = await requestJson("/api/current-week");
-  const [weeksPayload, aiPayload] = await Promise.all([
+  const [weeksPayload, aiPayload, learnSettingsPayload] = await Promise.all([
     requestJsonOrNull("/api/weeks"),
     requestJson("/api/admin/ai-settings"),
+    requestJson("/api/learn-settings"),
   ]);
 
   state.weeks = weeksPayload?.weeks?.length
@@ -570,6 +599,7 @@ async function loadAll() {
   renderWeek(currentWeek);
   renderAdminStatus(status);
   renderAiSettings(aiPayload);
+  renderLearnSettings(learnSettingsPayload);
 }
 
 btnPublishWeek.addEventListener("click", async () => {
@@ -709,6 +739,33 @@ btnTestAi.addEventListener("click", async () => {
     aiStatus.textContent = error.message;
   } finally {
     setButtonBusyLabel(btnTestAi, false, "正在测试...");
+  }
+});
+
+btnSaveLearnSettings.addEventListener("click", async () => {
+  setButtonBusyLabel(btnSaveLearnSettings, true, "正在保存...");
+  try {
+    const payload = await requestJson("/api/admin/learn-settings", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(collectLearnSettings()),
+    });
+    renderLearnSettings(payload);
+    const modeLabels = {
+      mixed: "混合模式",
+      new_only: "只练本周新字",
+      review_only: "只练复习字",
+    };
+    const speedLabels = {
+      slow: "慢一点",
+      medium: "适中",
+      fast: "快一点",
+    };
+    learnSettingsStatus.textContent = `已保存：${modeLabels[payload.settings.game_mode]} · ${speedLabels[payload.settings.fall_speed]}`;
+  } catch (error) {
+    learnSettingsStatus.textContent = error.message;
+  } finally {
+    setButtonBusyLabel(btnSaveLearnSettings, false, "正在保存...");
   }
 });
 

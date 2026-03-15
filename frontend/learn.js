@@ -2,10 +2,29 @@ const state = {
   currentWeek: null,
   weeks: [],
   selectedWeekId: "",
+  progress: null,
+  learnSettings: {
+    game_mode: "mixed",
+    fall_speed: "slow",
+  },
   studyList: [],
   studyIndex: 0,
   answers: [],
   startedAt: 0,
+  game: {
+    running: false,
+    score: 0,
+    streak: 0,
+    timeLeft: 45,
+    target: null,
+    poolByChar: new Map(),
+    weightedChoices: [],
+    activeDrops: [],
+    spawnIntervalId: null,
+    countdownIntervalId: null,
+    rafId: null,
+    lastFrameAt: 0,
+  },
 };
 
 const weekTitle = document.getElementById("weekTitle");
@@ -33,6 +52,15 @@ const studySentencePinyin = document.getElementById("studySentencePinyin");
 const btnPlayChar = document.getElementById("btnPlayChar");
 const btnKnown = document.getElementById("btnKnown");
 const btnUnknown = document.getElementById("btnUnknown");
+const gameTargetPinyin = document.getElementById("gameTargetPinyin");
+const gameTargetHint = document.getElementById("gameTargetHint");
+const gameScore = document.getElementById("gameScore");
+const gameStreak = document.getElementById("gameStreak");
+const gameTimer = document.getElementById("gameTimer");
+const gameMeta = document.getElementById("gameMeta");
+const gameRain = document.getElementById("gameRain");
+const btnGameStart = document.getElementById("btnGameStart");
+const btnGameReplay = document.getElementById("btnGameReplay");
 
 async function requestJson(url, options = {}) {
   const response = await fetch(url, options);
@@ -99,6 +127,39 @@ function speakText(text) {
   utterance.rate = 0.82;
   utterance.pitch = 1.02;
   window.speechSynthesis.speak(utterance);
+}
+
+function speakGameTarget(item) {
+  if (!item) {
+    return;
+  }
+  speakText(item.char);
+}
+
+function currentGameMode() {
+  return state.learnSettings?.game_mode || "mixed";
+}
+
+function currentSpeedMultiplier() {
+  const speed = state.learnSettings?.fall_speed || "slow";
+  if (speed === "fast") {
+    return 1.18;
+  }
+  if (speed === "medium") {
+    return 1;
+  }
+  return 0.84;
+}
+
+function gameModeLabel() {
+  const mode = currentGameMode();
+  if (mode === "new_only") {
+    return "当前模式：只练本周新字。";
+  }
+  if (mode === "review_only") {
+    return "当前模式：只练复习字。";
+  }
+  return "当前模式：混合练习，本周新字和复习字会更多。";
 }
 
 function playButton(text, label = "播放") {
@@ -305,6 +366,249 @@ function renderStudyCard() {
   btnPlayChar.dataset.audioText = item.audio_text || item.pronunciation_guide || item.char;
 }
 
+function getGameWeightedItem() {
+  const weighted = state.game.weightedChoices;
+  if (!weighted.length) {
+    return null;
+  }
+  return weighted[Math.floor(Math.random() * weighted.length)] || null;
+}
+
+function buildGamePool() {
+  const pool = new Map();
+  const currentCards = state.currentWeek?.char_cards || [];
+  const learned = state.progress?.learned_characters || [];
+  const gameMode = currentGameMode();
+  const newCharSet = new Set(state.currentWeek?.new_chars || []);
+  const reviewCharSet = new Set(state.currentWeek?.review_chars || []);
+
+  const currentCardsForMode = currentCards.filter((item) => {
+    if (gameMode === "new_only") {
+      return newCharSet.has(item.char);
+    }
+    if (gameMode === "review_only") {
+      return reviewCharSet.has(item.char);
+    }
+    return true;
+  });
+
+  const learnedForMode = learned.filter((item) => {
+    if (gameMode === "new_only") {
+      return newCharSet.has(item.char);
+    }
+    if (gameMode === "review_only") {
+      return reviewCharSet.has(item.char);
+    }
+    return true;
+  });
+
+  currentCardsForMode.forEach((item) => {
+    const existing = pool.get(item.char) || {
+      char: item.char,
+      pinyin: item.pinyin || "",
+      meaning: item.meaning || "",
+      weight: 0,
+    };
+    existing.pinyin = existing.pinyin || item.pinyin || "";
+    existing.meaning = existing.meaning || item.meaning || "";
+    existing.weight += newCharSet.has(item.char) ? 8 : 6;
+    pool.set(item.char, existing);
+  });
+
+  learnedForMode.forEach((item) => {
+    const existing = pool.get(item.char) || {
+      char: item.char,
+      pinyin: item.pinyin || "",
+      meaning: item.meaning || "",
+      weight: 0,
+    };
+    existing.pinyin = existing.pinyin || item.pinyin || "";
+    existing.meaning = existing.meaning || item.meaning || "";
+    existing.weight += reviewCharSet.has(item.char) ? 4 : 2;
+    pool.set(item.char, existing);
+  });
+
+  state.game.poolByChar = pool;
+  state.game.weightedChoices = [];
+  [...pool.values()].forEach((item) => {
+    const repeat = Math.max(item.weight || 1, 1);
+    for (let index = 0; index < repeat; index += 1) {
+      state.game.weightedChoices.push(item);
+    }
+  });
+}
+
+function renderGameStats() {
+  gameScore.textContent = String(state.game.score);
+  gameStreak.textContent = String(state.game.streak);
+  gameTimer.textContent = String(state.game.timeLeft);
+  gameTargetPinyin.textContent = state.game.target?.pinyin || "准备开始";
+  gameTargetHint.textContent = state.game.target
+    ? "听拼音，点中正在下落的对应汉字。"
+    : gameModeLabel();
+}
+
+function clearGameDrops() {
+  state.game.activeDrops.forEach((drop) => drop.element.remove());
+  state.game.activeDrops = [];
+}
+
+function stopGameLoop() {
+  if (state.game.spawnIntervalId) {
+    clearInterval(state.game.spawnIntervalId);
+    state.game.spawnIntervalId = null;
+  }
+  if (state.game.countdownIntervalId) {
+    clearInterval(state.game.countdownIntervalId);
+    state.game.countdownIntervalId = null;
+  }
+  if (state.game.rafId) {
+    cancelAnimationFrame(state.game.rafId);
+    state.game.rafId = null;
+  }
+  state.game.running = false;
+  state.game.lastFrameAt = 0;
+}
+
+function pickNextGameTarget() {
+  const item = getGameWeightedItem();
+  state.game.target = item;
+  renderGameStats();
+  speakGameTarget(item);
+}
+
+function finishGame() {
+  stopGameLoop();
+  clearGameDrops();
+  renderGameStats();
+  gameMeta.textContent = `本轮结束：得分 ${state.game.score}，最高连对 ${state.game.streak}。再来一轮吧。`;
+  gameRain.innerHTML = '<div class="game-rain-backdrop"></div><div class="game-rain-empty">这一轮结束了，点击“开始游戏”再来一次。</div>';
+}
+
+function removeDrop(drop) {
+  drop.element.remove();
+  state.game.activeDrops = state.game.activeDrops.filter((item) => item !== drop);
+}
+
+function handleDropClick(drop) {
+  if (!state.game.running) {
+    return;
+  }
+  if (drop.item.char === state.game.target?.char) {
+    state.game.score += 10 + Math.min(state.game.streak, 5);
+    state.game.streak += 1;
+    gameMeta.textContent = `答对了：${drop.item.char}（${drop.item.pinyin}）`;
+    removeDrop(drop);
+    pickNextGameTarget();
+  } else {
+    state.game.score = Math.max(0, state.game.score - 3);
+    state.game.streak = 0;
+    gameMeta.textContent = `点到了 ${drop.item.char}，再找找 ${state.game.target?.pinyin || ""}。`;
+  }
+  renderGameStats();
+}
+
+function spawnDrop() {
+  if (!state.game.running || !state.game.weightedChoices.length) {
+    return;
+  }
+
+  const targetOnScreen = state.game.activeDrops.some((drop) => drop.item.char === state.game.target?.char);
+  const item = !targetOnScreen && state.game.target && Math.random() < 0.5 ? state.game.target : getGameWeightedItem();
+  if (!item) {
+    return;
+  }
+
+  const element = document.createElement("button");
+  element.type = "button";
+  element.className = "falling-char";
+  element.textContent = item.char;
+
+  const areaWidth = Math.max(gameRain.clientWidth - 70, 40);
+  const startX = Math.random() * areaWidth;
+  const speed = (56 + Math.random() * 32) * currentSpeedMultiplier();
+  const drift = (Math.random() - 0.5) * 18;
+  const drop = {
+    item,
+    element,
+    x: startX,
+    y: -60,
+    speed,
+    drift,
+  };
+
+  element.style.left = "0";
+  element.style.top = "0";
+  element.addEventListener("click", () => handleDropClick(drop));
+  gameRain.appendChild(element);
+  state.game.activeDrops.push(drop);
+}
+
+function tickGame(frameAt) {
+  if (!state.game.running) {
+    return;
+  }
+  if (!state.game.lastFrameAt) {
+    state.game.lastFrameAt = frameAt;
+  }
+  const delta = Math.min((frameAt - state.game.lastFrameAt) / 1000, 0.05);
+  state.game.lastFrameAt = frameAt;
+  const areaHeight = gameRain.clientHeight;
+
+  state.game.activeDrops.slice().forEach((drop) => {
+    drop.y += drop.speed * delta;
+    drop.x += drop.drift * delta;
+    drop.element.style.transform = `translate(${drop.x}px, ${drop.y}px)`;
+    if (drop.y > areaHeight + 40) {
+      if (drop.item.char === state.game.target?.char) {
+        state.game.streak = 0;
+        gameMeta.textContent = `错过了 ${state.game.target.char}，再试一次。`;
+        renderGameStats();
+      }
+      removeDrop(drop);
+    }
+  });
+
+  state.game.rafId = requestAnimationFrame(tickGame);
+}
+
+function startGame() {
+  buildGamePool();
+  if (!state.game.weightedChoices.length) {
+    gameMeta.textContent = "当前模式下还没有足够的字可以玩，先换个模式或先学一轮。";
+    return;
+  }
+
+  stopGameLoop();
+  clearGameDrops();
+  gameRain.innerHTML = '<div class="game-rain-backdrop"></div>';
+  state.game.score = 0;
+  state.game.streak = 0;
+  state.game.timeLeft = 45;
+  state.game.running = true;
+  renderGameStats();
+  pickNextGameTarget();
+  spawnDrop();
+  spawnDrop();
+  gameMeta.textContent = `${gameModeLabel()} 听拼音，点中对应汉字。`;
+
+  state.game.spawnIntervalId = setInterval(() => {
+    if (state.game.activeDrops.length < 12) {
+      spawnDrop();
+    }
+  }, 720 / currentSpeedMultiplier());
+
+  state.game.countdownIntervalId = setInterval(() => {
+    state.game.timeLeft -= 1;
+    renderGameStats();
+    if (state.game.timeLeft <= 0) {
+      finishGame();
+    }
+  }, 1000);
+
+  state.game.rafId = requestAnimationFrame(tickGame);
+}
+
 async function finishStudySession() {
   const durationSeconds = Math.round((Date.now() - state.startedAt) / 1000);
   await requestJson("/api/progress/session", {
@@ -368,6 +672,12 @@ function renderWeek(pack) {
   renderWords(pack.words || []);
   renderSentences(pack.sentences || []);
   renderScenes(pack.story || []);
+  stopGameLoop();
+  clearGameDrops();
+  buildGamePool();
+  renderGameStats();
+  gameRain.innerHTML = '<div class="game-rain-backdrop"></div><div class="game-rain-empty">点击“开始游戏”进入一轮 45 秒的识音挑战。</div>';
+  gameMeta.textContent = gameModeLabel();
   buildStudyList();
   renderStudyCard();
   renderWeekPicker();
@@ -375,8 +685,12 @@ function renderWeek(pack) {
 }
 
 async function loadAll() {
-  const weeksPayload = await requestJsonOrNull("/api/weeks");
-  const fallbackWeek = await requestJson("/api/current-week");
+  const [weeksPayload, fallbackWeek, progressPayload, learnSettingsPayload] = await Promise.all([
+    requestJsonOrNull("/api/weeks"),
+    requestJson("/api/current-week"),
+    requestJson("/api/progress"),
+    requestJson("/api/learn-settings"),
+  ]);
   state.weeks = weeksPayload?.weeks?.length
     ? weeksPayload.weeks
     : fallbackWeek?.week_id
@@ -398,6 +712,8 @@ async function loadAll() {
   const query = state.selectedWeekId ? `?week_id=${encodeURIComponent(state.selectedWeekId)}` : "";
   const currentWeek = query ? (await requestJsonOrNull(`/api/current-week${query}`)) || fallbackWeek : fallbackWeek;
   state.currentWeek = currentWeek;
+  state.progress = progressPayload;
+  state.learnSettings = learnSettingsPayload?.settings || state.learnSettings;
   state.selectedWeekId = currentWeek.week_id || state.selectedWeekId;
   renderWeek(currentWeek);
 }
@@ -413,7 +729,14 @@ btnPlayChar.addEventListener("click", () => {
     speakText(btnPlayChar.dataset.audioText);
   }
 });
+btnGameStart.addEventListener("click", startGame);
+btnGameReplay.addEventListener("click", () => {
+  if (state.game.target) {
+    speakGameTarget(state.game.target);
+  }
+});
 
 loadAll().catch((error) => {
   studyMeta.textContent = error.message;
+  gameMeta.textContent = error.message;
 });

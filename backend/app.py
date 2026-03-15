@@ -33,6 +33,7 @@ from .storage import (
 )
 from .story_builder import build_weekly_pack, regenerate_pack_prompts
 from .worksheet import generate_handwriting_worksheet
+from .pinyin import numeric_to_tone_marked
 
 
 FRONTEND_DIR = BASE_DIR / "frontend"
@@ -62,6 +63,11 @@ class AISettingsPayload(BaseModel):
     api_key_env: str = "OPENROUTER_API_KEY"
     site_url: str = "http://127.0.0.1:8000"
     app_name: str = "Fun Hanzi"
+
+
+class LearnSettingsPayload(BaseModel):
+    game_mode: str = "mixed"
+    fall_speed: str = "slow"
 
 
 app = FastAPI(title="Fun Hanzi")
@@ -379,6 +385,25 @@ def post_ai_settings(payload: AISettingsPayload) -> dict:
     }
 
 
+@app.get("/api/learn-settings")
+def get_learn_settings() -> dict:
+    settings = read_json("learn_settings.json", {"game_mode": "mixed", "fall_speed": "slow"})
+    return {"settings": settings}
+
+
+@app.post("/api/admin/learn-settings")
+def post_learn_settings(payload: LearnSettingsPayload) -> dict:
+    allowed_modes = {"mixed", "new_only", "review_only"}
+    allowed_speeds = {"slow", "medium", "fast"}
+    settings = payload.model_dump()
+    if settings["game_mode"] not in allowed_modes:
+        raise HTTPException(status_code=400, detail="Invalid game mode.")
+    if settings["fall_speed"] not in allowed_speeds:
+        raise HTTPException(status_code=400, detail="Invalid fall speed.")
+    write_json("learn_settings.json", settings)
+    return {"ok": True, "settings": settings}
+
+
 @app.post("/api/admin/test-ai")
 def post_test_ai() -> dict:
     settings = read_json("ai_settings.json", {})
@@ -388,6 +413,7 @@ def post_test_ai() -> dict:
 @app.get("/api/progress")
 def get_progress() -> dict:
     progress = read_json("progress.json", {"version": 1, "items": {}, "sessionHistory": [], "weeklyPacks": []})
+    characters = read_json("characters.json", [])
     return {
         "progress": progress,
         "summary": {
@@ -395,6 +421,7 @@ def get_progress() -> dict:
             "session_count": len(progress.get("sessionHistory", [])),
             "known_total": sum(1 for item in progress.get("items", {}).values() if int(item.get("box", 0)) >= 3),
         },
+        "learned_characters": _build_learned_characters(characters, progress),
     }
 
 
@@ -613,6 +640,48 @@ def _build_learning_progress(target_pack: dict, characters: list[dict], progress
         "session_count": len(progress.get("sessionHistory", []) or []),
         "answer_count": total_answers,
     }
+
+
+def _build_learned_characters(characters: list[dict], progress: dict) -> list[dict[str, Any]]:
+    char_lookup = {item.get("char", ""): item for item in characters if item.get("char")}
+    learned_chars: set[str] = set()
+
+    for char in (progress.get("items", {}) or {}).keys():
+        if char:
+            learned_chars.add(char)
+
+    for weekly in progress.get("weeklyPacks", []) or []:
+        for char in (weekly.get("newChars", []) or []):
+            if char:
+                learned_chars.add(char)
+        for char in (weekly.get("reviewChars", []) or []):
+            if char:
+                learned_chars.add(char)
+
+    result: list[dict[str, Any]] = []
+    for char in learned_chars:
+        item = char_lookup.get(char)
+        if not item:
+            continue
+        result.append(
+            {
+                "char": char,
+                "pinyin": numeric_to_tone_marked(item.get("pinyin", "")),
+                "pinyin_numeric": item.get("pinyin", ""),
+                "meaning": item.get("meaning", ""),
+                "level": item.get("level", 0),
+                "hskOrder": item.get("hskOrder", 0),
+            }
+        )
+
+    return sorted(
+        result,
+        key=lambda item: (
+            int(item.get("level", 99) or 99),
+            int(item.get("hskOrder", 999999) or 999999),
+            item.get("char", ""),
+        ),
+    )
 
 
 @app.get("/api/admin/status")

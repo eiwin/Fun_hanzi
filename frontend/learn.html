@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Fun Hanzi Learn</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="stylesheet" href="/style.css?v=20260315-progress-cards" />
+    <link rel="stylesheet" href="/style.css?v=20260315-game-settings" />
   </head>
   <body>
     <main class="app-shell app-shell-learn">
@@ -88,8 +88,47 @@
           <button id="btnKnown" class="btn btn-primary">认识</button>
         </div>
       </section>
+
+      <section class="panel panel-game">
+        <div class="panel-head">
+          <div>
+            <div class="kicker">识音游戏</div>
+            <h2>听拼音点落字</h2>
+          </div>
+        </div>
+        <div class="game-topbar">
+          <div class="game-target-card">
+            <div class="mini-label">当前拼音</div>
+            <div id="gameTargetPinyin" class="game-target-pinyin">准备开始</div>
+            <div id="gameTargetHint" class="game-target-hint">点中对应汉字就能得分，当前周的字会掉落得更多。</div>
+          </div>
+          <div class="game-score-grid">
+            <div class="game-score-card">
+              <div class="mini-label">得分</div>
+              <div id="gameScore" class="game-score-value">0</div>
+            </div>
+            <div class="game-score-card">
+              <div class="mini-label">连对</div>
+              <div id="gameStreak" class="game-score-value">0</div>
+            </div>
+            <div class="game-score-card">
+              <div class="mini-label">剩余时间</div>
+              <div id="gameTimer" class="game-score-value">45</div>
+            </div>
+          </div>
+        </div>
+        <div class="game-actions">
+          <button id="btnGameStart" class="btn btn-primary" type="button">开始游戏</button>
+          <button id="btnGameReplay" class="btn btn-secondary" type="button">再听一次</button>
+        </div>
+        <div id="gameMeta" class="study-meta">从学过的字里随机掉落，先听拼音，再点字。</div>
+        <div id="gameRain" class="game-rain-area">
+          <div class="game-rain-backdrop"></div>
+          <div class="game-rain-empty">点击“开始游戏”进入一轮 45 秒的识音挑战。</div>
+        </div>
+      </section>
     </main>
 
-    <script src="/learn.js?v=20260315-progress-cards"></script>
+    <script src="/learn.js?v=20260315-game-settings"></script>
   </body>
 </html>
