@@ -4,8 +4,10 @@ import csv
 import json
 import re
 from collections import defaultdict
-from datetime import UTC, datetime
+from datetime import datetime, timezone
 from pathlib import Path
+
+UTC = timezone.utc
 
 
 BASE_DIR = Path(__file__).resolve().parents[1]

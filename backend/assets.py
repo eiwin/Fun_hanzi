@@ -1,13 +1,15 @@
 from __future__ import annotations
 
 import shutil
-from datetime import UTC, datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from uuid import uuid4
 
 from fastapi import HTTPException, UploadFile
 
 from .storage import IMAGES_DIR, VIDEOS_DIR, read_json, read_week_pack, save_week_pack, write_json
+
+UTC = timezone.utc
 
 
 def _safe_image_extension(filename: str) -> str:

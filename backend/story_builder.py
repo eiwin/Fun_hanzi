@@ -1,12 +1,14 @@
 from __future__ import annotations
 
 import json
-from datetime import UTC, datetime
+from datetime import datetime, timezone
 from functools import lru_cache
 from pathlib import Path
 
 from .pinyin import build_pronunciation_guide, numeric_to_tone_marked
 from .selector import current_week_id
+
+UTC = timezone.utc
 
 
 SCENE_TITLES = ["早晨出发", "课堂发现", "开心收尾"]

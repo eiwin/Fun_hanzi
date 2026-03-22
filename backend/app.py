@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import threading
-from datetime import UTC, datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
@@ -34,6 +34,8 @@ from .storage import (
 from .story_builder import build_weekly_pack, regenerate_pack_prompts
 from .worksheet import generate_handwriting_worksheet
 from .pinyin import numeric_to_tone_marked
+
+UTC = timezone.utc
 
 
 FRONTEND_DIR = BASE_DIR / "frontend"

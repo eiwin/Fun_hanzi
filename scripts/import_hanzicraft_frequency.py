@@ -2,9 +2,11 @@ from __future__ import annotations
 
 import json
 import re
-from datetime import datetime, UTC
+from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import unquote
+
+UTC = timezone.utc
 
 
 BASE_DIR = Path(__file__).resolve().parents[1]
