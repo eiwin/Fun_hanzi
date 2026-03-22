@@ -217,15 +217,48 @@ async function copyText(text, button) {
   if (!text) {
     return;
   }
+
+  const fallbackCopy = () => {
+    const textarea = document.createElement("textarea");
+    textarea.value = text;
+    textarea.setAttribute("readonly", "true");
+    textarea.style.position = "fixed";
+    textarea.style.opacity = "0";
+    textarea.style.pointerEvents = "none";
+    textarea.style.left = "-9999px";
+    document.body.appendChild(textarea);
+    textarea.focus();
+    textarea.select();
+    textarea.setSelectionRange(0, textarea.value.length);
+    const copied = document.execCommand("copy");
+    textarea.remove();
+    if (!copied) {
+      throw new Error("复制失败，请手动选中文本复制。");
+    }
+  };
+
   try {
-    await navigator.clipboard.writeText(text);
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(text);
+    } else {
+      fallbackCopy();
+    }
     const original = button.textContent;
     button.textContent = "已复制";
     setTimeout(() => {
       button.textContent = original;
     }, 1200);
   } catch {
-    adminStatus.textContent = "复制失败，请检查浏览器剪贴板权限。";
+    try {
+      fallbackCopy();
+      const original = button.textContent;
+      button.textContent = "已复制";
+      setTimeout(() => {
+        button.textContent = original;
+      }, 1200);
+    } catch {
+      adminStatus.textContent = "复制失败，请检查浏览器剪贴板权限，或手动选中文本复制。";
+    }
   }
 }
 
